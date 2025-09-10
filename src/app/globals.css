@@ -1,0 +1,463 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Devanagari:wght@100..900&display=swap');
+
+
+
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@font-face {
+  font-family: "SourceSerifPro-Regular";
+  src: url("/font/SourceSerifPro-Regular.otf");
+}
+@font-face {
+  font-family: "SourceSerifPro-Bold";
+  src: url("/font/SourceSerifPro-Bold.otf");
+}
+@font-face {
+  font-family: "theinhardt-pan-regular";
+  src: url("/font/theinhardt-pan-regular.otf");
+}
+@font-face {
+  font-family: "theinhardt-pan-italic";
+  src: url("/font/theinhardt-pan-italic.otf");
+}
+
+/* hindi font */
+@font-face {
+  font-family: "TiroDevanagariHindi-Italic";
+  src: url("/font/TiroDevanagariHindi-Italic.ttf");
+}
+
+@font-face {
+  font-family: "TiroDevanagariHindi-Regular";
+  src: url("/font/TiroDevanagariHindi-Regular.ttf");
+}
+
+/* new  */
+@font-face {
+  font-family: "NN-Normal";
+  src: url("/font/nn-nouvelle/NNNouvelleGroteskSTD-Normal.otf");
+}
+
+@font-face {
+  font-family: "noto-sans";
+  src: url("/font/noto-sans/NotoSansDevanagari-VariableFont_wdth,wght.ttf");
+}
+
+/* Scrollbar styling */
+/* Scrollbar styles */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background-color: #e5e7eb; /* gray-200 */
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background-color: #3b82f6; /* blue-500 */
+  border-radius: 9999px;
+}
+
+/* Remove arrows (also known as scrollbar buttons) */
+.custom-scrollbar::-webkit-scrollbar-button {
+  display: none;
+  height: 0;
+  width: 0;
+}
+
+/* Firefox */
+.custom-scrollbar {
+  scrollbar-width: thin;
+  scrollbar-color: #B47447 #e5e7eb; /* thumb, track */
+}
+
+* {
+  /* font-family: "TiroDevanagariHindi-Regular"; */
+  /* font-family: "NN-Normal"; */
+  font-family: "theinhardt-pan-regular";
+  /* font-family: "TiroDevanagariHindi-Regular" !important; */
+}
+
+/* Typography */
+.ssr-hading .font-sans  {
+  font-family: "theinhardt-pan-regular";
+  /* font-family: "TiroDevanagariHindi-Regular" !important; */
+  /* font-family: "SourceSerifPro-Regular" !important; */
+}
+
+i,
+.italic, em {
+  font-family: "theinhardt-pan-italic" !important;
+}
+
+.hi-font {
+  font-family: "Noto Sans Devanagari", sans-serif !important;
+}
+
+/* global.css */
+.font-english {
+  font-family: "theinhardt-pan-regular", sans-serif;
+}
+
+.font-hindi {
+  font-family: "Noto Sans Devanagari", sans-serif !important;
+}
+
+.hindi * {
+  font-family: "Noto Sans Devanagari", sans-serif !important;
+}
+
+/* global.css or styles/globals.css */
+body {
+  font-family: "theinhardt-pan-regular", sans-serif;
+}
+
+body :where(:not(:lang(hi))) {
+  font-family: "theinhardt-pan-regular", sans-serif;
+}
+
+body :where(:lang(hi)) {
+  font-family: "Noto Sans Devanagari", sans-serif !important;
+}
+
+
+/* Common ----------------------------------------------------------- */
+.page-heading {
+  font-size: 28px;
+  font-weight: 700;
+}
+@media screen and (max-width: 768px) {
+  .page-heading {
+    font-size: 26px;
+    font-weight: bold;
+  }
+}
+
+.page-big-heading {
+  font-size: 32px;
+  font-weight: 700;
+}
+@media screen and (max-width: 768px) {
+  .page-big-heading {
+    font-size: 28px;
+    font-weight: bold;
+  }
+}
+
+.page-small-heading {
+  font-size: 24px;
+  font-weight: 700;
+}
+@media screen and (max-width: 768px) {
+  .page-small-heading {
+    font-size: 20px;
+    font-weight: bold;
+  }
+}
+
+.page-small-content {
+  font-size: 24px;
+  font-weight: 700;
+}
+@media screen and (max-width: 768px) {
+  .page-small-content {
+    font-size: 20px;
+    font-weight: bold;
+  }
+}
+
+.page-common-hading {
+  font-size: 22px;
+  font-weight: bold;
+}
+@media screen and (max-width: 768px) {
+  .page-common-hading {
+    font-size: 20px;
+    font-weight: bold;
+  }
+}
+
+.page-xsmall-hading {
+  font-size: 20px;
+  font-weight: bold;
+}
+@media screen and (max-width: 768px) {
+  .page-xsmall-hading {
+    font-size: 18px;
+    font-weight: bold;
+  }
+}
+/* ------------------------------------------------------------------ */
+.page-content {
+  font-size: 20px;
+  line-height: 32px;
+}
+@media screen and (max-width: 768px) {
+  .page-content {
+    font-size: 18px;
+    line-height: 28px;
+  }
+  
+}
+
+.page-big-content {
+  font-size: 24px;
+  line-height: 32px;
+}
+@media screen and (max-width: 768px) {
+  .page-big-content {
+    font-size: 20px;
+    line-height: 28px;
+  }
+  
+}
+
+.page-common-md-pera {
+  font-size: 18px;
+  line-height: 22px;
+}
+@media screen and (max-width: 768px) {
+  .page-common-md-pera {
+    font-size: 16px;
+    line-height: 22px;
+  }
+  
+}
+
+.page-common-pera {
+  font-size: 16px;
+  line-height: 25px;
+}
+@media screen and (max-width: 768px) {
+  .page-common-pera {
+    font-size: 14px;
+    line-height: 22px;
+  }
+}
+.page-h6 {
+  font-size: 15px;
+  line-height: 25px;
+}
+
+/* Common ----------------------------------------------------------- */
+
+/* button */
+.page-big-btn {
+  font-size: 22px;
+  font-weight: bold;
+  color: #ffffff;
+}
+@media screen and (max-width: 768px) {
+  .page-big-btn {
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffffff;
+  }
+  
+}
+.page-big-btn-no-bg {
+  font-size: 22px;
+  font-weight: bold;
+}@media screen and (max-width: 768px) {
+  .page-big-btn-no-bg {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+}
+.page-small-btn {
+  font-size: 18px;
+  font-weight: bold;
+  color: #ffffff;
+}
+@media screen and (max-width: 768px) {
+  .page-small-btn {
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+  }
+}
+
+/* cards */
+.page-big-card-heading {
+  font-size: 28px;
+  font-weight: 700;
+}
+@media screen and (max-width: 768px) {
+  .page-big-card-heading {
+    font-size: 26px;
+    font-weight: 700;
+  }
+  
+}
+
+.page-big-card-pera {
+  font-size: 22px;
+}
+@media screen and (max-width: 768px) {
+  .page-big-card-pera {
+    font-size: 18px;
+  }
+  
+}
+
+/* small main hading */
+.page-small-hading {
+  font-size: 28px;
+  font-weight: bold;
+  /* font-family: "SourceSerifPro-Regular" !important; */
+  font-family: "theinhardt-pan-regular" !important;
+}
+@media screen and (max-width: 768px) {
+  .page-small-hading {
+    font-size: 24px;
+    font-weight: bold;
+    font-family: "theinhardt-pan-regular" !important;
+  }
+  
+}
+
+/* quotes */
+.page-quotes {
+  font-size: 24px;
+  line-height: 38px;
+  /* font-weight: 100; */
+}
+@media screen and (max-width: 768px) {
+  .page-quotes {
+    font-size: 22px;
+    line-height: 32px;
+  } 
+}
+
+/* navigation cards */
+.page-nav-card-heading {
+  font-size: 20px;
+}
+@media screen and (max-width: 768px) {
+  .page-nav-card-heading {
+    font-size: 18px;
+  }
+}
+
+.page-nav-card-pera {
+  font-size: 18px;
+}
+@media screen and (max-width: 768px) {
+  .page-nav-card-pera {
+    font-size: 16px;
+  }
+}
+
+/* collapse links */
+.page-collapse-title {
+  font-size: 22px;
+  font-weight: bold;
+  color: #ffffff;
+}
+@media screen and (max-width: 768px) {
+  .page-collapse-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffffff;
+  }
+}
+
+.page-collapse-link {
+  font-size: 18px;
+}
+@media screen and (max-width: 768px) {
+  .page-collapse-link {
+    font-size: 16px;
+  }
+}
+
+/* home card */
+.page-home-hading {
+  font-size: 42px;
+  font-weight: 600;
+}
+.page-home-pera {
+  font-size: 22px;
+}
+.page-image-heading {
+  font-size: 32px;
+  font-weight: bold;
+}
+@media screen and (max-width: 768px) {
+  .page-image-heading {
+    font-size: 30px;
+   font-weight: bold;
+  }
+  
+}
+.page-image-subheading {
+  font-size: 22px;
+  font-style: italic;
+  font-family: "theinhardt-pan-italic" !important;
+}
+@media screen and (max-width: 768px) {
+  .page-image-subheading {
+    font-size: 20px;
+  }
+}
+
+.page-image-pera {
+  font-size: 22px;
+}
+@media screen and (max-width: 768px) {
+  .page-image-subheading {
+    font-size: 20px;
+  }
+  .page-image-pera {
+    font-size: 20px;
+  }
+}
+
+
+.page-accordion-heading {
+  font-size: 22px;
+  font-weight: bold;
+}
+@media screen and (max-width: 768px) {
+  .page-accordion-heading {
+    font-size: 20px;
+    font-weight: bold;
+  }
+}
+
+
+.page-accordion-pera {
+  font-size: 20px;
+  line-height: 32px;
+}
+@media screen and (max-width: 768px) {
+  .page-accordion-pera {
+    font-size: 18px;
+    line-height: 28px;
+  }
+}
+.page-accordion-pera1 {
+  font-size: 22px;
+  line-height: 32px;
+}
+@media screen and (max-width: 768px) {
+  .page-accordion-pera1 {
+    font-size: 20px;
+    line-height: 28px;
+  }
+}

@@ -1,0 +1,76 @@
+{
+    "workshop": {
+        "sm1": "Introduction Home",
+        "sm2": "Facilitator Profiles",
+        "sm3": "Workshop Benefits",
+        "sm4": "Download Pre Reading"
+    },
+    "About": {
+        "sm1": "What is Madhyasth Darshan",
+        "sm2": "Authors Testimony",
+        "sm3": "Vision for the World",
+        "sm4": "Impact in Education & Society",
+        "sm5": "About A. Nagraj",
+        "sm6": "About Us",
+        "sm7": "Our Centers",
+        "sm8": "Contact Us"
+    },
+    "Philosophy": {
+        "sm1": "Madhyasth Darshan Introduction",
+        "sm2": "Origins",
+        "sm3": "Concepts Overview",
+        "sm4": "Key Discoveries- What’s New",
+        "sm5": "Literature",
+        "sm6": "Explore Concepts"
+    },
+    "Books": {
+        "sm1": "Originals: नागराजजी प्रामाणिक ग्रन्थ, विडियो एवं ऑडियो",
+        "sm2": "Student Translations - English & others"
+    },
+    "Resource Centre": {
+        "sm1": "Start Adhyayan",
+        "sm2": "Watch Audio Video",
+        "sm3": "Download Resources",
+        "sm4": "Connect to Community"
+    }
+}
+
+
+
+
+{
+  "workshop": {
+    "sm1": "परिचय होम",
+    "sm2": "संचालक प्रोफाइल",
+    "sm3": "कार्यशाला के लाभ",
+    "sm4": "पूर्व पठन डाउनलोड करें"
+  },
+  "About": {
+    "sm1": "मध्‍यस्‍थ दर्शन क्या है",
+    "sm2": "लेखक की गवाही",
+    "sm3": "विश्व के लिए दृष्टिकोण",
+    "sm4": "शिक्षा एवं समाज पर प्रभाव",
+    "sm5": "आचार्य नागराज के बारे में",
+    "sm6": "हमारे बारे में",
+    "sm7": "हमारे केंद्र",
+    "sm8": "संपर्क करें"
+  },
+  "Philosophy": {
+    "sm1": "मध्‍यस्‍थ दर्शन परिचय",
+    "sm2": "उत्पत्ति",
+    "sm3": "सिद्धांतों का अवलोकन",
+    "sm4": "मुख्य खोजें - क्या नया है",
+    "sm5": "साहित्य",
+    "sm6": "सिद्धांतों की खोज करें"
+  },
+  "Books": {
+    "sm1": "मूल: नागराजजी प्रामाणिक ग्रंथ, वीडियो एवं ऑडियो",
+    "sm2": "छात्र अनुवाद - अंग्रेज़ी एवं अन्य भाषाएँ"
+  },
+  "Resource Centre": {
+    "sm1": "अध्ययन प्रारंभ करें",
+    "sm2": "ऑडियो वीडियो देखें",
+    "sm3": "संसाधन डाउनलोड करें",
+    "sm4": "समुदाय से जुड़ें"
+  }
+}
