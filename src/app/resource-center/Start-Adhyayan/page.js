@@ -1,7 +1,5 @@
 "use client";
 import { useEffect } from 'react';
-// import React from 'react'
-import { useEffect } from 'react';
 import { wrapHindiWords  } from '@/utils/fontInjector';
 const page = () => {
      useEffect(() => {
