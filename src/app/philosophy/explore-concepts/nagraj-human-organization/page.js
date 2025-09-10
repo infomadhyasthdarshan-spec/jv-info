@@ -1,3 +1,4 @@
+'use client'
 import Backjs from '@/components/Backjs';
 import React from 'react';
 import { useEffect } from 'react';

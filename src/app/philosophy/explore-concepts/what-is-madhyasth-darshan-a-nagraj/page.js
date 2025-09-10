@@ -1,3 +1,4 @@
+'use client'
 import Backjs from "@/components/Backjs";
 import Head from "next/head";
 import { useEffect } from 'react';
