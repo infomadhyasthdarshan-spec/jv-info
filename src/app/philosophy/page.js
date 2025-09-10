@@ -1,8 +1,6 @@
 "use client"
 import React, {useEffect} from 'react'
 import { useRouter } from 'next/navigation'
-
-import { useEffect } from 'react';
 import { wrapHindiWords  } from '@/utils/fontInjector';
 const page = () => {
     const router = useRouter();

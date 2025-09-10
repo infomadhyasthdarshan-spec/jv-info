@@ -6,7 +6,6 @@ import { useRouter } from "next/navigation";
 import ContactLocation from "@/components/contact/ContactPage";
 import EmailFomer from "@/components/contact/EmailForm";
 import { useSearchParams } from "next/navigation";
-import { useEffect } from 'react';
 import { wrapHindiWords  } from '@/utils/fontInjector';
 const Contactus = () => {
   const { text } = useLanguage();
