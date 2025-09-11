@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { FaArrowRight } from "react-icons/fa6";
 import { useLanguage } from "@/context/LanguageContext";
+import { downloadAsset } from "@/utils/generateAssetMap";
 const IntroReading = () => {
   const { text } = useLanguage();
 

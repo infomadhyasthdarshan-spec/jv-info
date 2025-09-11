@@ -394,19 +394,34 @@
       "title": "Testimonials by participants",
       "test": {
         "test1": {
-          "name": "Rakesh Kanwar",
-          "city": "Raipur, Chhattisgarh",
-          "content": "Lorem ipsum dolor sit amet consectetur. Mi eget neque eget amet. A aenean nibh habitasse velit. Amet accumsan etiam duis orci quis dictumst aliquam in. Hac sit pellentesque proin proin aliquam in."
+          "name": "Ananya Roy",
+          "city": "Kolkata",
+          "pro": "Former UX Specialist, Permaculture farmer",
+          "content": "My first Parichay Shivir, in Sep 2025, laid out A. Nagraj ji’s Co-Existentialism philosophy for me in an easy and accessible way. It enabled me to start examining my life, relationships, goals and purpose in a holistic and grounded way. It inspired me to attend other advanced shivirs, and eventually enroll for the 6 month study program at the Achoti sansthan, for deeper understanding and application."
         },
         "test2": {
-          "name": "Hiren Chauhan",
-          "city": "Ahmedabad, Gujarat",
-          "content": "Lorem ipsum dolor sit amet consectetur. Mi eget neque eget amet. A aenean nibh habitasse velit. Amet accumsan etiam duis orci quis dictumst aliquam in. Hac sit pellentesque proin proin aliquam in."
+          "name": "Praful Patil",
+          "city": "Nagpur",
+          "pro": "IITB Graduate, UX Designer",
+          "content": "The workshop has completely changed how I see the world. Each day in this 7 day workshop reveals fundamental truths that you get to analyse and debate over. By the end of the workshop, you will have a different prespective about who you are, what is your purpose etc. I would highly recommed this workshop for anyone who are in the journey to disover truth and meaning in their life."
         },
         "test3": {
-          "name": "Praful Patil",
-          "city": "Nagpur, Maharashtra",
-          "content": "Malesuada facilisi libero, nam eu. Quis pellentesque tortor a elementum ut blandit sed pellentesque arcu. Malesuada in faucibus risus velit diam. Non, massa ut a arcu, fermentum, vel interdum."
+          "name": "Shriram Narasimhan",
+          "city": "Pune",
+          "pro": "Ex MNC Manager",
+          "content": "I was look for a Mother of all Theories (MOAT) to explain Human Existence and do something comprehensive & lastingly useful for Society. The Jeevan Vidya shivir was just that. A real, honest suitcase of knowledge & living I can unpack the rest of my Life that results in meaningful Social Action too. "
+        },
+        "test4": {
+          "name": "Boni Patel",
+          "city": "Visnagar, Gujarat",
+          "pro": "Manager at Samarth Diamond, Visnagar",
+          "content": "जीवन विद्या से हर मानव का लक्ष्य एक ही है उसको पहचान पाया। और उसको ज्ञान (अस्तित्व दर्शन, जीवन और मानवीयता पूर्ण आचरण ज्ञान), विवेक और विज्ञान (समझ) पूर्वक पाने की विधि और क्रम को भी पहचान पाया। इसी क्रम में मेरी योग्यता पर काम करकर, संबंधों को पहचान कर, मानवीयता  पूर्वक  मानव सुखी होता है और समझ पूर्वक ही सार्वभौम व्यवस्था में भागीदारी कर पाता है, यह मै पहचान पाया। इससे मुझमे और परिवार में तृप्ति का स्तर बढ़ता देख पाया। अब निरंतर तृप्ति की ओर और सार्वभौम व्यवस्था में भागीदारी की ओर मेरी गति है, और मुझे विश्वास है कि इसे हर मानव प्राप्त कर सकता है।"
+        },
+        "test5": {
+          "name": "Vinod Sharma",
+          "city": "Achhoti, CG",
+          "pro": "Software Developer",
+          "content": "Fourteen years ago, I came across Madhyasth Darshan through a Jeevan Vidya workshop, every day.and it has been a truly enriching journey since then. Over the years, I have felt myself becoming more stable and confident. Most importantly, I’ve been able to give my children a nurturing environment with good values and “Sanskar.” Living in harmony with my family and society has brought me immense satisfaction and joy, making life feel more meaningful and fulfilling "
         }
       }
     },
@@ -2088,7 +2103,7 @@
           },
           {
             "name": "Humanistic Systems for Living",
-            "link": "/philosophy/explore-concepts/systems-for-living"
+            "link": "/about/impact-in-education-and-society/systems-for-living"
           }
         ]
       },
@@ -2198,15 +2213,15 @@
       "title": "Intro Reading in English",
       "content": [
         {
-          "text": "<a href='/api/download/file/pdf/res-center/01.Jeevan Vidya Workshop - a companion reader.pdf' download>01. Book: Jeevan Vidya Workshop - a companion reader (by student)</a>",
+          "text": "<a href='https://megascale.cloud/JV/pdf/res-center/01.Jeevan Vidya Workshop - a companion reader.pdf' download>01. Book: Jeevan Vidya Workshop - a companion reader (by student)</a>",
           "icon": true
         },
         {
-          "text": "<a href='/api/download/file/pdf/res-center/A. What is Madhyasth Darshan - small intro - By Student.pdf' download>02. What is Madhyasth Darshan - small intro (by student)</a>",
+          "text": "<a href='https://megascale.cloud/JV/pdf/res-center/A. What is Madhyasth Darshan - small intro - By Student.pdf' download>02. What is Madhyasth Darshan - small intro (by student)</a>",
           "icon": true
         },
         {
-          "text": "<a href='/api/download/file/pdf/res-center/5. Book_Jeevan Vidya an Introduction- A.Nagraj.pdf' download>03. Jeevan Vidya an Introduction (by A. Nagraj)</a>",
+          "text": "<a href='https://megascale.cloud/JV/pdf/res-center/5. Book_Jeevan Vidya an Introduction- A.Nagraj.pdf' download>03. Jeevan Vidya an Introduction (by A. Nagraj)</a>",
           "icon": true
         },
         {
@@ -2219,11 +2234,11 @@
       "title": "Practices (introductory stage)",
       "content": [
         {
-          "text": "<a href='/api/download/file/pdf/res-center/A.-jeevan-vidya-shivir-Abhyasas_Exercises.pdf' download>A. jeevan vidya shivir Abhyasas_Exercises</a>",
+          "text": "<a href='https://megascale.cloud/JV/pdf/res-center/A.-jeevan-vidya-shivir-Abhyasas_Exercises.pdf' download>A. jeevan vidya shivir Abhyasas_Exercises</a>",
           "icon": true
         },
         {
-          "text": "<a href='/api/download/file/pdf/res-center/B. JV Parichay shivir- abhyas_extra reading.pdf' download>B. JV Parichay shivir- abhyas_extras</a>",
+          "text": "<a href='https://megascale.cloud/JV/pdf/res-center/B. JV Parichay shivir- abhyas_extra reading.pdf' download>B. JV Parichay shivir- abhyas_extras</a>",
           "icon": true
         }
       ]
@@ -2332,17 +2347,17 @@
     "rows1": {
       "title": "परिचयात्मक पठन",
       "content": [
-        "<a href='/api/download/file/pdf/01.-प्रथम-परिचय-लेख-संकलन-विद्यार्थी-द्वारा.pdf' download>01. प्रथम परिचय लेख संकलन - विद्यार्थी द्वारा</a>",
-        "<a href='/api/download/file/pdf/02.-प्राथमिक-परिचय-शिविर-नोट्स_विद्यार्थी_Aug-2012.pdf' download>02. प्राथमिक परिचय शिविर नोट्स_विद्यार्थी</a>",
-        "<a href='/api/download/file/pdf/03.-पुस्तक-सह-अस्तित्ववाद-एक-परिचय-संकलन-ए-नागराज.pdf' download>03. पुस्तक - सह-अस्तित्ववाद एक परिचय (संकलन) -ए नागराज</a>",
-        "<a href='/api/download/file/pdf/04.-प्रारंभिक-पाठमाला-लेख-संकलन-ए.नागराज.pdf' download>04. प्रारंभिक पाठमाला (लेख संकलन) - ए.नागराज</a>"
+        "<a href='https://megascale.cloud:3011/pdf/01.-%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%A5%E0%A4%AE-%E0%A4%AA%E0%A4%B0%E0%A4%BF%E0%A4%9A%E0%A4%AF-%E0%A4%B2%E0%A5%87%E0%A4%96-%E0%A4%B8%E0%A4%82%E0%A4%95%E0%A4%B2%E0%A4%A8-%E0%A4%B5%E0%A4%BF%E0%A4%A6%E0%A5%8D%E0%A4%AF%E0%A4%BE%E0%A4%B0%E0%A5%8D%E0%A4%A5%E0%A5%80-%E0%A4%A6%E0%A5%8D%E0%A4%B5%E0%A4%BE%E0%A4%B0%E0%A4%BE.pdf' download>01. प्रथम परिचय लेख संकलन - विद्यार्थी द्वारा</a>",
+        "<a href='https://megascale.cloud/JV/pdf/02.-प्राथमिक-परिचय-शिविर-नोट्स_विद्यार्थी_Aug-2012.pdf' download>02. प्राथमिक परिचय शिविर नोट्स_विद्यार्थी</a>",
+        "<a href='https://megascale.cloud/JV/pdf/03.-पुस्तक-सह-अस्तित्ववाद-एक-परिचय-संकलन-ए-नागराज.pdf' download>03. पुस्तक - सह-अस्तित्ववाद एक परिचय (संकलन) -ए नागराज</a>",
+        "<a href='https://megascale.cloud/JV/pdf/04.-प्रारंभिक-पाठमाला-लेख-संकलन-ए.नागराज.pdf' download>04. प्रारंभिक पाठमाला (लेख संकलन) - ए.नागराज</a>"
       ]
     },
     "rows2": {
       "title": "प्रारंभिक अभ्यास",
       "content": [
-        "<a href='/api/download/file/pdf/A.-jeevan-vidya-shivir-Abhyasas_Exercises.pdf' target='_blank' download>A. jeevan vidya shivir Abhyasas_Exercises</a>",
-        "<a href='/api/download/file/pdf/B. JV Parichay shivir- abhyas_extra reading.pdf' target='_blank' download>B. parichay shivir abhyas_extra reading</a>"
+        "<a href='https://megascale.cloud/JV/pdf/A.-jeevan-vidya-shivir-Abhyasas_Exercises.pdf' target='_blank' download>A. jeevan vidya shivir Abhyasas_Exercises</a>",
+        "<a href='https://megascale.cloud/JV/pdf/B. JV Parichay shivir- abhyas_extra reading.pdf' target='_blank' download>B. parichay shivir abhyas_extra reading</a>"
       ]
     },
     "rows3": {

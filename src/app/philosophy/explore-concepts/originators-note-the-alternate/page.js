@@ -259,25 +259,25 @@ export default function TheAlternativePage() {
             <p className="mb-4 text-lg leading-relaxed">
               The first question that emerged in me was –
             </p>
-            <li className="mb-4 text-lg leading-relaxed italic list-disc">
+            <li className="mb-4 text-lg pl-3 leading-relaxed italic list-disc">
               How can the conscious and material world that originated from true brahman be an illusion?
             </li>
             <p className="mb-4 text-lg leading-relaxed">
               Second question –
             </p>
-            <li className="mb-4 text-lg leading-relaxed italic list-disc">
+            <li className="mb-4 pl-3 text-lg leading-relaxed italic list-disc">
               How can brahman itself be the cause for both bondage and salvation?
             </li>
             <p className="mb-4 text-lg leading-relaxed">
               Third question –
             </p>
-            <li className="mb-4 text-lg leading-relaxed italic list-disc">
+            <li className="mb-4 text-lg pl-3 leading-relaxed italic list-disc">
               Which one of the two is evidence (pramaana) – word or the one who bears and carries the word?
             </li>
-            <li className="mb-4 text-lg leading-relaxed italic list-disc">
+            <li className="mb-4 text-lg pl-3 leading-relaxed italic list-disc">
               Which one of the two is evidence – the sacred-word or the originator of sacred-word?
             </li>
-            <li className="mb-4 text-lg leading-relaxed italic list-disc">
+            <li className="mb-4 text-lg pl-3 leading-relaxed italic list-disc">
               Which one of the two is evidence – scripture or author of the scripture?
             </li>
             <p className="mb-4 text-lg leading-relaxed">
@@ -286,24 +286,26 @@ export default function TheAlternativePage() {
             <p className="mb-4 text-lg leading-relaxed">
               Fourth question –
             </p>
-            <li className="mb-4 text-lg leading-relaxed italic list-disc  ">
+            <ul className="list-disc list-outside pl-6">
+            <li className="mb-4 text-lg pl-2 leading-relaxed italic   ">
               The Constituent Assembly was setup after independence in India – in which there being no definition or description of Nation, Nationality, or National-character – accepted the public-representative as being worthy in the Indian-Constitution.
             </li>
-            <li className="mb-4 text-lg leading-relaxed italic list-disc">
+            <li className="mb-4 text-lg pl-2 leading-relaxed italic ">
               What is the meaning of public-verdict and public-representative if votes could be interchanged with money?
             </li>
-            <li className="mb-4 text-lg leading-relaxed italic list-disc">
+            <li className="mb-4 text-lg pl-2 leading-relaxed italic ">
               The Constitution proclaiming “secularism” – and at the same time enlisting numerous castes, communities, and sects.
             </li>
-            <li className="mb-4 text-lg leading-relaxed italic list-disc">
+            <li className="mb-4 text-lg pl-2 leading-relaxed italic ">
               Constitution proclaimed “equality” – and along with this, it mentioning reservation and the procedures for the same.
             </li>
-            <li className="mb-4 text-lg leading-relaxed italic list-disc">
+            <li className="mb-4 text-lg pl-2 leading-relaxed italic ">
               The conjoin of money and votes in the elections of public-representatives
             </li>
-            <li className="mb-4 text-lg leading-relaxed italic list-disc">
+            <li className="mb-4 text-lg pl-2 leading-relaxed italic ">
               What kind of democracy is this?
             </li>
+            </ul>
             <p className="mb-4 text-lg leading-relaxed">
               In order to rid myself from the shackles of these questions, based on suggestion of scholars, ved-murtis, and respected rishis-mahrishis of that time –
             </p>

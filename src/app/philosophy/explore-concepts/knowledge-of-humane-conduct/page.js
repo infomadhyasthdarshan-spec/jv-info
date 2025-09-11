@@ -45,7 +45,7 @@ const Page = () => {
       </p>
 
       {/* Laws */}
-      <ul className="list-disc list-inside mb-6 space-y-2 page-content">
+      <ul className="list-disc list-outside ml-5 mb-6 space-y-2 page-content">
         <li>
           <span className="font-semibold">Intellectual Laws (pertaining to Self):</span> 
           Non-Accumulation (Balance between spends and earnings: prosperity), Affection, Knowledge, Ease, Fearlessness
@@ -182,7 +182,7 @@ const Page = () => {
         <div>
           <h3 className="page-common-hading mb-2">Righteous Wealth:</h3>
           <p className='page-content'>Wealth acquired by means of:</p>
-          <ul className="list-disc list-inside ml-4 page-content">
+          <ul className="list-disc list-outside ml-4 page-content">
             <li>(a) Fruit of efforts employed on nature</li>
             <li>(b) Gift from someone</li>
             <li>(c) Award given (without asking or expectation) for services rendered in society</li>
@@ -191,14 +191,14 @@ const Page = () => {
 
         <div>
           <h3 className="font-semibold mb-2 page-common-hading">Righteous Marital relationship (Husband/Wife):</h3>
-          <ul className="list-disc list-inside ml-4 page-content">
+          <ul className="list-disc list-outside ml-4 page-content">
             <li>Fidelity in Marital relationship: in Words, Thought &amp; Deeds</li>
           </ul>
         </div>
 
         <div>
           <h3 className="font-semibold mb-2 page-common-hading">Kindness in Work and behavior:</h3>
-          <ul className="list-disc list-inside ml-4 mb-20 page-content">
+          <ul className="list-disc list-outside ml-4 mb-20 page-content">
             <li>Not intruding in the others progress. Recognition of complementariness.</li>
           </ul>
         </div>
@@ -210,7 +210,7 @@ const Page = () => {
       </p>
 
       {/* Crimes Section */}
-      <ul className="list-disc list-inside ml-4 mb-20 space-y-2 page-content">
+      <ul className="list-disc list-outside ml-5 mb-20 space-y-2 page-content">
         <li>
           <span className="font-semibold">Unrighteous Wealth:</span> Steal, Cheat or Conniving, Harming someone’s wealth.
         </li>
@@ -235,14 +235,14 @@ const Page = () => {
       <div className="space-y-4 mb-6">
         <div>
           <h3 className="page-common-hading mb-2">Religious Ethics (Ethics of Religion, Dharma)</h3>
-          <ul className="list-disc list-inside page-content ml-4">
+          <ul className="list-disc list-outside page-content ml-5">
             <li>Right-use of one’s resources: Body, Mind (conscious aspect), and Wealth.</li>
           </ul>
         </div>
 
         <div>
           <h3 className="page-common-hading mb-2">State Ethics (Ethics of State, Rajya)</h3>
-          <ul className="list-disc list-inside ml-4 page-content">
+          <ul className="list-disc list-outside ml-5 page-content">
             <li>Protection of one’s resources: Body, Mind (conscious aspect), and Wealth.</li>
           </ul>
         </div>

@@ -24,24 +24,29 @@ const Breadcrumb = () => {
   ];
 
   return (
-    <nav className="flex items-center text-sm  ">
+    <nav className="flex flex-wrap items-center text-sm space-x-2">
       {breadcrumbs.map((crumb, index) => {
         const isLast = index === breadcrumbs.length - 1;
 
         return (
-          <div key={crumb.href} className="flex items-center">
+          <div
+            key={crumb.href}
+            className="flex items-center whitespace-nowrap"
+          >
             <Link
               href={crumb.href}
-              className={`capitalize ${isLast
-                  ? "  font-th"
-                  : "text-[#B2917A] hover:text-[#B2917A95] font-extrabold font-th"
-                }`}
+              className={`capitalize ${
+                isLast
+                  ? "font-semibold"
+                  : "text-[#B2917A] hover:text-[#B2917A95] font-extrabold"
+              }`}
             >
               {crumb.name}
             </Link>
-            {/* Render arrow after every item except the last */}
+
+            {/* Render arrow except after last crumb */}
             {!isLast && (
-              <ChevronRight className="w-4 h-4 mx-2 text-[#B2917A]" />
+              <ChevronRight className="w-4 h-4 mx-1 text-[#B2917A]" />
             )}
           </div>
         );

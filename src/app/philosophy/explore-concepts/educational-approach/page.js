@@ -83,7 +83,7 @@ const page = () => {
           </ul>
         </section>
         <h2 className="mt-4 mb-4 page-common-hading">Assessment approaches</h2>
-        <ul className="list-disc list-inside space-y-2 page-content">
+        <ul className="list-disc list-outside pl-5 space-y-2 page-content">
           <li>Both quantitative and qualitative methods of assessment are used, as needed.</li>
           <li>Comparison for competition not done. Used as tools for personal improvement. Others' successes are celebrated and emulated.</li>
           <li>Covers the following areas.</li>
@@ -91,7 +91,7 @@ const page = () => {
 
         <div className="mt-4">
           <h3 className="page-nav-card-heading font-bold">Material Aspect</h3>
-          <ul className="list-disc list-inside pl-4  page-content space-y-1">
+          <ul className="list-disc list-outside pl-5  page-content space-y-1">
             <li>Healthy development of sensory aspects, brain, body strength, agility, etc.</li>
             <li>Skills learning, willingness for physical work, sincerity</li>
           </ul>
@@ -99,7 +99,7 @@ const page = () => {
 
         <div className="mt-4">
           <h3 className="page-nav-card-heading font-bold">Behavioural Aspect</h3>
-          <ul className="list-disc page-content list-inside pl-4 space-y-1">
+          <ul className="list-disc page-content list-outside pl-5 space-y-1">
             <li>Tendencies, bhaavas, expression – verbal and others, commitment to relationship</li>
             <li>Participation at home in multiple dimensions – behaviour & seva</li>
             <li>Societal interaction, character, appreciation of place in Human society.</li>
@@ -108,7 +108,7 @@ const page = () => {
 
         <div className="mt-4">
           <h3 className="page-nav-card-heading font-bold">Intellectual aspect</h3>
-          <ul className="list-disc list-inside pl-4 space-y-1 page-content">
+          <ul className="list-disc list-outside pl-5 space-y-1 page-content">
             <li>Memory and recall</li>
             <li>Language & Math, computation</li>
             <li>Critical reasoning, understanding</li>
@@ -118,7 +118,7 @@ const page = () => {
 
         <div className="mt-4">
           <h3 className="page-nav-card-heading font-bold"> Spiritual, Existential Aspect</h3>
-          <ul className="list-disc list-inside pl-4 space-y-1 page-content">
+          <ul className="list-disc list-outside pl-5 space-y-1 page-content">
             <li>Clarity on human life, consciousness, goals, purpose</li>
             <li>Existential nature of the Universe and its components</li>
             <li>Knowledge of laws of the Material world</li>

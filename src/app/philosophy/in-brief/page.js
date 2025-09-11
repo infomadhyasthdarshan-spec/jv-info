@@ -276,7 +276,7 @@ const page = () => {
             <p className="text-[20px] text-center max-w-2xl mx-auto mb-6" dangerouslySetInnerHTML={{ __html: text.philosophyPage1.TheLiterature.subTitle }}>
             </p>
             <div className="bg-orange-50 p-5 rounded-xl max-w-3xl mx-auto space-y-4 text-sm">
-              <ul className="list-disc list-inside space-y-4 page-common-md-pera">
+              <ul className="list-disc list-outside space-y-4 pl-5 page-common-md-pera">
                 <li>{text.philosophyPage1.TheLiterature.list[0]}</li>
                 <li>{text.philosophyPage1.TheLiterature.list[1]}</li>
                 <li>{text.philosophyPage1.TheLiterature.list[2]}</li>
@@ -290,7 +290,7 @@ const page = () => {
                   {text.philosophyPage1.TheLiterature.list[5]}
                 </li>
               </ul>
-              <p className="font-semibold mt-2 mb-2 page-common-md-pera">
+              <p className="font-semibold mt-2 mb-2 pl-3 page-common-md-pera">
                 {text.philosophyPage1.TheLiterature.list[6]}
               </p>
             </div>

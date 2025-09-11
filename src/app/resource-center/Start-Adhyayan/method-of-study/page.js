@@ -23,7 +23,7 @@ const MethodOfStudy = () => {
                         {[
                             { title: "01. Pointers for your Journey", link: "/resource-center/Start-Adhyayan/method-of-study/useful-pointer", status: true },
                             { title: "02. Introducing Study/Adhyayan", link: "/resource-center/Start-Adhyayan/method-of-study/aboutstudy", status: true },
-                            { title: "03. Method of Study in Madhyasth Darshan – Explained", link: "/api/download/zip/folder/Madhyasth Darshan Study-Adhyayan - explained.zip", status: false },
+                            { title: "03. Method of Study in Madhyasth Darshan – Explained", link: "https://megascale.cloud/JV/folder/Madhyasth Darshan Study-Adhyayan - explained.zip", status: false },
                         ].map((item, index) => (
                             <div
                                 key={index}
@@ -53,9 +53,9 @@ const MethodOfStudy = () => {
                     </div>
                     <div className="">
                         {[
-                            { title: "01. संवाद #2", link: "/api/download/file/folder/02. प्रकाशित_संवाद भाग 2 _2013_ocr.pdf", status: true },
-                            { title: "02. अध्ययन विधि सारांश (संवाद Z संकलन)", link: "/api/download/file/folder/05. संवाद Z सारांश - aktk 2019 sammelan.pdf", status: true },
-                            { title: "03. जागृक्षि विधि साधना (लेख)", link: "/api/download/file/folder/D31 ६.३ जीवन विद्या गोष्ठी १० क्रिया V.Good.pdf", status: true },
+                            { title: "01. संवाद #2", link: "https://megascale.cloud/JV/folder/02. प्रकाशित_संवाद भाग 2 _2013_ocr.pdf", status: true },
+                            { title: "02. अध्ययन विधि सारांश (संवाद Z संकलन)", link: "https://megascale.cloud/JV/folder/05. संवाद Z सारांश - aktk 2019 sammelan.pdf", status: true },
+                            { title: "03. जागृक्षि विधि साधना (लेख)", link: "https://megascale.cloud/JV/folder/D31 ६.३ जीवन विद्या गोष्ठी १० क्रिया V.Good.pdf", status: true },
                             { title: "04. अध्ययन विधि ऑडियो", link: "https://u.pcloud.link/publink/show?code=kZ6Gm05ZfUbbDBW8fKmKB9ejvrO6cSRnRRH7#/filemanager?folder=24298539211", status: false },
                         ].map((item, index) => (
                             <div

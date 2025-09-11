@@ -170,17 +170,32 @@ const Page = () => {
     {
       text: text.workshopPage1.testimonial.test.test1.content,
       name: text.workshopPage1.testimonial.test.test1.name,
+      pro: text.workshopPage1.testimonial.test.test1.pro,
       location: text.workshopPage1.testimonial.test.test1.city,
     },
     {
       text: text.workshopPage1.testimonial.test.test2.content,
       name: text.workshopPage1.testimonial.test.test2.name,
+      pro: text.workshopPage1.testimonial.test.test2.pro,
       location: text.workshopPage1.testimonial.test.test2.city,
     },
     {
       text: text.workshopPage1.testimonial.test.test3.content,
       name: text.workshopPage1.testimonial.test.test3.name,
+      pro: text.workshopPage1.testimonial.test.test3.pro,
       location: text.workshopPage1.testimonial.test.test3.city,
+    },
+    {
+      text: text.workshopPage1.testimonial.test.test4.content,
+      name: text.workshopPage1.testimonial.test.test4.name,
+      pro: text.workshopPage1.testimonial.test.test4.pro,
+      location: text.workshopPage1.testimonial.test.test4.city,
+    },
+    {
+      text: text.workshopPage1.testimonial.test.test5.content,
+      name: text.workshopPage1.testimonial.test.test5.name,
+      pro: text.workshopPage1.testimonial.test.test5.pro,
+      location: text.workshopPage1.testimonial.test.test5.city,
     },
   ];
 
@@ -535,7 +550,7 @@ const Page = () => {
           </div>
         </div>
       </div>
-
+       
       {/* What is a Jeevan Vidya Shivir/Workshop Section */}
       <div className="bg-[#F2F4F8] flex justify-center py-6 px-3 md:px-0 h-auto lg:max-w-5xl 2xl:max-w-5xl mx-auto">
         <div className="bg-white rounded-2xl shadow-sm px-4 py-6 md:px-10 md:py-12 max-w-6xl w-full flex flex-col items-center">
@@ -841,6 +856,9 @@ const Page = () => {
                     <h3 className="font-semibold   text-lg sm:text-xl">
                       {currentTestimonial.name}
                     </h3>
+                    <p className="  text-sm sm:text-base">
+                      {currentTestimonial.pro}
+                    </p>
                     <p className="  text-sm sm:text-base">
                       {currentTestimonial.location}
                     </p>

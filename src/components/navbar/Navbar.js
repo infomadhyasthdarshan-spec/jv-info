@@ -1,3 +1,4 @@
+
 'use client'
 import React, { useState, useEffect, useRef } from 'react'
 import Link from 'next/link'
@@ -18,6 +19,55 @@ const Navbar = () => {
 
     const searchRef = useRef(null)
     const mobileSearchRef = useRef(null)
+
+    const navigationGroups = [
+    {
+      id: 1,
+      data: [
+        { href: "/workshop", icon: "/icon/menus/Menu1-US.svg", selectedIcon: "/icon/menus/Menu1-SE.svg", label: "Workshop", match: "workshop" },
+        { href: "/about", icon: "/icon/menus/Menu2-US.svg", selectedIcon: "/icon/menus/Menu2-SE.svg", label: "About", match: "about" },
+      ],
+      color: "#94562B",
+      title: "BEGIN",
+    },
+    {
+      id: 2,
+      data: [
+        {
+          href: "/philosophy/in-brief",
+          icon: "/icon/menus/Menu3-US.svg",
+          selectedIcon: "/icon/menus/Menu3-SE.svg",
+          label: "Philosophy",
+          match: "philosophy",
+        },
+      ],
+      color: "#B47447",
+      title: "EXPLORE",
+    },
+    {
+      id: 3,
+      data: [
+        { href: "/books", icon: "/icon/menus/Menu4-US.svg", selectedIcon: "/icon/menus/Menu4-SE.svg", label: "Books", match: "books" },
+        { href: "/resource-center", icon: "/icon/menus/Menu5-US.svg", selectedIcon: "/icon/menus/Menu5-SE.svg", label: "Resources", match: "resource-center" },
+      ],
+      color: "#B2917A",
+      title: "STUDY",
+    },
+    {
+      id: 4,
+      data: [
+        {
+          href: "https://madhyasth-darshan.megascale.co.in/",
+          icon: "/icon/menus/Menu6-US.svg",
+          selectedIcon: "/icon/menus/Menu6-SE.svg",
+          label: "मध्यस्थ दर्शन",
+          external: true,
+        },
+      ],
+      color: "#C1B6A3",
+      title: "ORIGINALS",
+    },
+  ]
 
       useEffect(() => {
     wrapHindiWords ();
@@ -75,7 +125,7 @@ const Navbar = () => {
                     </div>
                 
                     {/* EXPLORE */}
-                    <div className="border-2 border-[#B47447] w-1/4 h-auto flex-shrink-0">
+                    <div className="border-2 border-[#B47447] w-[20%] h-auto flex-shrink-0">
                         <div className="bg-[#B47447] text-center text-white text-base md:text-sm font-bold py-1">
                             EXPLORE
                         </div>
@@ -96,7 +146,7 @@ const Navbar = () => {
                     </div>
                 
                     {/* ORIGINALS */}
-                    <div className="border-2 border-[#C1B6A3] w-1/4 h-auto rounded-r-[8px] flex-shrink-0">
+                    <div className="border-2 border-[#C1B6A3] w-[20%] h-auto rounded-r-[8px] flex-shrink-0">
                         <div className="bg-[#C1B6A3] text-center text-white text-base md:text-sm font-bold py-1">
                             ORIGINALS
                         </div>
@@ -107,33 +157,90 @@ const Navbar = () => {
                 </div>
 
                 {/* Mobile Bottom Navigation */}
-                <div className="fixed bottom-0 left-0 w-full bg-[#59524E] md:hidden z-40">
-                    <div className="flex justify-around items-center py-2 text-[10px] text-[#EDE2D1]">
-                        {[
-                            { href: "/workshop", icon: "/icon/menus/workshopMenu.svg", label: "WORKSHOP", match: "workshop" },
-                            { href: "/about", icon: "/icon/menus/aboutMenu.svg", label: "ABOUT", match: "about" },
-                            { href: "/philosophy/in-brief", icon: "/icon/menus/philosophyMenu.svg", label: "PHILOSOPHY", match: "philosophy" },
-                            { href: "/books", icon: "/icon/menus/booksMenu.svg", label: "BOOKS", match: "books" },
-                            { href: "/resource-center", icon: "/icon/menus/studentMenu.svg", label: "RESOURCES", match: "resource-center" },
-                            { href: "https://madhyasth-darshan.megascale.co.in/", icon: "/icon/menus/siteMenu.svg", label: "मध्यस्थ दर्शन", external: true }
-                        ].map(({ href, icon, label, match, external }) => (
-                            <Link
-                                key={label}
-                                href={href}
-                                target={external ? "_blank" : "_self"}
-                                className={`flex flex-col items-center w-[60px] h-[60px] justify-center p-1 rounded-[4px] ${
-                                    pathname.split("/")[1] === match ? "bg-[#FFF5E726]" : ""
-                                }`}
-                            >
-                                <Image src={icon} alt={label} width={24} height={24} />
-                                <span className="mt-1 text-center">{label}</span>
-                            </Link>
-                        ))}
-                    </div>
+                <div className="fixed bottom-0 left-0 w-full bg-white md:hidden z-40 border-t border-gray-200">
+                  <div className="flex w-full">
+                    {navigationGroups.map((group) => (
+                      <div key={group.id} className="flex-1">
+                        {/* Top section with icons and labels */}
+                        <div className="bg-white border-r border-gray-300 last:border-r-0">
+                          <div className="flex justify-center items-center py-1 px-2">
+                            {group.data.length === 1 ? (
+                              // Single item - center it
+                              <Link
+                                href={group.data[0].href}
+                                target={group.data[0].external ? "_blank" : "_self"}
+                                className="flex flex-col items-center justify-center text-center"
+                              >
+                                <Image
+                                  src={
+                                    pathname.includes(group.data[0].match)
+                                      ? group.data[0].selectedIcon
+                                      : group.data[0].icon
+                                  }
+                                  alt={group.data[0].label}
+                                  width={24}
+                                  height={24}
+                                  className="mb-1"
+                                />
+                                <span className={`text-[10px] font-medium leading-tight ${
+                                    pathname.includes(group.data[0].match)
+                                      ? 'text-[#94562B]'
+                                      : 'text-gray-600'
+                                    }`}>
+                                  {group.data[0].label}
+                                </span>
+                              </Link>
+                            ) : (
+                              // Multiple items - arrange side by side
+                              <div className="flex justify-center items-center gap-4">
+                                {group.data.map((item) => (
+                                  <Link
+                                    key={item.label}
+                                    href={item.href}
+                                    target={item.external ? "_blank" : "_self"}
+                                    className="flex flex-col items-center justify-center text-center"
+                                  >
+                                    <Image
+                                      src={
+                                        pathname.includes(item.match)
+                                          ? item.selectedIcon
+                                          : item.icon
+                                      }
+                                      alt={item.label}
+                                      width={24}
+                                      height={24}
+                                      className="mb-1"
+                                    />
+                                    <span className={`text-[10px] font-medium leading-tight ${
+                                        pathname.includes(item.match)
+                                          ? 'text-[#94562B]'
+                                          : 'text-gray-600'
+                                        }`}>
+                                      {item.label}
+                                    </span>
+                                  </Link>
+                                ))}
+                              </div>
+                            )}
+                          </div>
+                        </div>
+                        
+                        {/* Bottom section with category title */}
+                        <div
+                          className="text-center py-1 border-r border-gray-300 last:border-r-0"
+                          style={{ backgroundColor: group.color }}
+                        >
+                          <span className="text-white text-[11px] font-bold tracking-wide">
+                            {group.title}
+                          </span>
+                        </div>
+                      </div>
+                    ))}
+                  </div>
                 </div>
 
                 {/* Right Section */}
-                <div className="flex items-center space-x-1 flex-row-reverse md:flex-row">
+                <div className="">
                     {/* Desktop Search */}
                     <div className="relative hidden md:flex justify-end" ref={searchRef}>
                         <input

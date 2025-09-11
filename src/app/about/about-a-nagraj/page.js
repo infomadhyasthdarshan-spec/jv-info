@@ -30,13 +30,13 @@ const page = () => {
       {
         title: text.aboutPage5.section11.p1,
         description: text.links.des.d1,
-        link: "/api/download/file/folder/02_divya_path_2017_ocr.pdf",
+        link: "https://megascale.cloud/JV/folder/02_divya_path_2017_ocr.pdf",
         status: true
       },
       {
         title: text.aboutPage5.section11.p2,
         description: text.links.des.d2,
-        link: "/api/download/zip/public/folder/About A.Nagraj.zip",
+        link: "https://megascale.cloud/JV/public/folder/About A.Nagraj.zip",
         status: true
 
       },
@@ -49,7 +49,7 @@ const page = () => {
       },
     ];
     return (
-      <div className="flex flex-col items-center w-full mb-[34px] px-3 md:px-0">
+      <div className="px-4 md:px-0 py-8 max-w-5xl mx-auto text-[#111] space-y-6">
         <h2 className="page-small-hading mb-8 text-center">
           {text.aboutPage5.section11.h1}
         </h2>
@@ -78,7 +78,7 @@ const page = () => {
       {/* In Brief */}
       <h2 className="page-heading mb-6 ssr-hading">{text.aboutPage5.section1.h1}</h2>
       <p className="mb-4 page-content">{text.aboutPage5.section1.p1}</p>
-      <ul className="list-disc  mb-9 space-y-2 page-content">
+      <ul className="list-disc pl-5 mb-9 space-y-2 page-content">
         <li
           dangerouslySetInnerHTML={{ __html: text.aboutPage5.section1.l1 }}
         ></li>

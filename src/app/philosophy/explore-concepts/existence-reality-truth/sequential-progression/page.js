@@ -9,9 +9,8 @@ const page = () => {
   }, []);
   return (
     
-    <div className="px-4 md:px-0 py-8 max-w-5xl mx-auto text-[#111] space-y-6">
-      {/* Back Button */}
-      <Backjs />
+   <div className="px-4 md:px-0 py-8 max-w-5xl mx-auto text-[#111] space-y-6">
+      <Backjs/>
       {/* Page Heading */}
       <h1 className="page-heading mb-10">Evolution & Awakening in Existence</h1>
       <h1 className="page-small-heading mt-5 mb-6">
@@ -94,7 +93,7 @@ const page = () => {
       <h3 className="page-common-hading mb-2">
         There is harmony, orderliness in existence
       </h3>
-      <li className="mb-6 list-disc page-content">
+      <li className="mb-6 list-outside pl-5 page-content">
         Each unit is organized within itself and participates harmoniously with
         the overall orderliness.
       </li>
@@ -103,7 +102,7 @@ const page = () => {
       <h3 className="page-common-hading mb-2">
         Existence is limitless, eternal
       </h3>
-      <ul className="list-disc pl-6 page-content space-y-1 mb-6">
+      <ul className="list-disc list-outside pl-6 page-content space-y-1 mb-10">
         <li>
           There is no ‘limit’ to Existence. Wherever Existence is deemed to be
           ‘upto’, there is always space ‘after’ that.
@@ -119,29 +118,29 @@ const page = () => {
       </ul>
 
       {/* void space */}
-      <h2 className="page-common-hading mb-6">Void/Space</h2>
+      <h2 className="page-common-hading mt-10 mb-6">Void/Space</h2>
 
       <ul className="list-disc pl-6 space-y-2 mb-8 page-content">
         <li>
           Is all-pervading, hence called{" "}
           <span className="italic">‘Omnipresence’ (vyapakt)</span>
-          <ul className="list-disc pl-6 mt-1 space-y-1">
-            <li>There is no time and location where space is not</li>
+          <ul className=" pl-6 mt-1 space-y-1">
+            <li>- There is no time and location where space is not</li>
           </ul>
         </li>
         <li>
           Space is not an activity; it is a state of{" "}
           <span className="italic">zero-activity (kriyashunya)</span>
-          <ul className="list-disc pl-6 mt-1 space-y-1">
-            <li>All activities (units) are in space.</li>
+          <ul className=" pl-6 mt-1 space-y-1">
+            <li>- All activities (units) are in space.</li>
           </ul>
         </li>
         <li>
           Space is energy in equilibrium, hence called{" "}
           <span className="italic">‘Omnipotence’ (satta)</span>
-          <ul className="list-disc pl-6 mt-1 space-y-1">
+          <ul className=" pl-6 mt-1 space-y-1">
             <li>
-              Space is energy itself, is manifested in units as energy{" "}
+              - Space is energy itself, is manifested in units as energy{" "}
               <span className="italic">
                 (fundamental source for energy in the Universe, in Existence)
               </span>
@@ -151,20 +150,20 @@ const page = () => {
         <li>
           Space itself is consciousness, knowledge{" "}
           <span className="italic">(gyaan, chetana)</span>
-          <ul className="list-disc pl-6 mt-1 space-y-1">
-            <li>Is manifested in the conscious unit as consciousness</li>
-            <li>Is manifested in the conscious unit as knowledge</li>
+          <ul className=" pl-6 mt-1 space-y-1">
+            <li>- Is manifested in the conscious unit as consciousness</li>
+            <li>- Is manifested in the conscious unit as knowledge</li>
           </ul>
         </li>
         <li>
           Space is Transparent <span className="italic">(pardarshit)</span>
-          <ul className="list-disc pl-6 mt-1 space-y-1">
+          <ul className="pl-6 mt-1 space-y-1">
             <li>
-              Every unit is able to recognize its relationship with the other
+              - Every unit is able to recognize its relationship with the other
               unit and fulfill it, being in space.
             </li>
             <li>
-              Every unit is resplendent by being in space. Every unit is
+              - Every unit is resplendent by being in space. Every unit is
               resplendent with its form, properties, innate-nature & religion by
               being, and continuing to be in space.
             </li>
@@ -172,9 +171,9 @@ const page = () => {
         </li>
         <li>
           Space is permeating <span className="italic">(pargaami)</span>
-          <ul className="list-disc pl-6 mt-1 space-y-1">
+          <ul className=" pl-6 mt-1 space-y-1">
             <li>
-              Space ‘exists’, where there is unit, and where there is not. All
+              - Space ‘exists’, where there is unit, and where there is not. All
               units are ‘soaked’ in space. There is space both ‘inside’ and
               ‘outside’ the unit, there is space ‘everywhere’.
             </li>
@@ -182,14 +181,14 @@ const page = () => {
         </li>
         <li>
           Space is “Mediating” <span className="italic">(madhyasth)</span>
-          <ul className="list-disc pl-6 mt-1 space-y-1">
+          <ul className=" pl-6 mt-1 space-y-1">
             <li>
-              Space is in the ‘complete-state’. There is no ‘change’ in the
+              - Space is in the ‘complete-state’. There is no ‘change’ in the
               ‘state of space’. All changes are only found in ‘units’
               (activities).
             </li>
             <li>
-              Space is not affected by the unit, it is mediating. It has always
+              - Space is not affected by the unit, it is mediating. It has always
               been this way, will always be this way.
             </li>
           </ul>
@@ -206,9 +205,9 @@ const page = () => {
         <li>
           Each unit is in the form of State and Motion{" "}
           <span className="italic">(stithi, gati)</span>
-          <ul className="list-disc pl-6 mt-1 space-y-1">
-            <li>State is the units ‘being-ness’ in itself</li>
-            <li>Motion is its participation in the larger orderliness</li>
+          <ul className=" pl-6 mt-1 space-y-1">
+            <li>- State is the units ‘being-ness’ in itself</li>
+            <li>- Motion is its participation in the larger orderliness</li>
           </ul>
         </li>
         <li>

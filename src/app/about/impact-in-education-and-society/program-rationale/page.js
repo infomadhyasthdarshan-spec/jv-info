@@ -10,8 +10,9 @@ export default function SocietalPlanPage() {
     wrapHindiWords ();
   }, []);
   return (
-    <main className="px-4 md:px-0 py-8 max-w-5xl mx-auto text-[#111] space-y-6  ">
-      <Backjs />
+   <div className="px-4 md:px-0 py-8 max-w-5xl mx-auto text-[#111] space-y-6">
+        <Backjs />
+     
       {/* Page Title */}
       <h1 className=" text-2xl page-heading mb-4 text-[#5f3a02]">
         {text.OverView.title}
@@ -59,7 +60,7 @@ export default function SocietalPlanPage() {
         <p className="  leading-[32px] page-content font-medium">
           {text.OverView.section3.content[0]}
         </p>
-        <ul className="list-disc list-inside mt-4 space-y-2    text-[18px] font-medium">
+        <ul className="list-disc list-outside pl-5 mt-4 space-y-2    text-[18px] font-medium">
           <li>{text.OverView.section3.content[1]} </li>
           <li>{text.OverView.section3.content[2]} </li>
           <li>{text.OverView.section3.content[3]} </li>
@@ -84,19 +85,23 @@ export default function SocietalPlanPage() {
         <p className=" mt-4  leading-[32px] page-content font-[600]">
           {text.OverView.section4.content[1]}
         </p>
+        <ul className="list-disc list-outside pl-5 mt-4 space-y-2    text-[18px] font-medium">
         <li className="  leading-[32px] page-content font-medium ">
           {text.OverView.section4.content[2]}
         </li>
+        </ul>
         <p className=" mt-4   leading-[32px] page-content font-[600]">
           {text.OverView.section4.content[3]}
         </p>
+        <ul className="list-disc list-outside pl-5 mt-4 space-y-2    text-[18px] font-medium">
         <li className=" list-disc  leading-[32px] page-content font-medium">
     {text.OverView.section4.content[4]}
         </li>
+        </ul>
          <p className="  leading-[32px] page-content font-medium">
     {text.OverView.section4.content[5]}
         </p>
       </section>
-    </main>
+    </div>
   );
 }

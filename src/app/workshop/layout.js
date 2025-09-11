@@ -6,13 +6,14 @@ import Link from "next/link";
 import { useLanguage } from "@/context/LanguageContext";
 import { useRef, useState, useEffect } from "react";
 import { ChevronLeft, ChevronRight } from "lucide-react"; // You can use any icon or SVG
+import { FaHome } from "react-icons/fa";
 
 const Breadcrumb = () => {
   const pathname = usePathname();
   const segments = pathname.split("/").filter(Boolean);
 
   const breadcrumbs = [
-    { name: "Home", href: "/" },
+    { name: <FaHome />, href: "/" },
     ...segments.map((segment, i) => ({
       name: segment.replace(/-/g, " "),
       href: "/" + segments.slice(0, i + 1).join("/"),
@@ -20,24 +21,24 @@ const Breadcrumb = () => {
   ];
 
   return (
-    <nav className="flex items-center text-sm  ">
+    <nav className="flex items-center text-sm bg-white p-4 shadow-sm overflow-x-auto">
       {breadcrumbs.map((crumb, index) => {
         const isLast = index === breadcrumbs.length - 1;
 
         return (
-          <div key={crumb.href} className="flex items-center">
+          <div key={crumb.href} className="flex items-center whitespace-nowrap">
             <Link
               href={crumb.href}
-              className={`capitalize ${isLast
-                ? "  text-[16px] font-th"
-                : "text-[#B2917A] text-[16px] hover:text-[#B2917A95] font-extrabold font-th"
-                }`}
+              className={`capitalize block max-w-[150px] truncate ${
+                isLast
+                  ? "text-black text-lg font-semibold"
+                  : "text-[#B2917A] text-lg font-bold hover:text-[#B2917A95]"
+              }`}
             >
               {crumb.name}
             </Link>
-            {/* Render arrow after every item except the last */}
             {!isLast && (
-              <ChevronRight className="w-4 h-4 mx-2 text-[#B2917A]" />
+              <ChevronRight className="w-5 h-5 text-[#B2917A]" />
             )}
           </div>
         );
@@ -216,8 +217,8 @@ export default function WorkshopLayout({ children }) {
     <div className="bg-[#F2F4F8]">
       {/* Only Breadcrumb is Sticky */}
       <div className="sticky top-[72px] z-20 bg-white">
-        <div className="py-3 border-b">
-          <div className="lg:max-w-5xl 2xl:max-w-5xl mx-auto pl-5 md:pl-0">
+        <div className="py-0 md:py-3 border-b">
+          <div className="lg:max-w-5xl 2xl:max-w-5xl mx-auto pl-2 md:pl-0">
             <Breadcrumb />
           </div>
         </div>

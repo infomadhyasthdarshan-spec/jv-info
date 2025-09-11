@@ -2,12 +2,14 @@
 import React from "react";
 import { useEffect } from 'react';
 import { wrapHindiWords  } from '@/utils/fontInjector';
+import Backjs from '@/components/Backjs';
 const UnveilingConsciousness = () => {
       useEffect(() => {
     wrapHindiWords ();
   }, []);
     return (
-        <div className="px-4 md:px-0 py-8 max-w-5xl mx-auto text-[#111] space-y-6">
+         <div className="px-4 md:px-0 py-8 max-w-5xl mx-auto text-[#111] space-y-6">
+      <Backjs/>
             <div className=" mx-auto">
                 {/* Title */}
                 <h1 className="page-heading  mb-4">

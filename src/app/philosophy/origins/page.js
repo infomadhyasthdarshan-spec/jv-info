@@ -158,20 +158,24 @@ function ContentPage() {
                             <div className="space-y-4">
                                 <div className="bg-[#ede2d1] p-4 rounded-xl">
                                     <h4 className="font-bold text-[#32373b] mb-2 page-xsmall-hading">{text.philosophyPage2.Continue.content.c1.title}</h4>
+                                    <ul className="text-[#32373b] space-y-3 page-common-md-pera list-disc pl-5">
                                     <li className="text-[#32373b] page-common-md-pera">{text.philosophyPage2.Continue.content.c1.subtitle}</li>
+                                    </ul>
                                 </div>
 
                                 <div className="bg-[#ede2d1] p-4 rounded-xl">
                                     <h4 className="font-bold text-[#32373b] mb-2 page-xsmall-hading">{text.philosophyPage2.Continue.content.c2.title}</h4>
-                                    <li className="text-[#32373b] page-common-md-pera">{text.philosophyPage2.Continue.content.c2.subtitle}</li>
+                                    <ul className="text-[#32373b] space-y-3 page-common-md-pera list-disc pl-5">
+                                    <li className="text-[#32373b] page-common-md-pera">{text.philosophyPage2.Continue.content.c2.subtitle}</li> </ul>
                                 </div>
 
                                 <div className="bg-[#ede2d1] p-4 rounded-xl">
                                     <h4 className="font-bold text-[#32373b] mb-2 page-xsmall-hading">{text.philosophyPage2.Continue.content.c3.title}</h4>
                                     <div className="text-[#32373b] space-y-2 page-common-md-pera">
+                                        <ul className="text-[#32373b] space-y-3 page-common-md-pera list-disc pl-5">
                                         <li>{text.philosophyPage2.Continue.content.c3.subtitle[0]}</li>
                                         <li>{text.philosophyPage2.Continue.content.c3.subtitle[1]}</li>
-                                        <li>{text.philosophyPage2.Continue.content.c3.subtitle[2]}</li>
+                                        <li>{text.philosophyPage2.Continue.content.c3.subtitle[2]}</li> </ul>
                                     </div>
                                 </div>
 
@@ -219,23 +223,23 @@ function ContentPage() {
 
                                 <div className="bg-[#ede2d1] p-4 rounded-xl my-6">
                                     <h4 className="page-xsmall-hading text-[#32373b] mb-2">{text.philosophyPage2.Continue.content.c5[0]}</h4>
-                                    <ul className="space-y-2  text-[#32373b] page-common-md-pera">
-                                        <li>• <strong>{text.philosophyPage2.Continue.content.c5[1]}</strong></li>
-                                        <li>• <strong>{text.philosophyPage2.Continue.content.c5[2]}</strong></li>
-                                        <li>• <strong>{text.philosophyPage2.Continue.content.c5[3]}</strong></li>
-                                        <li>• <strong>{text.philosophyPage2.Continue.content.c5[4]}</strong> {text.philosophyPage2.Continue.content.c5[5]}</li>
+                                    <ul className="space-y-2 list-disc list-outside pl-5  text-[#32373b] page-common-md-pera">
+                                        <li><strong>{text.philosophyPage2.Continue.content.c5[1]}</strong></li>
+                                        <li><strong>{text.philosophyPage2.Continue.content.c5[2]}</strong></li>
+                                        <li><strong>{text.philosophyPage2.Continue.content.c5[3]}</strong></li>
+                                        <li><strong>{text.philosophyPage2.Continue.content.c5[4]}</strong> {text.philosophyPage2.Continue.content.c5[5]}</li>
                                     </ul>
                                 </div>
 
                                 <p>{text.philosophyPage2.Continue.content.p3[0]}</p>
                                 <div className="bg-[#ede2d1] p-4 rounded-xl my-6">
-                                    <ul className="space-y-2  text-[#32373b] page-common-md-pera">
-                                        <li>• <strong>{text.philosophyPage2.Continue.content.p3[1]}</strong> {text.philosophyPage2.Continue.content.p3[2]}</li>
-                                        <li>• <strong>{text.philosophyPage2.Continue.content.p3[3]}</strong> {text.philosophyPage2.Continue.content.p3[4]}</li>
-                                        <li>• <strong>{text.philosophyPage2.Continue.content.p3[5]}</strong> {text.philosophyPage2.Continue.content.p3[6]}</li>
-                                        <li>• <strong>{text.philosophyPage2.Continue.content.p3[7]}</strong> {text.philosophyPage2.Continue.content.p3[8]}</li>
-                                        <li>• <strong>{text.philosophyPage2.Continue.content.p3[9]}</strong> {text.philosophyPage2.Continue.content.p3[10]}</li>
-                                        <li>• <strong>{text.philosophyPage2.Continue.content.p3[11]}</strong> {text.philosophyPage2.Continue.content.p3[12]}</li>
+                                    <ul className="space-y-2 list-disc list-outside pl-5  text-[#32373b] page-common-md-pera">
+                                        <li><strong>{text.philosophyPage2.Continue.content.p3[1]}</strong> {text.philosophyPage2.Continue.content.p3[2]}</li>
+                                        <li><strong>{text.philosophyPage2.Continue.content.p3[3]}</strong> {text.philosophyPage2.Continue.content.p3[4]}</li>
+                                        <li><strong>{text.philosophyPage2.Continue.content.p3[5]}</strong> {text.philosophyPage2.Continue.content.p3[6]}</li>
+                                        <li><strong>{text.philosophyPage2.Continue.content.p3[7]}</strong> {text.philosophyPage2.Continue.content.p3[8]}</li>
+                                        <li><strong>{text.philosophyPage2.Continue.content.p3[9]}</strong> {text.philosophyPage2.Continue.content.p3[10]}</li>
+                                        <li><strong>{text.philosophyPage2.Continue.content.p3[11]}</strong> {text.philosophyPage2.Continue.content.p3[12]}</li>
                                     </ul>
                                 </div>
 
@@ -483,7 +487,7 @@ function ContentPage() {
 const page = () => {
     const { text } = useLanguage();
     return (
-        <div className="lg:max-w-5xl 2xl:max-w-5xl mx-auto ">
+        <div className="lg:max-w-5xl 2xl:max-w-5xl min-h-screen mx-auto bg-[#f2f4f8]   px-3 py-8">
              <h2 className="page-heading text-black pt-[32px] mb-2 ">
           Origin - Message & Story
         </h2>
@@ -572,7 +576,7 @@ const page = () => {
                         {text.philosophyPage2.section1.note}
                     </div>
                     <h2 className="mb-4 page-heading ssr-hading">{text.philosophyPage2.section1?.thisProposol?.title}</h2>
-                    <ol className="list-decimal page-content list-inside space-y-2  ">
+                    <ol className="list-decimal page-content list-outside pl-5 space-y-2  ">
                         {/* <li>
                             {text.philosophyPage2.section1.thisProposol.content}
                         </li> */}

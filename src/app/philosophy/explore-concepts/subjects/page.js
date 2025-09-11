@@ -43,7 +43,7 @@ const BooksOverview = () => {
     wrapHindiWords ();
   }, []);
   return (
-    <div className="max-w-5xl mx-auto md:px-0 px-3 py-8">
+    <div className="px-4 md:px-0 py-8 max-w-5xl mx-auto text-[#111] space-y-6">
       <h1 className="page-heading mb-6">
         Madhyasth Darshan – Overview of each Book
       </h1>

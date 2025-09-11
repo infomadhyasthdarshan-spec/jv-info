@@ -71,7 +71,7 @@ const page = () => {
     <strong>Gujarati</strong>
   </li>
   <a
-    href="/api/download/file/folder/દિવ્ય પથ Divya Path _ Guj _ Second Edition _ Aug 2025 (2).pdf"
+    href="https://megascale.cloud/JV/folder/દિવ્ય પથ Divya Path _ Guj _ Second Edition _ Aug 2025 (2).pdf"
     download="DivyaPath-Gujarati.pdf"
   >
     <li className="flex justify-between items-center px-4 py-3 page-collapse-link cursor-pointer">
@@ -85,7 +85,7 @@ const page = () => {
     <strong>Kannada</strong>
   </li>
   <a
-    href="  /api/download/zip/folder/ಕನ್ನಡ – Kannada Translations - Gowri Srihari (2).zip"
+    href="  https://megascale.cloud/JV/folder/ಕನ್ನಡ – Kannada Translations - Gowri Srihari (2).zip"
     download="Kannada-Translations.zip"
   >
     <li className="flex justify-between items-center px-4 py-3 page-collapse-link cursor-pointer">

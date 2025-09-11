@@ -3,6 +3,8 @@ import "./globals.css";
 import Navbar from "@/components/navbar/Navbar";
 import Footer from "@/components/footer/Footer";
 import { LanguageProvider } from '@/context/LanguageContext'
+import Script from 'next/script';
+import { downloadClientFile } from "@/utils/download";
 
 
 const geistSans = Geist({
@@ -26,6 +28,7 @@ export default function RootLayout({ children }) {
       <head>
         <link rel="icon" href="/logo/LogoS.svg" type="image/svg+xml" />
         <link rel="stylesheet" href="https://use.typekit.net/jwh2kpq.css"></link>
+        <Script src="/download-utils.js" strategy="beforeInteractive" />
       </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased bg-[#F2F4F8]`}

@@ -60,7 +60,7 @@ const page = () => {
       <p className="mb-4 page-content">
         There are a total of 30 identified universal human values:
       </p>
-      <ul className="list-disc list-inside ml-4 mb-4 space-y-1 page-content">
+      <ul className="list-disc list-outside ml-4 mb-4 space-y-1 page-content">
         <li>
           <span className="font-semibold">Universal values in society are:</span> Steadfastness, Courageousness, Generosity; and Kindness, Graciousness & Benevolence.
         </li>

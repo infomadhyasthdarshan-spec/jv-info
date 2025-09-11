@@ -10,13 +10,13 @@ const page = () => {
   return (
     <>
          <div className="px-4 md:px-0 py-8 max-w-5xl mx-auto text-[#111] space-y-6">
-<Backjs/>
+      <Backjs/>
             <h1 className="page-heading mb-2">Knowledge Wisdom Science</h1>
       <hr className="border-gray-300 mb-6" />
       <p className='mb-6 page-small-heading'>Knowledge</p>
     
             <p className="mb-10 page-content">Knowledge is the anchor for the human being, his innate, inalienable need. This knowledge is:</p>
-            <ul className="list-disc list-inside text-left ml-3 mx-auto">
+            <ul className="list-disc list-outside text-left ml-3 mx-auto">
               <li className="mb-1 page-content"><a className='text-[#9c5027]'>Knowledge of realistic-view of Existence:</a> [अस्तित्व दर्शन ज्ञान]</li>
               <ul className="list-disc list-outside ml-12 mb-10 page-content">
                 <li>Existence is Coexistence, as nature saturated in all-pervasive 'space/energy'. Nature = collection of active units = physicochemical and conscious units.</li>

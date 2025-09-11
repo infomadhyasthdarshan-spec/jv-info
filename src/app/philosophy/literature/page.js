@@ -155,7 +155,7 @@ const page = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                   > */}
-                    <button className="bg-[#59524E] hover:bg-[#7E746F] text-white px-4 py-2 rounded-lg h-[40px] w-[186px]" onClick={() => handleOpenPDF("/api/download/file/pdf/literature/04_manav_vyavhar_darshan_2015_ocr.pdf#toolbar=0")}>
+                    <button className="bg-[#59524E] hover:bg-[#7E746F] text-white px-4 py-2 rounded-lg h-[40px] w-[186px]" onClick={() => handleOpenPDF("https://megascale.cloud/JV/pdf/literature/04_manav_vyavhar_darshan_2015_ocr.pdf#toolbar=0")}>
                       {text.philosophyPage5["4 Volumes"].books.b1.button}
                     </button>
                   {/* </a> */}
@@ -168,7 +168,7 @@ const page = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                 > */}
-                  <button className="bg-[#59524E] hover:bg-[#7E746F] text-white px-4 py-2 rounded-lg h-[40px] w-[200px]" onClick={() => handleOpenPDF("/api/download/file/pdf/literature/04_manav_vyavhar_darshan_2015_ocr.pdf#toolbar=0")}>
+                  <button className="bg-[#59524E] hover:bg-[#7E746F] text-white px-4 py-2 rounded-lg h-[40px] w-[200px]" onClick={() => handleOpenPDF("https://megascale.cloud/JV/pdf/literature/04_manav_vyavhar_darshan_2015_ocr.pdf#toolbar=0")}>
                     {text.philosophyPage5["4 Volumes"].books.b1.button}
                   </button>
                 {/* </a> */}
@@ -239,7 +239,7 @@ const page = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                   > */}
-                    <button className="bg-[#59524E] hover:bg-[#7E746F] text-white px-4 py-2 rounded-lg h-[40px] w-[186px]" onClick={() => handleOpenPDF("/api/download/file/pdf/literature/05_manav_karm_darshan_2017_ocr.pdf#toolbar=0")}>
+                    <button className="bg-[#59524E] hover:bg-[#7E746F] text-white px-4 py-2 rounded-lg h-[40px] w-[186px]" onClick={() => handleOpenPDF("https://megascale.cloud/JV/pdf/literature/05_manav_karm_darshan_2017_ocr.pdf#toolbar=0")}>
                       {text.philosophyPage5["4 Volumes"].books.b2.button}
                     </button>
                   {/* </a> */}
@@ -252,7 +252,7 @@ const page = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                 > */}
-                  <button className="bg-[#59524E] hover:bg-[#7E746F] text-white px-4 py-2 rounded-lg h-[40px] w-[200px]" onClick={() => handleOpenPDF("/api/download/file/pdf/literature/05_manav_karm_darshan_2017_ocr.pdf#toolbar=0")}>
+                  <button className="bg-[#59524E] hover:bg-[#7E746F] text-white px-4 py-2 rounded-lg h-[40px] w-[200px]" onClick={() => handleOpenPDF("https://megascale.cloud/JV/pdf/literature/05_manav_karm_darshan_2017_ocr.pdf#toolbar=0")}>
                     {text.philosophyPage5["4 Volumes"].books.b2.button}
                   </button>
                 {/* </a> */}
@@ -323,7 +323,7 @@ const page = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                   > */}
-                    <button className="bg-[#59524E] hover:bg-[#7E746F] text-white px-4 py-2 rounded-lg h-[40px] w-[186px]" onClick={() => handleOpenPDF("/api/download/file/pdf/literature/06_manav_abhyas_darshan_2018_ocr.pdf#toolbar=0")}>
+                    <button className="bg-[#59524E] hover:bg-[#7E746F] text-white px-4 py-2 rounded-lg h-[40px] w-[186px]" onClick={() => handleOpenPDF("https://megascale.cloud/JV/pdf/literature/06_manav_abhyas_darshan_2018_ocr.pdf#toolbar=0")}>
                       {text.philosophyPage5["4 Volumes"].books.b3.button}
                     </button>
                   {/* </a> */}
@@ -336,7 +336,7 @@ const page = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                 > */}
-                  <button className="bg-[#59524E] hover:bg-[#7E746F] text-white px-4 py-2 rounded-lg h-[40px] w-[200px]" onClick={() => handleOpenPDF("/api/download/file/pdf/literature/06_manav_abhyas_darshan_2018_ocr.pdf#toolbar=0")}>
+                  <button className="bg-[#59524E] hover:bg-[#7E746F] text-white px-4 py-2 rounded-lg h-[40px] w-[200px]" onClick={() => handleOpenPDF("https://megascale.cloud/JV/pdf/literature/06_manav_abhyas_darshan_2018_ocr.pdf#toolbar=0")}>
                     {text.philosophyPage5["4 Volumes"].books.b3.button}
                   </button>
                 {/* </a> */}
@@ -407,7 +407,7 @@ const page = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                   > */}
-                    <button className="bg-[#59524E] hover:bg-[#7E746F] text-white px-4 py-2 rounded-lg h-[40px] w-[186px]" onClick={() => handleOpenPDF("/api/download/file/pdf/literature/07_manav_anubhav_darshan_2015_ocr.pdf#toolbar=0")}>
+                    <button className="bg-[#59524E] hover:bg-[#7E746F] text-white px-4 py-2 rounded-lg h-[40px] w-[186px]" onClick={() => handleOpenPDF("https://megascale.cloud/JV/pdf/literature/07_manav_anubhav_darshan_2015_ocr.pdf#toolbar=0")}>
                       {text.philosophyPage5["4 Volumes"].books.b4.button}
                     </button>
                   {/* </a> */}
@@ -420,7 +420,7 @@ const page = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                 > */}
-                  <button className="bg-[#59524E] hover:bg-[#7E746F] text-white px-4 py-2 rounded-lg h-[40px] w-[200px]" onClick={() => handleOpenPDF("/api/download/file/pdf/literature/07_manav_anubhav_darshan_2015_ocr.pdf#toolbar=0")}>
+                  <button className="bg-[#59524E] hover:bg-[#7E746F] text-white px-4 py-2 rounded-lg h-[40px] w-[200px]" onClick={() => handleOpenPDF("https://megascale.cloud/JV/pdf/literature/07_manav_anubhav_darshan_2015_ocr.pdf#toolbar=0")}>
                     {text.philosophyPage5["4 Volumes"].books.b4.button}
                   </button>
                 {/* </a> */}
@@ -513,7 +513,7 @@ const page = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                   > */}
-                    <button className="bg-[#59524E] hover:bg-[#7E746F] text-white px-4 py-2 rounded-lg h-[40px] w-[186px]" onClick={() => handleOpenPDF("/api/download/file/pdf/literature/09_samadhanatmak bhoutikvad _unicode_2023.pdf#toolbar=0")}>
+                    <button className="bg-[#59524E] hover:bg-[#7E746F] text-white px-4 py-2 rounded-lg h-[40px] w-[186px]" onClick={() => handleOpenPDF("https://megascale.cloud/JV/pdf/literature/09_samadhanatmak bhoutikvad _unicode_2023.pdf#toolbar=0")}>
                       {text.philosophyPage5["3 Volumes"].books.b1.button}
                     </button>
                   {/* </a> */}
@@ -526,7 +526,7 @@ const page = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                 > */}
-                  <button className="bg-[#59524E] hover:bg-[#7E746F] text-white px-4 py-2 rounded-lg h-[40px] w-[200px]" onClick={() => handleOpenPDF("/api/download/file/pdf/literature/09_samadhanatmak bhoutikvad _unicode_2023.pdf#toolbar=0")}>
+                  <button className="bg-[#59524E] hover:bg-[#7E746F] text-white px-4 py-2 rounded-lg h-[40px] w-[200px]" onClick={() => handleOpenPDF("https://megascale.cloud/JV/pdf/literature/09_samadhanatmak bhoutikvad _unicode_2023.pdf#toolbar=0")}>
                     {text.philosophyPage5["3 Volumes"].books.b1.button}
                   </button>
                 {/* </a> */}
@@ -597,7 +597,7 @@ const page = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                   > */}
-                    <button className="bg-[#59524E] hover:bg-[#7E746F] text-white px-4 py-2 rounded-lg h-[40px] w-[186px]" onClick={() => handleOpenPDF("/api/download/file/pdf/literature/10_vyavharatmak_janvaad_2017_ocr.pdf#toolbar=0")}>
+                    <button className="bg-[#59524E] hover:bg-[#7E746F] text-white px-4 py-2 rounded-lg h-[40px] w-[186px]" onClick={() => handleOpenPDF("https://megascale.cloud/JV/pdf/literature/10_vyavharatmak_janvaad_2017_ocr.pdf#toolbar=0")}>
                       {text.philosophyPage5["3 Volumes"].books.b2.button}
                     </button>
                   {/* </a> */}
@@ -610,7 +610,7 @@ const page = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                 > */}
-                  <button className="bg-[#59524E] hover:bg-[#7E746F] text-white px-4 py-2 rounded-lg h-[40px] w-[200px]" onClick={() => handleOpenPDF("/api/download/file/pdf/literature/10_vyavharatmak_janvaad_2017_ocr.pdf#toolbar=0")}>
+                  <button className="bg-[#59524E] hover:bg-[#7E746F] text-white px-4 py-2 rounded-lg h-[40px] w-[200px]" onClick={() => handleOpenPDF("https://megascale.cloud/JV/pdf/literature/10_vyavharatmak_janvaad_2017_ocr.pdf#toolbar=0")}>
                     {text.philosophyPage5["3 Volumes"].books.b2.button}
                   </button>
                 {/* </a> */}
@@ -681,7 +681,7 @@ const page = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                   > */}
-                    <button className="bg-[#59524E] hover:bg-[#7E746F] text-white px-4 py-2 rounded-lg h-[40px] w-[186px]" onClick={() => handleOpenPDF("/api/download/file/pdf/literature/08_anubhavatmak adhyatmvad_unicode_2023.pdf#toolbar=0")}>
+                    <button className="bg-[#59524E] hover:bg-[#7E746F] text-white px-4 py-2 rounded-lg h-[40px] w-[186px]" onClick={() => handleOpenPDF("https://megascale.cloud/JV/pdf/literature/08_anubhavatmak adhyatmvad_unicode_2023.pdf#toolbar=0")}>
                       {text.philosophyPage5["3 Volumes"].books.b3.button}
                     </button>
                   {/* </a> */}
@@ -694,7 +694,7 @@ const page = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                 > */}
-                  <button className="bg-[#59524E] hover:bg-[#7E746F] text-white px-4 py-2 rounded-lg h-[40px] w-[200px]" onClick={() => handleOpenPDF("/api/download/file/pdf/literature/08_anubhavatmak adhyatmvad_unicode_2023.pdf#toolbar=0")}>
+                  <button className="bg-[#59524E] hover:bg-[#7E746F] text-white px-4 py-2 rounded-lg h-[40px] w-[200px]" onClick={() => handleOpenPDF("https://megascale.cloud/JV/pdf/literature/08_anubhavatmak adhyatmvad_unicode_2023.pdf#toolbar=0")}>
                     {text.philosophyPage5["3 Volumes"].books.b3.button}
                   </button>
                 {/* </a> */}
@@ -787,7 +787,7 @@ const page = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                   > */}
-                    <button className="bg-[#59524E] hover:bg-[#7E746F] text-white px-4 py-2 rounded-lg h-[40px] w-[186px]" onClick={() => handleOpenPDF("/api/download/file/pdf/literature/12_vyavharvaadi_samajshastra_unicode_2025.pdf#toolbar=0")}>
+                    <button className="bg-[#59524E] hover:bg-[#7E746F] text-white px-4 py-2 rounded-lg h-[40px] w-[186px]" onClick={() => handleOpenPDF("https://megascale.cloud/JV/pdf/literature/12_vyavharvaadi_samajshastra_unicode_2025.pdf#toolbar=0")}>
                       {text.philosophyPage5["4 Volume"].books.b1.button}
                     </button>
                   {/* </a> */}
@@ -800,7 +800,7 @@ const page = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                 > */}
-                  <button className="bg-[#59524E] hover:bg-[#7E746F] text-white px-4 py-2 rounded-lg h-[40px] w-[200px]" onClick={() => handleOpenPDF("/api/download/file/pdf/literature/12_vyavharvaadi_samajshastra_unicode_2025.pdf#toolbar=0")}>
+                  <button className="bg-[#59524E] hover:bg-[#7E746F] text-white px-4 py-2 rounded-lg h-[40px] w-[200px]" onClick={() => handleOpenPDF("https://megascale.cloud/JV/pdf/literature/12_vyavharvaadi_samajshastra_unicode_2025.pdf#toolbar=0")}>
                     {text.philosophyPage5["4 Volume"].books.b1.button}
                   </button>
                 {/* </a> */}
@@ -871,7 +871,7 @@ const page = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                   > */}
-                    <button className="bg-[#59524E] hover:bg-[#7E746F] text-white px-4 py-2 rounded-lg h-[40px] w-[186px]" onClick={() => handleOpenPDF("/api/download/file/pdf/literature/11_avartanshil_arthashastra_unicode_2024.pdf#toolbar=0")}>
+                    <button className="bg-[#59524E] hover:bg-[#7E746F] text-white px-4 py-2 rounded-lg h-[40px] w-[186px]" onClick={() => handleOpenPDF("https://megascale.cloud/JV/pdf/literature/11_avartanshil_arthashastra_unicode_2024.pdf#toolbar=0")}>
                       {text.philosophyPage5["4 Volume"].books.b2.button}
                     </button>
                   {/* </a> */}
@@ -884,7 +884,7 @@ const page = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                 > */}
-                  <button className="bg-[#59524E] hover:bg-[#7E746F] text-white px-4 py-2 rounded-lg h-[40px] w-[200px]" onClick={() => handleOpenPDF("/api/download/file/pdf/literature/11_avartanshil_arthashastra_unicode_2024.pdf#toolbar=0")}>
+                  <button className="bg-[#59524E] hover:bg-[#7E746F] text-white px-4 py-2 rounded-lg h-[40px] w-[200px]" onClick={() => handleOpenPDF("https://megascale.cloud/JV/pdf/literature/11_avartanshil_arthashastra_unicode_2024.pdf#toolbar=0")}>
                     {text.philosophyPage5["4 Volume"].books.b2.button}
                   </button>
                 {/* </a> */}
@@ -955,7 +955,7 @@ const page = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                   > */}
-                    <button className="bg-[#59524E] hover:bg-[#7E746F] text-white px-4 py-2 rounded-lg h-[40px] w-[186px]" onClick={() => handleOpenPDF("/api/download/file/pdf/literature/manav_sanchetnavaadi_manovigyan_edited.pdf")}>
+                    <button className="bg-[#59524E] hover:bg-[#7E746F] text-white px-4 py-2 rounded-lg h-[40px] w-[186px]" onClick={() => handleOpenPDF("https://megascale.cloud/JV/pdf/literature/manav_sanchetnavaadi_manovigyan_edited.pdf")}>
                       {text.philosophyPage5["4 Volume"].books.b3.button}
                     </button>
                   {/* </a> */}
@@ -968,7 +968,7 @@ const page = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                 > */}
-                  <button className="bg-[#59524E] hover:bg-[#7E746F] text-white px-4 py-2 rounded-lg h-[40px] w-[200px]" onClick={() => handleOpenPDF("/api/download/file/pdf/literature/manav_sanchetnavaadi_manovigyan_edited.pdf")}>
+                  <button className="bg-[#59524E] hover:bg-[#7E746F] text-white px-4 py-2 rounded-lg h-[40px] w-[200px]" onClick={() => handleOpenPDF("https://megascale.cloud/JV/pdf/literature/manav_sanchetnavaadi_manovigyan_edited.pdf")}>
                     {text.philosophyPage5["4 Volume"].books.b3.button}
                   </button>
                 {/* </a> */}
@@ -1040,7 +1040,7 @@ const page = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                   > */}
-                    <button className="bg-[#59524E] hover:bg-[#7E746F] text-white px-4 py-2 rounded-lg h-[40px] w-[186px]" onClick={() => handleOpenPDF("/api/download/file/pdf/literature/14_manviya_samvidhaan_sootravyakhya_unicode_2023.pdf#toolbar=0")}>
+                    <button className="bg-[#59524E] hover:bg-[#7E746F] text-white px-4 py-2 rounded-lg h-[40px] w-[186px]" onClick={() => handleOpenPDF("https://megascale.cloud/JV/pdf/literature/14_manviya_samvidhaan_sootravyakhya_unicode_2023.pdf#toolbar=0")}>
                       {text.philosophyPage5["4 Volume"].books.b4.button}
                     </button>
                   {/* </a> */}
@@ -1053,7 +1053,7 @@ const page = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                 > */}
-                  <button className="bg-[#59524E] hover:bg-[#7E746F] text-white px-4 py-2 rounded-lg h-[40px] w-[200px]" onClick={() => handleOpenPDF("/api/download/file/pdf/literature/14_manviya_samvidhaan_sootravyakhya_unicode_2023.pdf#toolbar=0")}>
+                  <button className="bg-[#59524E] hover:bg-[#7E746F] text-white px-4 py-2 rounded-lg h-[40px] w-[200px]" onClick={() => handleOpenPDF("https://megascale.cloud/JV/pdf/literature/14_manviya_samvidhaan_sootravyakhya_unicode_2023.pdf#toolbar=0")}>
                     {text.philosophyPage5["4 Volume"].books.b3.button}
                   </button>
                 {/* </a> */}

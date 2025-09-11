@@ -13,9 +13,9 @@ const page = () => {
     {
       title: 'मूल प्रकाशित पुस्तक (PDF) डाउनलोड',
       items: [
-        { title: 'परिचयात्मक पठन संकलन (Introductory Selection)', link: "/api/download/zip/folder/01. परिचयात्मक पुस्तक संकलन (प्रकाशित पुस्तकों से).zip", isLink: false },
-        { title: 'प्रकाशित ग्रंथ – वर्तमान संस्करण (Published books, current edition)', link: "/api/download/zip/folder/A0. मूल प्रकाशित ग्रन्थ -वर्तमान संस्करण_current editions.zip", isLink: false },
-        { title: 'संवाद वार्ता (प्रकाशित) -Dialogues', link: "/api/download/zip/folder/मध्यस्थ दर्शन_all samvads.zip", isLink: false },
+        { title: 'परिचयात्मक पठन संकलन (Introductory Selection)', link: "https://megascale.cloud/JV/folder/01. परिचयात्मक पुस्तक संकलन (प्रकाशित पुस्तकों से).zip", isLink: false },
+        { title: 'प्रकाशित ग्रंथ – वर्तमान संस्करण (Published books, current edition)', link: "https://megascale.cloud/JV/folder/A0. मूल प्रकाशित ग्रन्थ -वर्तमान संस्करण_current editions.zip", isLink: false },
+        { title: 'संवाद वार्ता (प्रकाशित) -Dialogues', link: "https://megascale.cloud/JV/folder/मध्यस्थ दर्शन_all samvads.zip", isLink: false },
       ],
     },
     {
@@ -34,8 +34,8 @@ const page = () => {
       title: 'श्री नागराजजी के बारे में',
       items: [
 
-        { title: 'जीवन चरित्र – जीवनी (Biography & Personality)', link: "/api/download/zip/folder/मध्यस्थ दर्शन_नागराजजी के बारे.zip", isLink: false },
-        { title: 'नागरजजी Photos', link: "/api/download/zip/folder/public-archivedwl-920.zip", isLink: false },
+        { title: 'जीवन चरित्र – जीवनी (Biography & Personality)', link: "https://megascale.cloud/JV/folder/मध्यस्थ दर्शन_नागराजजी के बारे.zip", isLink: false },
+        { title: 'नागरजजी Photos', link: "https://megascale.cloud/JV/folder/public-archivedwl-920.zip", isLink: false },
       ],
     },
   ];

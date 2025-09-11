@@ -9,7 +9,7 @@ const page = () => {
   }, []);
   return (
     <>
-      <div className="`px-4 md:px-0 py-8 max-w-5xl mx-auto text-[#111] space-y-6`">
+      <div className="px-4 md:px-0 py-8 max-w-5xl mx-auto text-[#111] space-y-6">
         <Backjs />
         <h2 className="page-heading pb-2">Educational Philosophy</h2>
         <div>
@@ -432,7 +432,7 @@ const page = () => {
             In other words, the entire content for education is the study of
             physical, chemical & conscious (jeevan) activities, leading to
             mental balance, behavioral & social balance & natural balance. This
-            content covers the three dimensions below::
+            content covers the three dimensions below:
           </p>
         </div>
         <div className="pt-10">
@@ -613,13 +613,13 @@ const page = () => {
             The different needs, expectations & responsibilities in the various
             stages of Human Life{" "}
           </h1>
-          <ul className="list-disc pl-6 space-y-2 page-content">
-            <li>1. Student life (vidyarthi)</li>
+          <ul className="list-decimal pl-6 space-y-2 page-content">
+            <li>Student life (vidyarthi)</li>
             <li>
-              2. Householder – Relationships + Economic aspects (grahastha,
+              Householder – Relationships + Economic aspects (grahastha,
               arthik)
             </li>
-            <li>3. Old Age</li>
+            <li>Old Age</li>
           </ul>
         </div>
         <div className="pt-10">
@@ -649,14 +649,17 @@ const page = () => {
             happiness and the subjects thus naturally fulfill these needs. These
             connections are made clear. These are done in two ways{" "}
           </p>
-          <p className="page-content mt-5 mb-5">
-            1. Having a separate integration class where this is clarified in an
+          <ul className="list-decimal list-outside pl-6 space-y-2 mt-5  page-content">
+            <li >
+            Having a separate integration class where this is clarified in an
             age-appropriate manner.
-          </p>
-          <p className="page-content">
-            2. Embedding this understanding while teaching the individual
+          </li>
+          <li >
+            Embedding this understanding while teaching the individual
             subjects (needs the teacher to have this holistic view).
-          </p>
+          </li>
+          </ul>
+          
         </div>
 
         <div className="pt-10">
@@ -899,14 +902,14 @@ const page = () => {
             Child’s /Human mind (conscious jeevan) and how it assimilates
             learning
           </h1>
-          <ul className=" space-y-2 mt-5 mb-5  page-content">
+          <ul className="pl-5 list-decimal space-y-2 mt-5 mb-5  page-content">
             <li className="page-content">
-              1. Has a desire/will or purpose – that it wants/needs (according
+              Has a desire/will or purpose – that it wants/needs (according
               to age){" "}
             </li>
-            <li className="page-content">2. This results in imagination </li>
+            <li className="page-content">This results in imagination </li>
             <li className="page-content">
-              3. input comes from the school or outside life environment in the
+              input comes from the school or outside life environment in the
               form of
             </li>
             <ul className=" pl-6 space-y-2 page-content">
@@ -915,23 +918,23 @@ const page = () => {
               <li>c. Observations</li>
             </ul>
             <li className="page-content">
-              4. the child matches theory to the observations he/she makes
+              the child matches theory to the observations he/she makes
               within and without -i.e. around, across matter, plants, animals
               and people
             </li>
             <li className="page-content">
-              5. These lead to mental-impressions (sanskar)
+              These lead to mental-impressions (sanskar)
             </li>
             <li className="page-content">
-              6. The child assimilates/adopts these impressions depending on
+              The child assimilates/adopts these impressions depending on
               their tendencies (pravritti)
             </li>
             <li className="page-content">
-              7. This goes on to form a conviction/belief about that
+              This goes on to form a conviction/belief about that
               subject/object/ living.
             </li>
             <li className="page-content">
-              8. Such beliefs are across the Individual, Family, Societal,
+              Such beliefs are across the Individual, Family, Societal,
               Nation, and the entire spectrum of Nature
             </li>
           </ul>
@@ -1048,7 +1051,7 @@ const page = () => {
           The person that successfully completes such education is endowed with
           the following 5 qualities:
         </p>
-        <ul className="list-disc list-inside space-y-2 mb-8 page-content">
+        <ul className="list-disc list-outside pl-5 space-y-2 mb-8 page-content">
           <li>
             <span className="font-semibold italic">Has assurance</span>, trust
             in oneself and his capabilities and knowledge
@@ -1092,7 +1095,7 @@ const page = () => {
           current Education system. Study of the following missing aspects need
           to be inculcated to make prevalent education complete:
         </p>
-        <ul className="list-disc list-inside space-y-2 page-content">
+        <ul className="list-disc list-outside pl-5 space-y-2 page-content">
           <li>
             <span className="italic">addition of Conscious aspect</span>{" "}
             (jeevan) in Science.
@@ -1145,7 +1148,7 @@ const page = () => {
             The human values via consciousness development or Chetna Vikas Mulya
             Shiksha (CVMS) fulfills the following criterion:
           </p>
-          <ol className="list-decimal list-inside page-content space-y-2">
+          <ol className="list-decimal list-outside pl-5 page-content space-y-2">
             <li>
               <span className="font-semibold">Universal</span> –{" "}
               <em>

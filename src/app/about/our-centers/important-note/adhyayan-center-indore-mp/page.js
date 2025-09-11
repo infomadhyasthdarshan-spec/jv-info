@@ -34,7 +34,7 @@ const Indoremp = () => {
             </p>
 
             <p className="mb-4 italic page-content">
-                This is not unexpected in the evolution of any darshan, where practitioners tend to ‘mix’ their previous pravritti or tendencies with that given in the ‘darshan’. This can be ‘rectified’ by sticking to the <a href="/resource-center/Start-Adhyayan/method-of-study" className="text-orange-600 italic font-semibold">‘adhyayan-vidhi’</a> by Shri Nagaraj. A group of concerned students have furthered a <a href='/api/download/file/folder/indore-caution-note.pdf' className="text-orange-600 font-semibold italic">caution note, which can be read here.</a>
+                This is not unexpected in the evolution of any darshan, where practitioners tend to ‘mix’ their previous pravritti or tendencies with that given in the ‘darshan’. This can be ‘rectified’ by sticking to the <a href="/resource-center/Start-Adhyayan/method-of-study" className="text-orange-600 italic font-semibold">‘adhyayan-vidhi’</a> by Shri Nagaraj. A group of concerned students have furthered a <a href='https://megascale.cloud/JV/folder/indore-caution-note.pdf' className="text-orange-600 font-semibold italic">caution note, which can be read here.</a>
             </p>
 
             <p className="mb-6 page-common-hading italic mt-12">
@@ -47,14 +47,14 @@ const Indoremp = () => {
             </p>
 
             <p className="mb-4 page-content">
-                किसी भी दर्शन के विकासक्रम में यह असामान्य नहीं है, क्योंकि प्रचलित प्रवृत्तियों एवं पूर्व मान्यताओं को ‘दर्शन’ के साथ मिला लेते हैं। इसका परिषोधन, नागराजजी द्वारा दिए <a href='/resource-center/Start-Adhyayan/method-of-study' className="text-red-600 font-semibold">अध्ययन विधि</a> को मानने से हो सकता है। कुछ चिंतित विद्यार्थियों ने एक <span className=" font-semibold">सावधानी पत्रक</span> प्रकाशित किया है, <a href='/api/download/file/folder/indore-caution-note.pdf' className="text-red-600 font-semibold underline">जिसे आप यहाँ पढ़ सकते हैं</a>।
+                किसी भी दर्शन के विकासक्रम में यह असामान्य नहीं है, क्योंकि प्रचलित प्रवृत्तियों एवं पूर्व मान्यताओं को ‘दर्शन’ के साथ मिला लेते हैं। इसका परिषोधन, नागराजजी द्वारा दिए <a href='/resource-center/Start-Adhyayan/method-of-study' className="text-red-600 font-semibold">अध्ययन विधि</a> को मानने से हो सकता है। कुछ चिंतित विद्यार्थियों ने एक <span className=" font-semibold">सावधानी पत्रक</span> प्रकाशित किया है, <a href='https://megascale.cloud/JV/folder/indore-caution-note.pdf' className="text-red-600 font-semibold underline">जिसे आप यहाँ पढ़ सकते हैं</a>।
             </p>
 
             <p className="page-content italic">
                 प्रत्येक व्यक्ति, जहाँ उचित समझे, वहाँ अपने मार्ग का अनुसरण करने के लिए स्वतंत्र है।
             </p>
            {/* PDF View */}
-                <PdfViewer fileUrl="/api/download/file/pdf/ourcenter/indore-caution-note.pdf" />
+                <PdfViewer fileUrl="https://megascale.cloud/JV/pdf/ourcenter/indore-caution-note.pdf" />
            {/* PDF View */}
 
         </div>

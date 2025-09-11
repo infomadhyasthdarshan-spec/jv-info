@@ -8,8 +8,8 @@ const JusticeProposal = () => {
     wrapHindiWords ();
   }, []);
   return (
-    <div className="px-3 md:px-0 py-8 max-w-5xl mx-auto text-justify space-y-6">
-      <Backjs />
+     <div className="px-4 md:px-0 py-8 max-w-5xl mx-auto text-[#111] space-y-6">
+      <Backjs/>
       <h1 className="page-heading mb-4">
         Proposal for Universal Justice
       </h1>
@@ -33,7 +33,7 @@ const JusticeProposal = () => {
       <p className="page-content">
         Is there a form of Justice, a definition of Justice that is Universal? If there is, it will satisfy the following criteria:
       </p>
-      <ul className="list-disc list-inside space-y-2 page-content">
+      <ul className="list-disc list-outside pl-5 space-y-2 page-content">
         <li>Recognize each human as a unit of an Undivided Human Society (irrespective of Color, Creed, Caste, Geography, Language, etc).</li>
         <li>Recognize the nature of Human Relationships and their purpose.</li>
         <li>Have the ability to live with human values such as Trust, Respect, Affection, Love, etc., and be mutually satisfied in human relationships.</li>
@@ -41,7 +41,7 @@ const JusticeProposal = () => {
       </ul>
 
       <p className="page-content">This is Justice. To understand and ensure the above, it becomes essential to understand the:</p>
-      <ul className="list-disc list-inside page-content space-y-2">
+      <ul className="list-disc list-outside pl-5 page-content space-y-2">
         <li>very nature of the Human Being,</li>
         <li>the basis of Human Relationship, including its underlying existential reality, and</li>
         <li>the nature of Existence itself (<em>“Existence – all that exists”</em>).</li>
@@ -56,7 +56,7 @@ const JusticeProposal = () => {
       </p>
 
       <h3 className="page-heading">Some fundamental tenets:</h3>
-      <ul className="list-disc page-content list-inside space-y-2">
+      <ul className="list-disc page-content list-outside pl-5 space-y-2">
         <li>Existence itself is <strong>coexistence</strong>, as units saturated in all-pervasive Space; orderliness and Harmony is innate to Existence.</li>
         <li>Existence is <strong>Stable</strong> – Awakening and Progress are Definite.</li>
         <li>Nature is manifested as the four “natural-orders”: material, plants, animals & humans – that are self-organized and participate in larger orderliness.</li>
@@ -70,7 +70,7 @@ const JusticeProposal = () => {
       </blockquote>
 
       <h3 className="page-heading">Based on the above facts, the following convictions can be realized:</h3>
-      <ul className="list-disc page-content list-inside space-y-2">
+      <ul className="list-disc page-content list-outside pl-5 space-y-2">
         <li><strong>Earth is One (Undivided Nation)</strong> – Nation States are man-made</li>
         <li><strong>Human Race is One</strong> – based on the formation of the Body – Human actions are many</li>
         <li><strong>Human Society is One</strong> – Communities are Many</li>

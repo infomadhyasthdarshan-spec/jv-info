@@ -107,7 +107,7 @@ const WorldOrganization = () => {
 
         <div>
           <h3 className="page-small-heading mt-16">Qualifications of Council Members:</h3>
-          <ul className="list-disc list-inside ml-4 page-content">
+          <ul className="list-disc list-outside ml-5 page-content">
             <li>Minimum 21 years old</li>
             <li>Knowledge of self (jeevan vidya) and material reality (vastu vidya)</li>
             <li>Self-sufficient in work, humane conduct, sociable behavior</li>
@@ -123,15 +123,15 @@ const WorldOrganization = () => {
 
         <div>
           <h3 className="page-small-heading ">Committees in 5 Dimensions:</h3>
-          <p>Each village council forms the following five committees:</p>
-          <ul className="list-decimal list-inside ml-4 page-content">
+          <p className='page-content mb-5'>Each village council forms the following five committees:</p>
+          <ul className="list-decimal list-outside ml-5 page-content">
             <li>Humane Education and Right-Values Committee</li>
             <li>Production-Work Advisory Committee</li>
             <li>Cooperative Exchange & Storage Committee</li>
             <li>Health & Discipline Committee</li>
             <li>Humane Justice & Security Committee</li>
           </ul>
-          <p>These committees work under the village council's guidance.</p>
+          <p className='page-content mt-5'>These committees work under the village council's guidance.</p>
         </div>
 
         <div className='mb-16 pb-10'>
@@ -145,35 +145,35 @@ const WorldOrganization = () => {
           <h3 className="page-heading">Roles and Responsibilities (summary):</h3>
 
           <h4 className="page-small-heading  mt-4">Humane Education & Right-Values Committee</h4>
-          <ul className="list-disc list-inside ml-4 page-content">
+          <ul className="list-disc list-outside ml-5 page-content">
             <li>Promote confidence, sociability, and self-sufficiency</li>
             <li>Respect excellence, balance knowledge and personality</li>
             <li>Teach coexistence, self-organization, humane behavior</li>
           </ul>
 
           <h4 className="page-small-heading  mt-4">Production-Work Advisory Committee</h4>
-          <ul className="list-disc list-inside ml-4 page-content">
+          <ul className="list-disc list-outside ml-5 page-content">
             <li>Train villagers in sustainable occupations</li>
             <li>Promote eco-friendly production methods</li>
             <li>Encourage agriculture, animal husbandry, handicrafts</li>
           </ul>
 
           <h4 className="page-small-heading  mt-4">Cooperative Exchange & Storage Committee</h4>
-          <ul className="list-disc list-inside ml-4 page-content">
+          <ul className="list-disc list-outside ml-5 page-content">
             <li>Act as a local bank without profit/loss motive</li>
             <li>Facilitate goods exchange based on effort-value</li>
             <li>Discourage hoarding and business-centric thinking</li>
           </ul>
 
           <h4 className="page-small-heading  mt-4">Health & Discipline Committee</h4>
-          <ul className="list-disc list-inside ml-4 page-content">
+          <ul className="list-disc list-outside ml-5 page-content">
             <li>Promote physical & mental health via education, yoga, remedies</li>
             <li>Support addiction removal and healthy lifestyle</li>
             <li>Establish village-level health systems</li>
           </ul>
 
           <h4 className="page-small-heading mt-4">Humane Justice & Security Committee</h4>
-          <ul className="list-disc list-inside ml-4 page-content">
+          <ul className="list-disc list-outside ml-5 page-content">
             <li>Resolve disputes through reform, not punishment</li>
             <li>Ensure fair conduct, production, and exchange</li>
             <li>Secure boundaries, education, health, and environment</li>

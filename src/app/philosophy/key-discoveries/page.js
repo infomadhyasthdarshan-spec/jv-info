@@ -131,7 +131,7 @@ export default function PhilosophyPage() {
                         <p>
                             {text.philosophyPage4.row.cards.c10.content[0]}
                         </p>
-                        <ul className="list-disc list-inside mt-2 page-common-md-pera  ">
+                        <ul className="list-disc list-outside pl-5 mt-2 page-common-md-pera  ">
                             <li>
                                 {text.philosophyPage4.row.cards.c10.content[1]}
                             </li>
@@ -158,7 +158,7 @@ export default function PhilosophyPage() {
       content: (
         <div>
           <p>{text.philosophyPage4.row1.content.c2.content[0]}</p>
-          <ul className="list-disc list-inside space-y-1">
+          <ul className="list-disc list-outside pl-5 space-y-1">
             <li className="pt-5">{text.philosophyPage4.row1.content.c2.content[1]}</li>
             <li className="pt-5">{text.philosophyPage4.row1.content.c2.content[2]}</li>
             <li className="pt-5">{text.philosophyPage4.row1.content.c2.content[3]}</li>
@@ -320,7 +320,13 @@ export default function PhilosophyPage() {
                 <h2 className="page-heading  mb-6   text-center ssr-hading  ">
                     {text.philosophyPage4.title}
                 </h2>
-                <ol className="list-decimal list-inside space-y-4    page-content max-w-5xl mx-auto">
+                <ol className="list-decimal list-outside pl-5
+                  0
+                  
+                  
+                  
+                  
+                  space-y-4    page-content max-w-5xl mx-auto">
                     {philosophicalPoints.map((point, idx) => (
                         <li key={idx} className="pl-2" dangerouslySetInnerHTML={{ __html:point }} />
                     ))}

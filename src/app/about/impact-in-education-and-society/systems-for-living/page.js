@@ -3,12 +3,12 @@ import React from "react";
 import { useLanguage } from "@/context/LanguageContext";
 import Backjs from "@/components/Backjs";
 import { useEffect } from 'react';
-import { wrapHindiWords  } from '@/utils/fontInjector';
+import { wrapHindiWords } from '@/utils/fontInjector';
 export default function SystemsForLivingPage() {
     const { text } = useLanguage();
-      useEffect(() => {
-    wrapHindiWords ();
-  }, []);
+    useEffect(() => {
+        wrapHindiWords();
+    }, []);
     return (
         <div className="px-4 md:px-0 py-8 max-w-5xl mx-auto text-[#111] space-y-6">
             <Backjs />
@@ -27,7 +27,7 @@ export default function SystemsForLivingPage() {
             <h2 className="page-common-hading mb-4">{text.studentForLiving.section1.title}   </h2>
             <p className="mb-4 page-content">
                 {text.studentForLiving.section1.content[0]}       </p>
-            <ul className="list-disc list-inside space-y-1 mb-4 ml-10 page-content">
+            <ul className="list-disc list-outside space-y-2 mb-6 pl-5 page-content">
                 <li>{text.studentForLiving.section1.content[1]}</li>
                 <li>{text.studentForLiving.section1.content[2]}</li>
                 <li>{text.studentForLiving.section1.content[3]}</li>
@@ -37,7 +37,7 @@ export default function SystemsForLivingPage() {
             <p className="mb-4 page-common-hading">
                 {text.studentForLiving.section1.content[5]}
             </p>
-            <ul className="list-disc list-inside mb-6 space-y-2 page-content">
+            <ul className="list-disc list-outside pl-5 mb-6 space-y-2 page-content">
                 <li>{text.studentForLiving.section1.content[6]}</li>
                 <li>{text.studentForLiving.section1.content[7]}</li>
                 <li>{text.studentForLiving.section1.content[8]}</li>
@@ -59,7 +59,8 @@ export default function SystemsForLivingPage() {
             <p className="mb-4 text-[18px] leading-[32px] font-medium">
                 {text.studentForLiving.section2.content[0]}</p>
 
-            <ul className="list-disc list-inside mb-6 space-y-5 page-content ml-2">
+            <ul className="list-disc list-outside mb-6 pl-5 space-y-5 page-content">
+                
                 <li>{text.studentForLiving.section2.content[1]}</li>
                 <li>{text.studentForLiving.section2.content[2]}</li>
                 <li>{text.studentForLiving.section2.content[3]}</li>

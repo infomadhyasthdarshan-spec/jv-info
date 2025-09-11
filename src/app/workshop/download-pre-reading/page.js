@@ -39,17 +39,17 @@ export default function page() {
 
     const resources = {
         syllabus: [
-            { title: text.workshopPage4['Download Pre Reading'].card1.title, details: text.workshopPage4['Download Pre Reading'].card1.subtitle, link: "/api/download/file/folder/prereading/7-Day-Syllabus.pdf" },
-            { title: text.workshopPage4['Download Pre Reading'].card2.title, details: text.workshopPage4['Download Pre Reading'].card2.subtitle, link: "/api/download/file/folder/prereading/04.-Jeevan-Vidya-Objectives.pdf" }
+            { title: text.workshopPage4['Download Pre Reading'].card1.title, details: text.workshopPage4['Download Pre Reading'].card1.subtitle, link: "https://megascale.cloud/JV/folder/prereading/7-Day-Syllabus.pdf" },
+            { title: text.workshopPage4['Download Pre Reading'].card2.title, details: text.workshopPage4['Download Pre Reading'].card2.subtitle, link: "https://megascale.cloud/JV/folder/prereading/04.-Jeevan-Vidya-Objectives.pdf" }
         ],
         toCirculate: [
-            { title: text.workshopPage4['To circulate (invite others)'].card1.title, details: text.workshopPage4['To circulate (invite others)'].card1.subtitle, link: "/api/download/file/folder/prereading/03.-About-the-Jeevan-Vidya-Workshop-for-Scholars.pdf" },
-            { title: text.workshopPage4['To circulate (invite others)'].card2.title, details: text.workshopPage4['To circulate (invite others)'].card2.subtitle, link: "/api/download/file/folder/prereading/02.-About-the-Jeevan-Vidya-Workshop-Typical.pdf" },
-            { title: text.workshopPage4['To circulate (invite others)'].card3.title, details: text.workshopPage4['To circulate (invite others)'].card3.subtitle, link: "/api/download/file/folder/prereading/01.-Brochure-Jeevan-Vidya-Shivir-.pdf" },
+            { title: text.workshopPage4['To circulate (invite others)'].card1.title, details: text.workshopPage4['To circulate (invite others)'].card1.subtitle, link: "https://megascale.cloud/JV/folder/prereading/03.-About-the-Jeevan-Vidya-Workshop-for-Scholars.pdf" },
+            { title: text.workshopPage4['To circulate (invite others)'].card2.title, details: text.workshopPage4['To circulate (invite others)'].card2.subtitle, link: "https://megascale.cloud/JV/folder/prereading/02.-About-the-Jeevan-Vidya-Workshop-Typical.pdf" },
+            { title: text.workshopPage4['To circulate (invite others)'].card3.title, details: text.workshopPage4['To circulate (invite others)'].card3.subtitle, link: "https://megascale.cloud/JV/folder/prereading/01.-Brochure-Jeevan-Vidya-Shivir-.pdf" },
         ],
         posters: [
-            { title: text.workshopPage4['Invitation Posters'].card1.title, details: text.workshopPage4['Invitation Posters'].card1.subtitle, link: "/api/download/file/folder/prereading/Intro-Workshop-english.pdf" },
-            { title: text.workshopPage4['Invitation Posters'].card2.title, details: text.workshopPage4['Invitation Posters'].card2.subtitle, link: "/api/download/file/folder/prereading/SHARED-हिंदी-शिविर-परिचय-hindi.pdf" },
+            { title: text.workshopPage4['Invitation Posters'].card1.title, details: text.workshopPage4['Invitation Posters'].card1.subtitle, link: "https://megascale.cloud/JV/folder/prereading/Intro-Workshop-english.pdf" },
+            { title: text.workshopPage4['Invitation Posters'].card2.title, details: text.workshopPage4['Invitation Posters'].card2.subtitle, link: "https://megascale.cloud/JV/folder/prereading/SHARED-हिंदी-शिविर-परिचय-hindi.pdf" },
         ],
         images: [
             { title: 'English Poster', image: '/images/workshop/dpr.png' },

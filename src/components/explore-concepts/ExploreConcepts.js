@@ -93,7 +93,7 @@ const ExploreConcepts = () => {
           </h2>
           <a
             className="page-common-md-pera text-[#b2917a] hover:underline cursor-pointer break-words"
-            href="/api/download/zip//folder/explorecon/A.Nagraj Intro Arcticles.zip"
+            href="https://megascale.cloud/JV//folder/explorecon/A.Nagraj Intro Arcticles.zip"
           >
             Download Shri Nagraj intro articles in zip file
           </a>
@@ -148,7 +148,7 @@ const ExploreConcepts = () => {
           </h2>
           <a
             className="page-common-md-pera text-[#b2917a] hover:underline cursor-pointer break-words"
-            href="/api/download/zip//folder/explorecon/Students Intro Articles.zip"
+            href="https://megascale.cloud/JV//folder/explorecon/Students Intro Articles.zip"
           >
             Download Student intro articles in zip file
           </a>

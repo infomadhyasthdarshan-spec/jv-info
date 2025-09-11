@@ -145,9 +145,9 @@ const DiscoveriesExplained = () => {
     <div key={index} className="bg-[#C1B6A3] rounded-[16px] overflow-hidden mb-6">
       <button
         onClick={() => toggleSection(baseIndex + index)}
-        className="w-full bg-[#C1B6A3] text-white px-5 py-4 font-semibold border-b border-[#F2F4F8] flex justify-between items-center"
+        className="w-full bg-[#C1B6A3] text-white px-4 py-4 font-semibold border-b border-[#F2F4F8] flex justify-between items-center"
       >
-        <span className="page-collapse-title">{section.title}</span>
+        <span className="page-collapse-title text-start">{section.title}</span>
         <span className="text-lg">{openIndex === baseIndex + index ? "−" : "+"}</span>
       </button>
       {openIndex === baseIndex + index && (
@@ -168,7 +168,7 @@ const DiscoveriesExplained = () => {
         onClick={() => toggleSection(baseIndex + index)}
         className="w-full bg-[#C1B6A3] text-white px-5 py-4 font-semibold border-b border-[#F2F4F8] flex justify-between items-center"
       >
-        <span className="page-collapse-title">{distinction.title}</span>
+        <span className="page-collapse-title text-start">{distinction.title}</span>
         <span className="text-lg">{openIndex === baseIndex + index ? "−" : "+"}</span>
       </button>
       {openIndex === baseIndex + index && (
@@ -184,8 +184,8 @@ const DiscoveriesExplained = () => {
   );
 
   return (
-    <div className="bg-gray-100 py-8 px-3 md:px-0 max-w-5xl mx-auto">
-      <Backjs />
+     <div className="px-4 md:px-0 py-8 max-w-5xl mx-auto text-[#111] space-y-6">
+      <Backjs/>
       <h2 className="page-heading mb-6">{text.postulations.h1}</h2>
 
       <div className="space-y-6">

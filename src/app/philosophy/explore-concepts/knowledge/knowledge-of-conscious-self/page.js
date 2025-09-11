@@ -8,8 +8,8 @@ const page = () => {
     wrapHindiWords ();
   }, []);
     return (
-        <div className="px-4 md:px-0 py-8 max-w-5xl mx-auto text-[#111] space-y-6">
-            <Backjs />
+         <div className="px-4 md:px-0 py-8 max-w-5xl mx-auto text-[#111] space-y-6">
+      <Backjs/>
             <h1 className="page-heading mb-5">Consciousness & the Conscious Self</h1>
             <h1 className="page-common-hading mb-4">(जीवन ज्ञान)</h1>
             <p className="page-content mb-4">‘Jeevan’ is the name given to the conscious aspect of a human being (what we commonly call as ‘self’ is actually referring to this conscious unit or jeevan without actually knowing it).</p>
@@ -22,7 +22,7 @@ const page = () => {
             {/* section2 */}
             <div className='mt-10'>
                 <h1 className="page-common-hading mb-4">The constitutionally complete atom, or the Conscious Self, (Jeevan) is:</h1>
-                <ul className="list-inside space-y-2 mb-6 pl-4 list-disc page-content">
+                <ul className="list-outside pl-5 space-y-2 mb-6  list-disc page-content">
                     <li>Weightless and not visible to the human eye or to instruments, since these are ‘grosser’ than ‘it’. The ‘span of operation’ of ‘jeevan’ is greater than its dimensions: its length, width & height.</li>
                     <li>The conscious-atom or ‘jeevan’ cannot be understood or identified by mathematics, or logic, since these are but some of the faculties in that very conscious-atom or jeevan itself.</li>
                     <li>For the conscious self: Only ‘it’ can know and understand ‘itself’, using faculties in ‘itself’. It also understands the entire existence and lives expressing ‘complete-humane-conduct’ in human tradition.</li>
@@ -31,7 +31,7 @@ const page = () => {
             </div>
             <div className='mt-10 mb-16'>
                 <h1 className="page-common-hading mb-4">Each one of us can verify this:</h1>
-                <ul className="list-inside space-y-2 mb-6 pl-4 list-disc  page-content">
+                <ul className="list-outside pl-5 space-y-2 mb-6  list-disc  page-content">
                     <li>Our desires and thoughts are ‘weightless’, our imagination is weightless, our dreams are weightless, and our ability to imagine is not dependent on the food we eat.</li>
                     <li>We have a sense of ‘being’, of being ‘aware’ and only ‘we’ can truly know ‘ourselves’. Each one of us has an innate need to know.
                     </li>

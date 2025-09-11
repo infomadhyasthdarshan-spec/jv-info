@@ -45,7 +45,7 @@ const Page = () => {
     const [activeTab, setActiveTab] = useState("workshop");
 
     return (
-        <div className="bg-gray-100 justify-center lg:max-w-5xl 2xl:max-w-5xl mx-auto py-8">
+        <div className="px-4 md:px-0 py-8 max-w-5xl mx-auto text-[#111] space-y-6">
             <h1 className="page-heading mb-8">Frequently Asked Questions</h1>
 
             {/* Tabs */}
