@@ -7,7 +7,7 @@
     "start": "npx serve out",
     "lint": "next lint",
     "generate-pages": "node src/scripts/generate-pages.js",
-    "build": "npm run generate-pages && next build"
+    "build": "next build"
   },
   "dependencies": {
     "@vercel/blob": "^1.1.1",
