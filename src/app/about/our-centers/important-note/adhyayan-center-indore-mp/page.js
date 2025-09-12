@@ -54,7 +54,7 @@ const Indoremp = () => {
                 प्रत्येक व्यक्ति, जहाँ उचित समझे, वहाँ अपने मार्ग का अनुसरण करने के लिए स्वतंत्र है।
             </p>
            {/* PDF View */}
-                <PdfViewer fileUrl="https://megascale.cloud/JV/pdf/ourcenter/indore-caution-note.pdf" />
+                <PdfViewer fileUrl="/pdf/indore-caution-note.pdf" />
            {/* PDF View */}
 
         </div>

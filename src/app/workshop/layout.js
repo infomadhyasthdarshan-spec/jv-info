@@ -6,46 +6,109 @@ import Link from "next/link";
 import { useLanguage } from "@/context/LanguageContext";
 import { useRef, useState, useEffect } from "react";
 import { ChevronLeft, ChevronRight } from "lucide-react"; // You can use any icon or SVG
-import { FaHome } from "react-icons/fa";
+import { MdHome } from "react-icons/md";
+import { Home } from "lucide-react"
 
-const Breadcrumb = () => {
-  const pathname = usePathname();
-  const segments = pathname.split("/").filter(Boolean);
+function generateBreadcrumbsFromPath(pathname) {
+  const segments = pathname.split("/").filter((segment) => segment !== "")
 
-  const breadcrumbs = [
-    { name: <FaHome />, href: "/" },
-    ...segments.map((segment, i) => ({
-      name: segment.replace(/-/g, " "),
-      href: "/" + segments.slice(0, i + 1).join("/"),
-    })),
-  ];
+  return segments.map((segment, index) => {
+    const href = "/" + segments.slice(0, index + 1).join("/")
+    const label = segment
+      .split("-")
+      .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
+      .join(" ")
+
+    return {
+      label,
+      href: index === segments.length - 1 ? undefined : href,
+    }
+  })
+}
+
+function Breadcrumb({ items }) {
+  const pathname = usePathname()
+  const breadcrumbItems = items || generateBreadcrumbsFromPath(pathname)
+
+  if (pathname === "/") {
+    return null
+  }
 
   return (
-    <nav className="flex items-center text-sm bg-white p-4 shadow-sm overflow-x-auto">
-      {breadcrumbs.map((crumb, index) => {
-        const isLast = index === breadcrumbs.length - 1;
+    <nav className="flex items-center space-x-0 px-4 md:px-0 py-1 bg-white overflow-x-auto">
+      <Link href="/" className="text-[#94572b] transition-colors flex-shrink-0">
+        <MdHome className="w-6 h-6" />
+      </Link>
+
+      {breadcrumbItems.map((item, index) => {
+        const isLast = index === breadcrumbItems.length - 1
 
         return (
-          <div key={crumb.href} className="flex items-center whitespace-nowrap">
-            <Link
-              href={crumb.href}
-              className={`capitalize block max-w-[150px] truncate ${
-                isLast
-                  ? "text-black text-lg font-semibold"
-                  : "text-[#B2917A] text-lg font-bold hover:text-[#B2917A95]"
-              }`}
-            >
-              {crumb.name}
-            </Link>
-            {!isLast && (
-              <ChevronRight className="w-5 h-5 text-[#B2917A]" />
+          <div key={index} className="flex items-center space-x-1">
+            <ChevronRight className="w-4 h-4 text-[#94572b] flex-shrink-0" />
+
+            {isLast ? (
+              <span
+                className="text-gray-900 font-medium truncate max-w-xs block"
+                title={item.label}
+              >
+                {item.label}
+              </span>
+            ) : (
+              <Link
+                href={item.href}
+                className="text-[#94572b] transition-colors font-medium whitespace-nowrap"
+                title={item.label}
+              >
+                {item.label}
+              </Link>
             )}
           </div>
-        );
+        )
       })}
     </nav>
-  );
-};
+  )
+}
+
+// const Breadcrumb = () => {
+//   const pathname = usePathname();
+//   const segments = pathname.split('/').filter(Boolean);
+
+//   const breadcrumbs = [
+//     { name: <MdHome size={22} />, href: '/' },
+//     ...segments.map((segment, i) => ({
+//       name: segment.replace(/-/g, ' '),
+//       href: '/' + segments.slice(0, i + 1).join('/'),
+//     })),
+//   ];
+
+//   return (
+//     <nav className="flex items-center bg-white py-2 overflow-hidden">
+//       {breadcrumbs.map((crumb, index) => {
+//         const isLast = index === breadcrumbs.length - 1;
+
+//         return (
+//           <div key={crumb.href} className="flex items-center">
+//             <Link
+//               href={crumb.href}
+//               className={`capitalize block max-w-xs truncate ${
+//                 isLast
+//                   ? 'text-black'
+//                   : 'text-[#B2917A] hover:text-[#B2917A95]'
+//               }`}
+//             >
+//               {crumb.name}
+//             </Link>
+
+//             {!isLast && (
+//               <ChevronRight className="w-4 h-4 text-[#B2917A]" />
+//             )}
+//           </div>
+//         );
+//       })}
+//     </nav>
+//   );
+// };
 
 function NavigationBar() {
   const router = useRouter();
@@ -216,9 +279,9 @@ export default function WorkshopLayout({ children }) {
   return (
     <div className="bg-[#F2F4F8]">
       {/* Only Breadcrumb is Sticky */}
-      <div className="sticky top-[72px] z-20 bg-white">
-        <div className="py-0 md:py-3 border-b">
-          <div className="lg:max-w-5xl 2xl:max-w-5xl mx-auto pl-2 md:pl-0">
+      <div className="sticky top-[72px] md:top-[100px] z-20 bg-white overflow-hidden">
+        <div className="py-0 md:py-3 border-b overflow-hidden">
+          <div className="lg:max-w-5xl 2xl:max-w-5xl mx-auto pl-2 md:pl-0 overflow-hidden">
             <Breadcrumb />
           </div>
         </div>

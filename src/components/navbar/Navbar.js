@@ -9,6 +9,7 @@ import { IoClose } from 'react-icons/io5'
 import searchIndex from '@/services/searchIndex'
 import { useLanguage } from '@/context/LanguageContext'
 import { wrapHindiWords  } from '@/utils/fontInjector';
+import pagesIndex from '../../../public/pages-index.json'
 
 const Navbar = () => {
     const pathname = usePathname()
@@ -89,15 +90,39 @@ const Navbar = () => {
         }
     }, [])
 
-    const filteredResults = searchIndex.filter(item =>
-        item.title.toLowerCase().includes(searchTerm.toLowerCase())
-    )
-
     const handleMobileResultClick = (href) => {
-        setSearchTerm('')
-        setMobileSearchOpen(false)
-        router.push(href)
-    }
+      setSearchTerm('');
+      setMobileSearchOpen(false);
+      router.push(`${href}?search=${encodeURIComponent(searchTerm)}`);
+    };
+
+const getSnippet = (content, term, snippetLength = 30) => {
+  const index = content.toLowerCase().indexOf(term.toLowerCase());
+  if (index === -1) return '';
+
+  const start = Math.max(0, index - snippetLength);
+  const end = Math.min(content.length, index + term.length + snippetLength);
+
+  const snippet = content.substring(start, end).replace(/\n/g, ' ');
+
+  // Highlight all occurrences of the term (case insensitive)
+  const regex = new RegExp(`(${term})`, 'gi');
+  const highlighted = snippet.replace(regex, '<mark>$1</mark>');
+
+  return (start > 0 ? '...' : '') + highlighted + (end < content.length ? '...' : '');
+};
+
+
+const filteredResults = pagesIndex
+  .filter(item =>
+    item?.content?.toLowerCase().includes(searchTerm.toLowerCase()) ||
+    item?.route?.toLowerCase().includes(searchTerm.toLowerCase())
+  )
+  .map(item => ({
+    ...item,
+    snippet: getSnippet(item.content, searchTerm)
+  }));
+
 
     return (
         <>
@@ -255,29 +280,32 @@ const Navbar = () => {
                         {searchTerm && (
                             <div className="absolute top-full left-0 w-full bg-white border border-gray-200 mt-2 rounded-md shadow-md z-auto max-h-60 overflow-auto">
                                 {filteredResults.length > 0 ? (
-                                    filteredResults.map((result, idx) => (
-                                        <Link
-                                            key={idx}
-                                            href={result.href}
-                                            onClick={(e) => {
-                                                e.preventDefault();
-                                                setSearchTerm('');
-                                                router.push(result.href);
-                                            }}
-                                            className="block px-4 py-2 hover:bg-gray-100 text-[#9C5027]"
-                                        >
-                                            {result.title}
-                                        </Link>
+                                  filteredResults.map((result, idx) => (
+                                      <Link
+                                        key={idx}
+                                        href={`${result.route}?search=${encodeURIComponent(searchTerm)}`}
+                                        onClick={(e) => {
+                                          e.preventDefault();
+                                          setSearchTerm('');
+                                          router.push(`${result.route}?search=${encodeURIComponent(searchTerm)}`);
+                                        }}
+                                        className="block px-4 py-2 hover:bg-gray-100 text-[#9C5027]"
+                                      >
+                                        <div
+                                          className="text-sm text-gray-600"
+                                          dangerouslySetInnerHTML={{ __html: result.snippet }}
+                                        />
+                                      </Link>
                                     ))
-                                ) : (
-                                    <div className="px-4 py-2">No results found</div>
-                                )}
+                                  ) : (
+                                      <div className="px-4 py-2">No results found</div>
+                                  )}
                             </div>
                         )}
                     </div>
 
                     {/* Mobile Search Icon */}
-                    {/* <button
+                    <button
                         onClick={() => setMobileSearchOpen(true)}
                         className="md:hidden p-2 hover:bg-gray-100 rounded-full"
                     >
@@ -286,7 +314,7 @@ const Navbar = () => {
 
                     <button className="p-2 hover:bg-gray-100 rounded-full hidden" onClick={toggleLanguage}>
                         <Image src={'/icon/language.svg'} alt="translator" width={23} height={23} />
-                    </button> */}
+                    </button>
                 </div>
             </nav>
 
@@ -319,21 +347,24 @@ const Navbar = () => {
 
                         {/* Mobile Search Results */}
                         {searchTerm && (
-                            <div className="mt-4 bg-white w-full rounded-md shadow-md max-h-[300px] overflow-y-auto">
-                                {filteredResults.length > 0 ? (
-                                    filteredResults.map((result, idx) => (
-                                        <button
-                                            key={idx}
-                                            onClick={() => handleMobileResultClick(result.href)}
-                                            className="block w-full text-left px-4 py-2 border-b border-gray-200 hover:bg-gray-100 text-[#9C5027]"
-                                        >
-                                            {result.title}
-                                        </button>
-                                    ))
-                                ) : (
-                                    <div className="px-4 py-2">No results found</div>
-                                )}
-                            </div>
+                          <div className="mt-4 bg-white w-full rounded-md shadow-md max-h-[300px] overflow-y-auto">
+                            {filteredResults.length > 0 ? (
+                              filteredResults.map((result, idx) => (
+                                <button
+                                  key={idx}
+                                  onClick={() => handleMobileResultClick(result.route)}
+                                  className="block w-full text-left px-4 py-2 border-b border-gray-200 hover:bg-gray-100 text-[#9C5027]"
+                                >
+                                  <div
+                                    className="text-sm text-gray-600"
+                                    dangerouslySetInnerHTML={{ __html: result.snippet }}
+                                  />
+                                </button>
+                              ))
+                            ) : (
+                              <div className="px-4 py-2">No results found</div>
+                            )}
+                          </div>
                         )}
                     </div>
                 </div>

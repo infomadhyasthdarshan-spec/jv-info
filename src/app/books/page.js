@@ -28,14 +28,14 @@ const page = () => {
     },
     {
       title: 'विडियो  देखें (YouTube)',
-      items: [{ title: 'नागरज जी Originals YouTube चैनल (Video & Audio)', link: "https://www.youtube.com/channel/UCkg9tIpvZr6-A2RHyl5XcsQ", isLink: true }],
+      items: [{ title: 'नागराज जी Originals YouTube चैनल (Video & Audio)', link: "https://www.youtube.com/channel/UCkg9tIpvZr6-A2RHyl5XcsQ", isLink: true }],
     },
     {
       title: 'श्री नागराजजी के बारे में',
       items: [
 
         { title: 'जीवन चरित्र – जीवनी (Biography & Personality)', link: "https://megascale.cloud/JV/folder/मध्यस्थ दर्शन_नागराजजी के बारे.zip", isLink: false },
-        { title: 'नागरजजी Photos', link: "https://megascale.cloud/JV/folder/public-archivedwl-920.zip", isLink: false },
+        { title: 'नागराजजी Photos', link: "https://megascale.cloud/JV/folder/public-archivedwl-920.zip", isLink: false },
       ],
     },
   ];

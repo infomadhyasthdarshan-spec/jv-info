@@ -5,6 +5,7 @@ import Footer from "@/components/footer/Footer";
 import { LanguageProvider } from '@/context/LanguageContext'
 import Script from 'next/script';
 import { downloadClientFile } from "@/utils/download";
+import HighlightSearch from "@/components/HighlightSearch";
 
 
 const geistSans = Geist({
@@ -35,15 +36,16 @@ export default function RootLayout({ children }) {
       >
         <LanguageProvider>
           <div>
-            <div className="sticky top-0 z-30 bg-white shadow">
+            <div data-noindex="true" className="sticky top-0 z-30 bg-white shadow">
               <Navbar />
             </div>
-
-            <main className="">
+            <main className="" id="content-container">
+              <HighlightSearch />
               {children}
             </main>
-
-            <Footer />
+            <div data-noindex="true">
+              <Footer />
+            </div>
           </div>
         </LanguageProvider>
         {/* <LanguageProvider>

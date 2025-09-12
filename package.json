@@ -4,10 +4,10 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
     "start": "npx serve out",
     "lint": "next lint",
-    "generate-pdf-list": "node scripts/generate-pdf-list.js"
+    "generate-pages": "node src/scripts/generate-pages.js",
+    "build": "npm run generate-pages && next build"
   },
   "dependencies": {
     "@vercel/blob": "^1.1.1",
@@ -21,11 +21,13 @@
     "jszip": "^3.10.1",
     "lightgallery": "^2.9.0-beta.1",
     "lucide-react": "^0.511.0",
+    "mark.js": "^8.11.1",
     "next": "15.1.8",
     "next-i18next": "^15.4.2",
     "next-intl": "^4.1.0",
     "path": "^0.12.7",
     "pdfjs-dist": "^5.4.54",
+    "puppeteer": "^24.20.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-i18next": "^15.5.2",

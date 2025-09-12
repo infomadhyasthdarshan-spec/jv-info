@@ -6,46 +6,69 @@ import { usePathname } from "next/navigation";
 import Link from "next/link";
 import { useLanguage } from "@/context/LanguageContext";
 import { ShoppingCart } from "lucide-react"; // or use any cart icon you prefer
+import { MdHome } from "react-icons/md";
+import { Home } from "lucide-react"
 
-const Breadcrumb = () => {
-  const pathname = usePathname();
-  const segments = pathname.split("/").filter(Boolean);
+function generateBreadcrumbsFromPath(pathname) {
+  const segments = pathname.split("/").filter((segment) => segment !== "")
 
-  const breadcrumbs = [
-    { name: "Home", href: "/" },
-    ...segments.map((segment, i) => ({
-      name: segment.replace(/-/g, " "),
-      href: "/" + segments.slice(0, i + 1).join("/"),
-    })),
-  ];
+  return segments.map((segment, index) => {
+    const href = "/" + segments.slice(0, index + 1).join("/")
+    const label = segment
+      .split("-")
+      .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
+      .join(" ")
+
+    return {
+      label,
+      href: index === segments.length - 1 ? undefined : href,
+    }
+  })
+}
+
+function Breadcrumb({ items }) {
+  const pathname = usePathname()
+  const breadcrumbItems = items || generateBreadcrumbsFromPath(pathname)
+
+  if (pathname === "/") {
+    return null
+  }
 
   return (
-    <nav className="flex items-center text-sm  ">
-      {breadcrumbs.map((crumb, index) => {
-        const isLast = index === breadcrumbs.length - 1;
+    <nav className="flex items-center space-x-0 px-4 md:px-0 py-1 bg-white overflow-x-auto">
+      <Link href="/" className="text-[#94572b] transition-colors flex-shrink-0">
+        <MdHome className="w-6 h-6" />
+      </Link>
+
+      {breadcrumbItems.map((item, index) => {
+        const isLast = index === breadcrumbItems.length - 1
 
         return (
-          <div key={crumb.href} className="flex items-center">
-            <Link
-              href={crumb.href}
-              className={`capitalize ${
-                isLast
-                  ? "  font-th"
-                  : "text-[#B2917A] hover:text-[#B2917A95] font-extrabold font-th"
-              }`}
-            >
-              {crumb.name}
-            </Link>
-            {/* Render arrow after every item except the last */}
-            {!isLast && (
-              <ChevronRight className="w-4 h-4 mx-2 text-[#B2917A]" />
+          <div key={index} className="flex items-center space-x-1">
+            <ChevronRight className="w-4 h-4 text-[#94572b] flex-shrink-0" />
+
+            {isLast ? (
+              <span
+                className="text-gray-900 font-medium truncate max-w-xs block"
+                title={item.label}
+              >
+                {item.label}
+              </span>
+            ) : (
+              <Link
+                href={item.href}
+                className="text-[#94572b] transition-colors font-medium whitespace-nowrap"
+                title={item.label}
+              >
+                {item.label}
+              </Link>
             )}
           </div>
-        );
+        )
       })}
     </nav>
-  );
-};
+  )
+}
 
 function NavigationBar() {
   const router = useRouter();
@@ -157,7 +180,7 @@ export default function BooksLayout({ children }) {
   return (
     <div className="bg-[#F2F4F8]">
       {/* Sticky Breadcrumb ONLY */}
-      <div className="sticky top-[72px] z-20 bg-white">
+      <div className="sticky top-[72px] md:top-[100px] z-20 bg-white">
         <div className="py-3 border-b">
           <div className="lg:max-w-5xl 2xl:max-w-5xl mx-auto pl-5 md:pl-0">
             <Breadcrumb />

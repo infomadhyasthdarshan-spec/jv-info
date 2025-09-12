@@ -36,12 +36,12 @@ const images = [
 ];
 
 const galleryImages = [
-  { src: "/images/workshop/Gallery/Gallery1.png", alt: "Gallery 1A" },
-  { src: "/images/workshop/Gallery/Gallery2.png", alt: "Gallery 1B" },
-  { src: "/images/workshop/Gallery/Gallery3.png", alt: "Gallery 1C" },
-  { src: "/images/workshop/Gallery/Gallery1.png", alt: "Gallery 2A" },
-  { src: "/images/workshop/Gallery/Gallery2.png", alt: "Gallery 2B" },
-  { src: "/images/workshop/workshopMain3.png", alt: "Gallery 2C" },
+  { src: "/images/workshop/Gallery/1.png", alt: "Gallery 1" },
+  { src: "/images/workshop/Gallery/2.png", alt: "Gallery 2" },
+  { src: "/images/workshop/Gallery/3.png", alt: "Gallery 3" },
+  { src: "/images/workshop/Gallery/4.png", alt: "Gallery 4" },
+  { src: "/images/workshop/Gallery/5.png", alt: "Gallery 5" },
+  { src: "/images/workshop/Gallery/6.png", alt: "Gallery 6" },
 ];
 const topics = [
   {
@@ -172,30 +172,35 @@ const Page = () => {
       name: text.workshopPage1.testimonial.test.test1.name,
       pro: text.workshopPage1.testimonial.test.test1.pro,
       location: text.workshopPage1.testimonial.test.test1.city,
+      avtar: text.workshopPage1.testimonial.test.test1.avtar,
     },
     {
       text: text.workshopPage1.testimonial.test.test2.content,
       name: text.workshopPage1.testimonial.test.test2.name,
       pro: text.workshopPage1.testimonial.test.test2.pro,
       location: text.workshopPage1.testimonial.test.test2.city,
+      avtar: text.workshopPage1.testimonial.test.test2.avtar,
     },
     {
       text: text.workshopPage1.testimonial.test.test3.content,
       name: text.workshopPage1.testimonial.test.test3.name,
       pro: text.workshopPage1.testimonial.test.test3.pro,
       location: text.workshopPage1.testimonial.test.test3.city,
+      avtar: text.workshopPage1.testimonial.test.test3.avtar,
     },
     {
       text: text.workshopPage1.testimonial.test.test4.content,
       name: text.workshopPage1.testimonial.test.test4.name,
       pro: text.workshopPage1.testimonial.test.test4.pro,
       location: text.workshopPage1.testimonial.test.test4.city,
+      avtar: text.workshopPage1.testimonial.test.test4.avtar,
     },
     {
       text: text.workshopPage1.testimonial.test.test5.content,
       name: text.workshopPage1.testimonial.test.test5.name,
       pro: text.workshopPage1.testimonial.test.test5.pro,
       location: text.workshopPage1.testimonial.test.test5.city,
+      avtar: text.workshopPage1.testimonial.test.test5.avtar,
     },
   ];
 
@@ -246,7 +251,7 @@ const Page = () => {
           {/* Desktop: Side-by-side */}
           <div className="hidden md:block md:w-1/2 md:h-80">
             <img
-              src="/images/workshop/workshopMain1.png"
+              src="/images/workshop/W-1.png"
               alt="Workshop session with audience"
               className="w-full h-full object-cover rounded-l-lg"
             />
@@ -508,7 +513,7 @@ const Page = () => {
             <div className="w-full lg:max-w-5xl 2xl:max-w-5xl flex flex-col md:flex-row items-stretch mx-auto mt-4 mb-4">
               <div className="w-full md:w-1/2">
                 <img
-                  src="/images/workshop/workshopMain2.png"
+                  src="/images/workshop/W-2.png"
                   alt="Workshop group"
                   className="w-full h-64 md:h-full object-cover rounded-t-xl md:rounded-l-[16px] md:rounded-tr-none"
                   style={{ minHeight: "100%", height: "100%" }}
@@ -634,7 +639,7 @@ const Page = () => {
       {/* ShivirWorkshop Section */}
       <div className="bg-[#F2F4F8] flex flex-col items-center py-8 lg:max-w-5xl 2xl:max-w-5xl mx-auto">
         <img
-          src="/images/workshop/sombhai_img.png"
+          src="/images/workshop/W-3.png"
           alt="Workshop"
           className="w-full max-w-[1154px] h-auto max-h-[559px] object-cover md:rounded-[16px] shadow-md mb-0"
           style={{ objectPosition: "center top" }}
@@ -840,9 +845,9 @@ const Page = () => {
                 <div className="flex flex-col items-center space-y-3">
                   {/* Avatar */}
                   <div className="w-12 h-12 sm:w-14 sm:h-14 bg-gray-200 rounded-full flex items-center justify-center">
-                    {currentTestimonial.avatar ? (
+                    {currentTestimonial.avtar ? (
                       <img
-                        src={currentTestimonial.avatar || "/placeholder.svg"}
+                        src={currentTestimonial.avtar || "/placeholder.svg"}
                         alt={currentTestimonial.name}
                         className="w-full h-full rounded-full object-cover"
                       />
