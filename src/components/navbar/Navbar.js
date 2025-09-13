@@ -184,83 +184,91 @@ const filteredResults = pagesIndex
                 {/* Mobile Bottom Navigation */}
                 <div className="fixed bottom-0 left-0 w-full bg-white md:hidden z-40 border-t border-gray-200">
                   <div className="flex w-full">
-                    {navigationGroups.map((group) => (
-                      <div key={group.id} className="flex-1">
-                        {/* Top section with icons and labels */}
-                        <div className="bg-white border-r border-gray-300 last:border-r-0">
-                          <div className="flex justify-center items-center py-1 px-2">
-                            {group.data.length === 1 ? (
-                              // Single item - center it
-                              <Link
-                                href={group.data[0].href}
-                                target={group.data[0].external ? "_blank" : "_self"}
-                                className="flex flex-col items-center justify-center text-center"
-                              >
-                                <Image
-                                  src={
-                                    pathname.includes(group.data[0].match)
-                                      ? group.data[0].selectedIcon
-                                      : group.data[0].icon
-                                  }
-                                  alt={group.data[0].label}
-                                  width={24}
-                                  height={24}
-                                  className="mb-1"
-                                />
-                                <span className={`text-[10px] font-medium leading-tight ${
-                                    pathname.includes(group.data[0].match)
-                                      ? 'text-[#94562B]'
-                                      : 'text-gray-600'
-                                    }`}>
-                                  {group.data[0].label}
-                                </span>
-                              </Link>
-                            ) : (
-                              // Multiple items - arrange side by side
-                              <div className="flex justify-center items-center gap-4">
-                                {group.data.map((item) => (
-                                  <Link
-                                    key={item.label}
-                                    href={item.href}
-                                    target={item.external ? "_blank" : "_self"}
-                                    className="flex flex-col items-center justify-center text-center"
-                                  >
-                                    <Image
-                                      src={
-                                        pathname.includes(item.match)
-                                          ? item.selectedIcon
-                                          : item.icon
-                                      }
-                                      alt={item.label}
-                                      width={24}
-                                      height={24}
-                                      className="mb-1"
-                                    />
-                                    <span className={`text-[10px] font-medium leading-tight ${
-                                        pathname.includes(item.match)
-                                          ? 'text-[#94562B]'
-                                          : 'text-gray-600'
-                                        }`}>
-                                      {item.label}
-                                    </span>
-                                  </Link>
-                                ))}
-                              </div>
-                            )}
-                          </div>
-                        </div>
-                        
-                        {/* Bottom section with category title */}
-                        <div
-                          className="text-center py-1 border-r border-gray-300 last:border-r-0"
-                          style={{ backgroundColor: group.color }}
-                        >
-                          <span className="text-white text-[11px] font-bold tracking-wide">
-                            {group.title}
-                          </span>
-                        </div>
-                      </div>
-                    ))}
+ {navigationGroups.map((group) => {
+    let widthClass = 'flex-[1]'; // Default width for equal sizing
+
+    if (group.id === 1 || group.id === 3) {
+      widthClass = 'flex-[1.5]'; // Wider (adjust as needed)
+    } else if (group.id === 2 || group.id === 4) {
+      widthClass = 'flex-[1]'; // Smaller (adjust as needed)
+    }
+
+    return (
+      <div key={group.id} className={`${widthClass}`}>
+        {/* Top section with icons and labels */}
+        <div className="bg-white border-r border-gray-300 last:border-r-0">
+          <div className="flex justify-evenly items-center py-1 px-2">
+            {group.data.length === 1 ? (
+              <Link
+                href={group.data[0].href}
+                target={group.data[0].external ? "_blank" : "_self"}
+                className="flex flex-col items-center justify-center text-center"
+              >
+                <Image
+                  src={
+                    pathname.includes(group.data[0].match)
+                      ? group.data[0].selectedIcon
+                      : group.data[0].icon
+                  }
+                  alt={group.data[0].label}
+                  width={24}
+                  height={24}
+                  className="mb-1"
+                />
+                <span className={`text-[12px] font-[700] leading-tight ${
+                  pathname.includes(group.data[0].match)
+                    ? 'text-[#94562B]'
+                    : 'text-[#666666]'
+                }`}>
+                  {group.data[0].label}
+                </span>
+              </Link>
+            ) : (
+              <div className="flex justify-evenly items-center gap-4 w-full">
+                {group.data.map((item) => (
+                  <Link
+                    key={item.label}
+                    href={item.href}
+                    target={item.external ? "_blank" : "_self"}
+                    className="flex flex-col items-center justify-center text-center"
+                  >
+                    <Image
+                      src={
+                        pathname.includes(item.match)
+                          ? item.selectedIcon
+                          : item.icon
+                      }
+                      alt={item.label}
+                      width={24}
+                      height={24}
+                      className="mb-1"
+                    />
+                    <span className={`text-[12px] font-[700] leading-tight ${
+                      pathname.includes(item.match)
+                        ? 'text-[#94562B]'
+                        : 'text-[#666666]'
+                    }`}>
+                      {item.label}
+                    </span>
+                  </Link>
+                ))}
+              </div>
+            )}
+          </div>
+        </div>
+
+        {/* Bottom section with category title */}
+        <div
+          className="text-center py-1 border-r border-gray-300 last:border-r-0"
+          style={{ backgroundColor: group.color }}
+        >
+          <span className="text-white text-[11px] font-bold tracking-wide">
+            {group.title}
+          </span>
+        </div>
+      </div>
+    )
+  })}
                   </div>
                 </div>
 
