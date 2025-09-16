@@ -236,8 +236,8 @@ export default function resourcecenterLayout({ children }) {
     <div className="bg-[#F2F4F8]">
       {/* Sticky Breadcrumb ONLY */}
       <div className="sticky top-[72px] md:top-[100px] z-20 bg-white">
-        <div className="py-3 border-b">
-          <div className="lg:max-w-5xl 2xl:max-w-5xl mx-auto pl-0 md:pl-0">
+        <div className="py-0 md:py-3 border-b overflow-hidden">
+          <div className="lg:max-w-5xl 2xl:max-w-5xl mx-auto pl-0 md:pl-0 overflow-hidden">
             <Breadcrumb />
           </div>
         </div>

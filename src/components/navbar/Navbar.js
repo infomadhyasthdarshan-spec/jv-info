@@ -58,7 +58,7 @@ const Navbar = () => {
       id: 4,
       data: [
         {
-          href: "https://madhyasth-darshan.megascale.co.in/",
+          href: "https://jv-org.vercel.app/",
           icon: "/icon/menus/Menu6-US.svg",
           selectedIcon: "/icon/menus/Menu6-SE.svg",
           label: "मध्यस्थ दर्शन",
@@ -176,101 +176,106 @@ const filteredResults = pagesIndex
                             ORIGINALS
                         </div>
                         <div className="flex justify-center gap-2 flex-wrap text-sm md:text-sm p-2">
-                            <Link href="https://madhyasth-darshan.megascale.co.in/" target="_blank">मध्यस्थ दर्शन</Link>
+                            <Link href="https://jv-org.vercel.app/" target="_blank">मध्यस्थ दर्शन</Link>
                         </div>
                     </div>
                 </div>
 
                 {/* Mobile Bottom Navigation */}
-                <div className="fixed bottom-0 left-0 w-full bg-white md:hidden z-40 border-t border-gray-200">
-                  <div className="flex w-full">
- {navigationGroups.map((group) => {
-    let widthClass = 'flex-[1]'; // Default width for equal sizing
+ <div className="fixed bottom-0 left-0 w-full bg-white z-40 border-t border-gray-200 md:hidden">
+  <div className="flex flex-nowrap w-full overflow-x-auto">
+    {navigationGroups.map((group) => {
+      let widthClass = 'flex-[1]';
 
-    if (group.id === 1 || group.id === 3) {
-      widthClass = 'flex-[1.5]'; // Wider (adjust as needed)
-    } else if (group.id === 2 || group.id === 4) {
-      widthClass = 'flex-[1]'; // Smaller (adjust as needed)
-    }
+      if (group.id === 1 || group.id === 3) {
+        widthClass = 'flex-[1]';
+      } else if (group.id === 2 || group.id === 4) {
+        widthClass = 'flex-[0.5]';
+      }
 
-    return (
-      <div key={group.id} className={`${widthClass}`}>
-        {/* Top section with icons and labels */}
-        <div className="bg-white border-r border-gray-300 last:border-r-0">
-          <div className="flex justify-evenly items-center py-1 px-2">
-            {group.data.length === 1 ? (
-              <Link
-                href={group.data[0].href}
-                target={group.data[0].external ? "_blank" : "_self"}
-                className="flex flex-col items-center justify-center text-center"
-              >
-                <Image
-                  src={
+      // Custom gap class for 1st and 3rd group
+      const customGapClass = (group.id === 1 || group.id === 3) ? 'gap-2' : 'gap-4';
+
+      return (
+        <div key={group.id} className={`${widthClass} min-w-[80px]`}>
+          {/* Top section with icons and labels */}
+          <div className="bg-white border-r border-gray-300 last:border-r-0">
+            <div className="flex justify-center items-center py-1 px-2">
+              {group.data.length === 1 ? (
+                <Link
+                  href={group.data[0].href}
+                  target={group.data[0].external ? "_blank" : "_self"}
+                  className="flex flex-col items-center justify-center text-center"
+                >
+                  <Image
+                    src={
+                      pathname.includes(group.data[0].match)
+                        ? group.data[0].selectedIcon
+                        : group.data[0].icon
+                    }
+                    alt={group.data[0].label}
+                    width={24}
+                    height={24}
+                    className="mb-1"
+                  />
+                  <span className={`text-[12px] font-[700] leading-tight ${
                     pathname.includes(group.data[0].match)
-                      ? group.data[0].selectedIcon
-                      : group.data[0].icon
-                  }
-                  alt={group.data[0].label}
-                  width={24}
-                  height={24}
-                  className="mb-1"
-                />
-                <span className={`text-[12px] font-[700] leading-tight ${
-                  pathname.includes(group.data[0].match)
-                    ? 'text-[#94562B]'
-                    : 'text-[#666666]'
-                }`}>
-                  {group.data[0].label}
-                </span>
-              </Link>
-            ) : (
-              <div className="flex justify-evenly items-center gap-4 w-full">
-                {group.data.map((item) => (
-                  <Link
-                    key={item.label}
-                    href={item.href}
-                    target={item.external ? "_blank" : "_self"}
-                    className="flex flex-col items-center justify-center text-center"
-                  >
-                    <Image
-                      src={
+                      ? 'text-[#94562B]'
+                      : 'text-[#666666]'
+                  } whitespace-nowrap`}>
+                    {group.data[0].label}
+                  </span>
+                </Link>
+              ) : (
+                <div className={`flex justify-center items-center ${customGapClass} w-full`}>
+                  {group.data.map((item) => (
+                    <Link
+                      key={item.label}
+                      href={item.href}
+                      target={item.external ? "_blank" : "_self"}
+                      className="flex flex-col items-center justify-center text-center"
+                    >
+                      <Image
+                        src={
+                          pathname.includes(item.match)
+                            ? item.selectedIcon
+                            : item.icon
+                        }
+                        alt={item.label}
+                        width={24}
+                        height={24}
+                        className="mb-1"
+                      />
+                      <span className={`text-[12px] font-[700] leading-tight ${
                         pathname.includes(item.match)
-                          ? item.selectedIcon
-                          : item.icon
-                      }
-                      alt={item.label}
-                      width={24}
-                      height={24}
-                      className="mb-1"
-                    />
-                    <span className={`text-[12px] font-[700] leading-tight ${
-                      pathname.includes(item.match)
-                        ? 'text-[#94562B]'
-                        : 'text-[#666666]'
-                    }`}>
-                      {item.label}
-                    </span>
-                  </Link>
-                ))}
-              </div>
-            )}
+                          ? 'text-[#94562B]'
+                          : 'text-[#666666]'
+                      } whitespace-nowrap`}>
+                        {item.label}
+                      </span>
+                    </Link>
+                  ))}
+                </div>
+              )}
+            </div>
+          </div>
+
+          {/* Bottom section with category title */}
+          <div
+            className="text-center py-1 border-r border-gray-300 last:border-r-0"
+            style={{ backgroundColor: group.color }}
+          >
+            <span className="text-white text-[11px] font-bold tracking-wide">
+              {group.title}
+            </span>
           </div>
         </div>
+      );
+    })}
+  </div>
+</div>
 
-        {/* Bottom section with category title */}
-        <div
-          className="text-center py-1 border-r border-gray-300 last:border-r-0"
-          style={{ backgroundColor: group.color }}
-        >
-          <span className="text-white text-[11px] font-bold tracking-wide">
-            {group.title}
-          </span>
-        </div>
-      </div>
-    )
-  })}
-                  </div>
-                </div>
+
 
                 {/* Right Section */}
                 <div className="">

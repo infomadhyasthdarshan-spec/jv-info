@@ -270,7 +270,6 @@ export default function WorkshopLayout({ children }) {
     };
 
     window.addEventListener("scroll", handleScroll);
-
     // Cleanup on unmount
     return () => {
       window.removeEventListener("scroll", handleScroll);
@@ -281,7 +280,7 @@ export default function WorkshopLayout({ children }) {
       {/* Only Breadcrumb is Sticky */}
       <div className="sticky top-[72px] md:top-[100px] z-20 bg-white overflow-hidden">
         <div className="py-0 md:py-3 border-b overflow-hidden">
-          <div className="lg:max-w-5xl 2xl:max-w-5xl mx-auto pl-2 md:pl-0 overflow-hidden">
+          <div className="lg:max-w-5xl 2xl:max-w-5xl mx-auto pl-0 md:pl-0 overflow-hidden">
             <Breadcrumb />
           </div>
         </div>
