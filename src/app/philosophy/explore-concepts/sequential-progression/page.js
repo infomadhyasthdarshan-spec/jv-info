@@ -28,29 +28,29 @@ const page = () => {
       </h3>
       <ol className="list-decimal pl-6 space-y-2 page-content mb-6">
         <li>
-          <span className="page-common-hading">
+          <span className="page-content font-bold">
             Existence is in the form of ‘Coexistence’
           </span>
         </li>
         <li>
-          <span className="page-common-hading">
+          <span className="page-content font-bold">
             There is Development Progression (evolution) in Existence, in the
             atom
           </span>
         </li>
         <li>
-          <span className="page-common-hading">
+          <span className="page-content font-bold">
             There is Development (progress) in Existence, in the atom
           </span>
         </li>
         <li>
-          <span className="page-common-hading">
+          <span className="page-content font-bold">
             There is Awakening Progression (of the human) in Existence, in the
             conscious atom (sentient)
           </span>
         </li>
         <li>
-          <span className="page-common-hading">
+          <span className="page-content font-bold">
             There is Awakening (of the human) in Existence, in the conscious
             atom (sentient)
           </span>
@@ -93,10 +93,12 @@ const page = () => {
       <h3 className="page-common-hading mb-2">
         There is harmony, orderliness in existence
       </h3>
-      <li className="mb-6 list-outside pl-5 page-content">
+      <ul className="list-disc list-outside pl-6">
+      <li className="mb-6  page-content">
         Each unit is organized within itself and participates harmoniously with
         the overall orderliness.
       </li>
+      </ul>
 
       {/* Subsection: Limitless */}
       <h3 className="page-common-hading mb-2">
@@ -262,8 +264,8 @@ const page = () => {
       </ul>
 
       {/* There is development progression (evolution) in existence */}
-      <div className="mt-16">
-        <h2 className="page-small-heading mb-4">
+      <div className="mt-24">
+        <h2 className="page-small-heading mt-10 mb-5">
           2. There is development progression (evolution) in existence
         </h2>
         <ul className="list-disc pl-6 page-content space-y-2">
@@ -289,7 +291,7 @@ const page = () => {
       {/* There is development progression (evolution) in existence */}
       {/* There is development progression (evolution) in existence 3*/}
       <div className="mt-16">
-        <h2 className="page-small-heading mb-4">
+        <h2 className="page-small-heading mt-10 mb-5">
           3. There is development in existence (progress) in the atom
         </h2>
         <ul className="list-disc pl-6 page-content space-y-2">
@@ -341,7 +343,7 @@ const page = () => {
       {/* There is development progression (evolution) in existence 3*/}
       {/* There is development progression (evolution) in existence 4*/}
       <div className="mt-16">
-        <h2 className="page-small-heading mb-6">
+        <h2 className="page-small-heading mt-10 mb-5">
           {" "}
           4. There is awakening progression in existence, in the conscious-atom
         </h2>
@@ -418,7 +420,7 @@ const page = () => {
       {/* There is development progression (evolution) in existence 4*/}
       {/* There is development progression (evolution) in existence 5*/}
       <div className="mt-16">
-        <h2 className="page-small-heading mb-6">
+        <h2 className="page-small-heading mt-10 mb-5">
           {" "}
           5. There is awakening in existence -in the conscious atom
         </h2>

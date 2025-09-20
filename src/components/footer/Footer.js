@@ -77,7 +77,7 @@ const Footer = () => {
                 <li>
                   <a
                     href="https://app.madhyasth.org/schedule"
-                    className="hover:text-white transition-colors font-th"
+                    className=" hover:underline   font-th"
                   target="_blank" rel="noopener noreferrer">
                     {text.Footer["Attends"]["workshop Schedule"]}
                   </a>
@@ -161,11 +161,7 @@ const Footer = () => {
             </p>
 
           </div>
-          <p className="mt-2 page-content italic  py-1">
-
-            {text.Footer["sub"][4]}
-          </p>
-          <p className="mt-2 text-[16px]  py-1">
+            <p className=" mt-2 text-[16px]  py-1">
 
             <a href="/site-responsibility">{text.Footer["sub"][3]}</a> |   <a
               href="https://divya-path.org/"
@@ -176,6 +172,11 @@ const Footer = () => {
               Divya Path Sansthan © 2025 All rights reserved.
             </a>
           </p>
+          <p className=" border-t border-[#6a6360] mt-2 page-content italic  py-1">
+
+            {text.Footer["sub"][4]}
+          </p>
+        
 
         </div>
       </div>

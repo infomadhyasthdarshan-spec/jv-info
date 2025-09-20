@@ -3,13 +3,13 @@ import React, { useState } from "react";
 import { ArrowRight } from "lucide-react";
 import { useLanguage } from "@/context/LanguageContext";
 import { useEffect } from 'react';
-import { wrapHindiWords  } from '@/utils/fontInjector';
+import { wrapHindiWords } from '@/utils/fontInjector';
 const SystematicRoadmap = () => {
   const { text, language } = useLanguage();
   const stagesData = [
     {
       phaseTitle: "~ प्राथमिक आधार स्तर (3 चरण) ~",
-      id:"level-1",
+      id: "level-1",
       stages: [
         {
           label: "चरण#1",
@@ -33,7 +33,7 @@ const SystematicRoadmap = () => {
     },
     {
       phaseTitle: "~ विधिवत अध्ययन स्तर (2 चरण) ~",
-      id:"level-2",
+      id: "level-2",
       stages: [
         {
           label: "चरण#4",
@@ -51,7 +51,7 @@ const SystematicRoadmap = () => {
     },
     {
       phaseTitle: "~ क्रमबद्ध अभ्यास स्तर ~",
-      id:"level-3",
+      id: "level-3",
       stages: [
         {
           label: "चरण#6",
@@ -63,7 +63,7 @@ const SystematicRoadmap = () => {
     },
     {
       phaseTitle: "~ समझ स्तर (3 चरण) ~",
-      id:"level-4",
+      id: "level-4",
       stages: [
         {
           label: "चरण#7,8,9",
@@ -79,8 +79,8 @@ const SystematicRoadmap = () => {
       ],
     },
   ];
-     useEffect(() => {
-    wrapHindiWords ();
+  useEffect(() => {
+    wrapHindiWords();
   }, []);
   return (
     <div className="bg-[#f3f4f6] py-8 px-3 md:px-0">
@@ -94,10 +94,10 @@ const SystematicRoadmap = () => {
                 <a
                   style={{ color: "#94562B", fontWeight: "bold" }}
                   href="https://u.pcloud.link/publink/show?code=kZ6Gm05ZfUbbDBW8fKmKB9ejvrO6cSRnRRH7#/filemanager?folder=25142683892"
-                >
-                  अध्ययन यात्रा की PDF डाउनलोड करें
+                  target="_blank">
+                  अध्ययन यात्रा का ‘संक्षिप्त स्वरूप’ PDF डाउनलोड करें|
                 </a>{" "}
-                जिसमें प्रत्येक स्तर की विस्तृत व्याख्या अंग्रेज़ी में है।"
+                यह मार्गदर्शिका प्रत्येक चरण/स्तर का विवरण, संभावित लाभ (लक्षण) प्रस्तुत करती है।
               </p>
             </span>
             <img src="/icon/link.svg" alt="arrow-right" className="h-7 w-7" />
@@ -107,12 +107,12 @@ const SystematicRoadmap = () => {
           <div className="bg-white rounded-xl p-4 border border-[#DDE1E6] page-collapse-link flex flex-wrap sm:flex-nowrap justify-between items-center gap-4 w-full">
             <span className="flex-1">
               <p>
-                अध्ययन क्रम संक्षिप्तदृश्य PDF डाउनलोड करें{" "}
+                विस्तृत अध्ययन मार्गदर्शिका PDF डाउनलोड करें।{" "}
                 <a
                   style={{ color: "#94562B", fontWeight: "bold" }}
                   href="https://u.pcloud.link/publink/show?code=kZ6Gm05ZfUbbDBW8fKmKB9ejvrO6cSRnRRH7#/filemanager?folder=21560812706"
-                >
-                  सम्पूर्ण मार्गदर्शिका देखें
+                  target="_blank">
+                  इसमें प्रत्येक स्तर का स्वाध्याय सामग्री भी है।
                 </a>
               </p>
             </span>
@@ -121,21 +121,18 @@ const SystematicRoadmap = () => {
         </div>
 
         <p className="text-base sm:text-lg mb-6">
-          'मध्यस्थ दर्शन' ज्ञान प्राप्त करने और उसके अनुसार जीने का मार्ग है। इस
-          अध्ययन यात्रा को यहाँ संक्षेप में प्रस्तुत किया गया है। इसमें समय लगता
-          है।
+          'मध्यस्थ दर्शन' ज्ञान संपन्न होने एवं जीने का मार्ग है | यहाँ इसके अध्ययन के यात्रा को दर्शाया गया है | इसमें समय लगता है |
         </p>
         <p className="text-base sm:text-lg mb-6">
-          अध्ययन में मुख्य रूप से चार स्तर होते हैं। प्रत्येक स्तर में कुछ 'स्तर'
-          होते हैं, जिनसे होकर गुजरने पर उस स्तर की समझ पूरी होती है।
+          अध्ययन में मुख्य रूप से चार स्तर है | प्रत्येक स्तर में कुछ "चरण" हैं, जिससे गुजरने से उस स्तर की जानकारी पुरी होती है |
         </p>
 
         {/* Phase Descriptions */}
         {[
           {
-            title: "स्तर 1: प्राथमिक आधार",
+            title: "स्तर 1: प्राथमिक नीव",
             points: [
-              "इस स्तर में मध्यस्थ दर्शन के मूल तत्वों के प्रति सजग होकर ग्रंथों को पढ़ने की क्षमता विकसित होती है।",
+              "इस स्तर में मध्यस्थ दर्शन के मूल तत्वों से अवगत होकर, ग्रंथों को पढने की योग्यता विकसित होती है|",
               "इसमें 3 चरण होते हैं {परिचय शिविर, अध्ययन बिंदु (मूल अवधारणाएं), और अवलोकन",
             ],
             link: "#level-1",
@@ -143,8 +140,8 @@ const SystematicRoadmap = () => {
           {
             title: "स्तर 2: क्रमबद्ध अध्ययन (श्रवण)",
             points: [
-              "इस स्तर में मध्यस्थ दर्शन के मूल तत्वों के प्रति सजग होकर ग्रंथों को पढ़ने की क्षमता विकसित होती है।",
-              "इसमें 3 चरण होते हैं {परिचय शिविर, अध्ययन बिंदु (मूल अवधारणाएं), और अवलोकन}",
+              "इस शृंखला में दर्शन के मूल ग्रंथों को पढ़कर समझते हैं",
+              "इसमें 2 चरण हैं {प्रथम पुस्तक पठन + पुनरावृति एवं अध्ययन गोष्ठी}",
             ],
             link: "#level-2",
           },
@@ -159,7 +156,7 @@ const SystematicRoadmap = () => {
           {
             title: "स्तर 4: समझ और ज्ञान (साक्षात्कार)",
             points: [
-              "इस स्तर में वास्तविकताओं का प्रत्यक्ष ज्ञान होता है।",
+              "इस स्तर में वास्तविकताओं का सीधे ज्ञान होता है।",
               "इसमें 3 चरण होते हैं (साक्षात्कार- बोध - अनुभव)",
             ],
             link: "#level-4",
@@ -218,7 +215,7 @@ function PhaseBlock({ phase }) {
   const [activeTab, setActiveTab] = useState(0);
 
   return (<>
-       <div className="space-y-6 bg-[#EDE2D1] p-6 rounded-2xl">
+    <div className="space-y-6 bg-[#EDE2D1] p-6 rounded-2xl">
 
       <h2 className="text-center text-xl sm:text-2xl font-semibold italic  ">
         {phase.phaseTitle}
@@ -231,9 +228,8 @@ function PhaseBlock({ phase }) {
             <button
               key={idx}
               onClick={() => setActiveTab(idx)}
-              className={`px-6 py-2 whitespace-nowrap rounded-[8px] text-md font-medium transition ${
-                activeTab === idx ? "bg-[#EDE2D1]  " : "  hover: "
-              }`}
+              className={`px-6 py-2 whitespace-nowrap rounded-[8px] text-md font-medium transition ${activeTab === idx ? "bg-[#EDE2D1]  " : "  hover: "
+                }`}
             >
               {stage.label}
             </button>
@@ -244,7 +240,7 @@ function PhaseBlock({ phase }) {
       {/* Content */}
       {phase.stages[activeTab]?.title && (
         <div className="bg-white  rounded-xl p-5 sm:p-6">
-          <h3 className="font-bold mb-4 text-center page-xsmall-hading">
+          <h3 className="font-bold mb-4 text-center page-common-md-pera">
             {phase.stages[activeTab].title}
           </h3>
           <p className="leading-relaxed whitespace-pre-line page-common-md-pera">
@@ -253,9 +249,9 @@ function PhaseBlock({ phase }) {
         </div>
       )}
 
-     
+
     </div>
-     <div className="space-y-2 mt-10 w-full mb-5">
+    {/* <div className="space-y-2 mt-10 w-full mb-5">
         <div className="bg-white rounded-xl p-4 border border-[#DDE1E6] page-collapse-link flex flex-wrap sm:flex-nowrap justify-between items-center gap-4 w-full">
           <span className="flex-1">
             <p>
@@ -287,8 +283,8 @@ function PhaseBlock({ phase }) {
           </span>
           <img src="/icon/link.svg" alt="arrow-right" className="h-7 w-7" />
         </div>
-      </div>
-    </>
+      </div> */}
+  </>
   );
 }
 

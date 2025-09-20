@@ -115,16 +115,19 @@ const TopicsOfStudy = () => {
 
         <p className="page-content">Human-being is a combined expression of body (physiochemical natural-formation) and jeevan (constitutionally-complete atom)...</p>
 
-        <p className="page-content">Existence-Rooted-Human-Centric-Ideology is an expression of Coexistence as:<br />
-        Knowledge (Gyan) of Existence<br />
-        Knowledge of Jeevan<br />
-        Knowledge of Humane-Conduct</p>
+        <p className="page-content">Existence-Rooted-Human-Centric-Ideology is an expression of Coexistence as:</p>
+        <ul className="list-disc list-outside mt-5 page-content pl-6">
+        <li>Knowledge (Gyan) of Existence</li>
+        <li>Knowledge of Jeevan</li>
+        <li>Knowledge of Humane-Conduct</li>
+        </ul>
 
-        <p className="page-content">Jeevan-Vidya Program is for universalizing of this wisdom through:<br />
-        Integrated-Education<br />
-        Jeevan-Vidya Workshops<br />
-        Results of Family-Rooted Self-Regulation Orderliness</p>
-
+        <p className="page-content">Jeevan-Vidya Program is for universalizing of this wisdom through:</p>
+        <ul className="list-disc list-outside mt-5 page-content pl-6">
+        <li>Integrated-Education</li>
+        <li>Jeevan-Vidya Workshops</li >
+        <li>Results of Family-Rooted Self-Regulation Orderliness</li>
+</ul>
         <p className="page-common-hading"><>Expression in Living</></p >
         <p className="page-content">Jeevan is the only conscious-entity in existence capable of seeing and knowing...</p>
 
@@ -239,15 +242,15 @@ const TopicsOfStudy = () => {
                 </tr>
               </thead>
               <tbody>
-                <tr><td className="border px-4 py-2">Gratitude: Acceptance of help received from anyone for realizing omni-dimensional resolution.</td><td className="border px-4 py-2">Self-restraint: Controlled behavior out of one’s own desire.</td></tr>
-                <tr><td className="border px-4 py-2">Glory: Unconditional acceptance for following other’s example.</td><td className="border px-4 py-2">Ease: Expression devoid of complexities and tensions.</td></tr>
-                <tr><td className="border px-4 py-2">Reverence: (1) Movement towards higher-value, i.e. qualitative-improvement towards conduct-completeness. (2) Movement towards awakening and truth’s-authenticity – and its continuity.</td><td className="border px-4 py-2">Obedience: Activity for qualitative-improvement in one’s conduct, and for awakening.</td></tr>
-                <tr><td className="border px-4 py-2">Love: (1) Experiencing completeness in existence. (2) Combined expression of kindness, beneficence, and compassion.</td><td className="border px-4 py-2">Unanimity: (1) Oneness in mutuality (2) Absence of feeling of otherness (3) Mutually complementary activity in human-relationships and rest of nature.</td></tr>
-                <tr><td className="border px-4 py-2">Trust: (1) Realizing values innate in a relationship. (2) Expression of resolution with understanding of orderliness in existence.</td><td className="border px-4 py-2">Complementariness: Cooperating, helping, collaborating</td></tr>
-                <tr><td className="border px-4 py-2">Guidance: Continuity of nourishment and protection for omni-dimensional resolution.</td><td className="border px-4 py-2">Spontaneity: (1) Clarity and Truth’s-authenticity (2) Coherence in one’s behavior, practice, thinking, and existential-experience</td></tr>
-                <tr><td className="border px-4 py-2">Motherliness: (1) Acceptance of providing nourishment and protection as ultimate form of belongingness. (2) Acceptance of another person to be one’s own manifestation, and its continuity.</td><td className="border px-4 py-2">Generosity: (1) Offering and surrendering one’s resources (as body, mind, and wealth) with happiness as needed for another’s awakening, body’s healthiness, and prosperity. (2) Deploying one’s comforts (prosperity) and happiness (resolution) into right-use for others.</td></tr>
-                <tr><td className="border px-4 py-2">Respect: Continuous acceptance of good-qualities (talent and personality) in other person and acknowledging these clearly and with equilibrium.</td><td className="border px-4 py-2">Compliance: Activities of presenting exactly the way a concept, experience, memory, and words were accepted from other person.</td></tr>
-                <tr><td className="border px-4 py-2">Affection: (1) Spontaneity in judicious behavior. (2) Spontaneously meeting in, for, and from mutual-fulfillment and its continuity.</td><td className="border px-4 py-2">Commitment: Continuous and sustained efforts for achieving objective of awakening in existence, with its definite conceptualization.</td></tr>
+                <tr><td className="border px-4 py-2"><b>Gratitude:</b> Acceptance of help received from anyone for realizing omni-dimensional resolution.</td><td className="border px-4 py-2"><b>Self-restraint:</b> Controlled behavior out of one’s own desire.</td></tr>
+                <tr><td className="border px-4 py-2"><b>Glory:</b> Unconditional acceptance for following other’s example.</td><td className="border px-4 py-2"><b>Ease:</b> Expression devoid of complexities and tensions.</td></tr>
+                <tr><td className="border px-4 py-2"><b>Reverence:</b> (1) Movement towards higher-value, i.e. qualitative-improvement towards conduct-completeness. (2) Movement towards awakening and truth’s-authenticity – and its continuity.</td><td className="border px-4 py-2"><b>Obedience:</b> Activity for qualitative-improvement in one’s conduct, and for awakening.</td></tr>
+                <tr><td className="border px-4 py-2"><b>Love:</b> (1) Experiencing completeness in existence. (2) Combined expression of kindness, beneficence, and compassion.</td><td className="border px-4 py-2"><b>Unanimity:</b> (1) Oneness in mutuality (2) Absence of feeling of otherness (3) Mutually complementary activity in human-relationships and rest of nature.</td></tr>
+                <tr><td className="border px-4 py-2"><b>Trust:</b> (1) Realizing values innate in a relationship. (2) Expression of resolution with understanding of orderliness in existence.</td><td className="border px-4 py-2"><b>Complementariness:</b> Cooperating, helping, collaborating</td></tr>
+                <tr><td className="border px-4 py-2"><b>Guidance:</b> Continuity of nourishment and protection for omni-dimensional resolution.</td><td className="border px-4 py-2"><b>Spontaneity:</b> (1) Clarity and Truth’s-authenticity (2) Coherence in one’s behavior, practice, thinking, and existential-experience</td></tr>
+                <tr><td className="border px-4 py-2"><b>Motherliness:</b> (1) Acceptance of providing nourishment and protection as ultimate form of belongingness. (2) Acceptance of another person to be one’s own manifestation, and its continuity.</td><td className="border px-4 py-2"><b>Generosity:</b> (1) Offering and surrendering one’s resources (as body, mind, and wealth) with happiness as needed for another’s awakening, body’s healthiness, and prosperity. (2) Deploying one’s comforts (prosperity) and happiness (resolution) into right-use for others.</td></tr>
+                <tr><td className="border px-4 py-2"><b>Respect:</b> Continuous acceptance of good-qualities (talent and personality) in other person and acknowledging these clearly and with equilibrium.</td><td className="border px-4 py-2"><b>Compliance:</b> Activities of presenting exactly the way a concept, experience, memory, and words were accepted from other person.</td></tr>
+                <tr><td className="border px-4 py-2"><b>Affection:</b> (1) Spontaneity in judicious behavior. (2) Spontaneously meeting in, for, and from mutual-fulfillment and its continuity.</td><td className="border px-4 py-2"><b>Commitment:</b> Continuous and sustained efforts for achieving objective of awakening in existence, with its definite conceptualization.</td></tr>
               </tbody>
             </table>
           </section>

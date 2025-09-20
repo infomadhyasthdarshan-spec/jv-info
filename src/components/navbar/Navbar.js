@@ -139,34 +139,34 @@ const filteredResults = pagesIndex
                 {/* Navigation Links */}
                 <div className="hidden md:flex flex-row gap-0 justify-center flex-grow max-w-3xl">
                     {/* BEGIN */}
-                    <div className="border-2 border-[#94562B] w-1/4 h-auto rounded-l-[8px] flex-shrink-0">
+                    <div className="border-2 border-r-0 border-[#94562B] w-1/4 h-auto rounded-l-[8px] flex-shrink-0">
                         <div className="bg-[#94562B] text-center text-white text-base md:text-sm font-bold py-1">
                             BEGIN
                         </div>
                         <div className="flex justify-around gap-2 flex-wrap text-sm md:text-sm p-2">
-                            <Link href="/workshop">Workshop</Link>
-                            <Link href="/about">About</Link>
+                            <Link href="/workshop" className={`${pathname.includes("/workshop") ? "text-[#9C5027]" : "text-[#000000]"}`}>Workshop</Link>
+                            <Link href="/about" className={`${pathname.includes("/about") ? "text-[#9C5027]" : "text-[#000000]"}`}>About</Link>
                         </div>
                     </div>
                 
                     {/* EXPLORE */}
-                    <div className="border-2 border-[#B47447] w-[20%] h-auto flex-shrink-0">
+                    <div className="border-2 border-r-0 border-[#B47447] w-[20%] h-auto flex-shrink-0">
                         <div className="bg-[#B47447] text-center text-white text-base md:text-sm font-bold py-1">
                             EXPLORE
                         </div>
                         <div className="flex justify-center gap-2 flex-wrap text-sm md:text-sm p-2">
-                            <Link href="/philosophy/in-brief">Philosophy</Link>
+                            <Link href="/philosophy/in-brief" className={`${pathname.includes("/philosophy") ? "text-[#9C5027]" : "text-[#000000]"}`}>Philosophy</Link>
                         </div>
                     </div>
                 
                     {/* STUDY */}
-                    <div className="border-2 border-[#B2917A] w-1/4 h-auto flex-shrink-0">
+                    <div className="border-2 border-r-0 border-[#B2917A] w-1/4 h-auto flex-shrink-0">
                         <div className="bg-[#B2917A] text-center text-white text-base md:text-sm font-bold py-1">
                             STUDY
                         </div>
                         <div className="flex justify-around gap-2 flex-wrap text-sm md:text-sm p-2">
-                            <Link href="/books">Books</Link>
-                            <Link href="/resource-center">Resources</Link>
+                            <Link href="/books" className={`${pathname.includes("/books") ? "text-[#9C5027]" : "text-[#000000]"}`}>Books</Link>
+                            <Link href="/resource-center" className={`${pathname.includes("/resource-center") ? "text-[#9C5027]" : "text-[#000000]"}`}>Resources</Link>
                         </div>
                     </div>
                 
@@ -176,7 +176,7 @@ const filteredResults = pagesIndex
                             ORIGINALS
                         </div>
                         <div className="flex justify-center gap-2 flex-wrap text-sm md:text-sm p-2">
-                            <Link href="https://jv-org.vercel.app/" target="_blank">मध्यस्थ दर्शन</Link>
+                            <Link href="https://jv-org.vercel.app/" target="_blank" className="text-[#000000]">मध्यस्थ दर्शन</Link>
                         </div>
                     </div>
                 </div>

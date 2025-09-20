@@ -3,131 +3,190 @@ import Backjs from '@/components/Backjs';
 import React from 'react';
 import { useEffect } from 'react';
 import { wrapHindiWords  } from '@/utils/fontInjector';
-const WorldOrganization = () => { 
+const WorldOrganization = () => {
     useEffect(() => {
     wrapHindiWords ();
   }, []);
   return (
     <div className="px-4 md:px-0 py-8 max-w-5xl mx-auto text-[#111] space-y-6">
       <Backjs/>
-      <h1 className="page-heading">World Organization</h1>
+      <h1 className="page-heading mb-6">World Organization</h1>
 
-      <h2 className="page-small-heading  text-left">Five Dimensional Human Program</h2>
+     
+       <h1 className="page-small-heading mb-6 ">
+        The Concept of Village based Organization – by A Nagraj
+      </h1>
 
-      <p className='page-content pb-10'>
-        An Organization of the Human World is needed in order to establish, sustain and further human endeavors that are in line with the Human Goal of having an awakened Society. An awakened human society fulfills the Human aim of Happiness, Peace, Satisfaction & Bliss.
-      </p>
-
-      <b className='page-content'>There are thus two kinds of programs for us:</b>
-
-      <ul className="list-disc pl-6 page-content">
-        <li>A Program to ensure understanding or Knowledge in the conscious Self – leading to Resolution</li>
-        <li>A program to ensure requirements of the Body – leading to Prosperity.</li>
-      </ul>
-
-      <p className='page-content'>Put together, these fulfill the Universal Human Goal of</p>
-
-      <ul className="list-disc pl-6 page-content">
-        <li>Intellectual Resolution in every Human</li>
-        <li>Material Prosperity in every Family</li>
-        <li>Fearlessness in Society – leading to an Undivided Society</li>
-        <li>Coexistence with Nature – leading to Universal Order</li>
-      </ul>
-
-      <p className='page-content'>
-        The program to fulfill the above Goals are in the following 5 dimensions, for which a committee needs to be formed in every village. Every family is assumed to consist of 10 members and a family shall spare one member to participate in the village organization. Every village shall consist of 100 such families, and will thus have a 10 member “village organization council”. This council shall then form 5 committees to address the following five dimensions:
+      <p className="italic text-center page-content mb-6">
+        “The basis for an Undivided Society is Village Organization”
       </p>
 
-      <ul className="list-disc pl-6 page-content">
-        <li>Education & right values or sanskar Committee</li>
-        <li>Health & Discipline Committee</li>
-        <li>Production & Work Committee</li>
-        <li>Exchange & Storage Committee</li>
-        <li>Justice & Security Committee</li>
-      </ul>
-
-      <h3 className="text-lg page-heading pt-10">A brief elaboration is provided below:</h3>
-
-      <h4 className="page-small-heading ">1. Education & right values or sanskar Committee</h4>
-      <p className='page-content'>
-        This is the primary program for Humans. The human is a combined form of the conscious self or jeevan and the physical-chemical body. The basic need of the conscious jeevan is knowledge or understanding, by which it becomes fulfilled: has happiness, peace, satisfaction, etc. The primary purpose of Education is to thus enable this need.
-      </p>
-      <p className='page-content'>
-        This is called Humane Education and is possible via Consciousness Development via Human Values (CVMS). Our entire education will have to be re-established in this light. Our way of looking at ourselves, at reality, and our program has to be re-looked at. This committee shall look into these aspects:
-      </p>
-      <p className='page-content'>
-        This is in contrast to current day Education where the aims vary from place to place, from country to country. There have been two kinds of Education in human history to date:
-      </p>
-      <ul className="list-disc pl-6 page-content">
-        <li>Religious Education, which seeked to further Religious aims and dictats</li>
-        <li>Materialist Education: which seeks to establish a proven understanding of Material Reality and the ability to acquire it in later life</li>
-      </ul>
-      <p className='page-content'>
-        ‘Coexistentialist Education’ means to understand all aspects of Existence, Human Being, and Human Living on this basis.
+      <p className="page-content text-center mb-10  ">
+        – From the Original Hindi (परिवार मूलक ग्राम स्वराज्य व्यवस्था) by A Nagraj | English version by Shriram | Student | Jan 2017
       </p>
 
-      <h4 className="page-small-heading">2. Health & Discipline Committee</h4>
       <p className="page-content">
-        The Body is needed for the conscious jeevan to acquire knowledge and also express this understanding in Human Living: in family, society, etc. Humans did not make the human body. We did not make ourselves. We have come to be. The human body is a fine balance of many many vital organs that work together to function as a synergistic whole. All the organs work together in a fine rhythm so the 5 senses (sight, touch, sound, smell & taste) and 5 motor organs (hands, feet, urination, excretion & swallowing) function smoothly.
-      </p>
-      <p className="page-content">
-        The role of discipline is to understand what is suitable for the Human Body and ensure this. It is the responsibility of conscious jeevan to do this. Health is a result of this discipline and nutrition & exercise. To be healthy means the 5 sense organs and 5 motor organs are functioning as per the needs of jeevan. This committee shall look into these aspects.
-      </p>
-      <p className="page-content">
-        Today, we see that we try and get satisfaction from the Body. Since our need for happiness is continuous, the things we do with the body, on the body in order to derive sensory pleasure is also seemingly endless, due to which the Body becomes abused. Hence, it is only with discipline that Health can be ensured.
+        The Family is the fundamental unit of the Village Organization. The family itself is a complete humane organization. Swarajya or self-rule means having the ease of access to Justice, Production & Exchange. The meaning of freedom or swatantrata is every human being self-organized and expressing, conveying and propagating the same. This takes place by knowing and assuming the Truth in the form of Existence, i.e. recognizing & fulfilling the mutually occurring relationships & values in Existence.
       </p>
 
-      <h4 className="page-small-heading">3. Production & Work Committee</h4>
       <p className="page-content">
-        The Body needs material input. Human endeavor needs material input. The efforts we apply on the rest of nature to get material things is called Work. Production is a result of work. On understanding Coexistence, work follows the approach below:
+        “Every Human in Existence” is in organization with humanness and participates in the social organization. The obvious form of this is freedom in the form of self-organization and swarajaya or self-rule in the form of participation in the entire (larger) order. The participation of organization with the entirety is only possible with more than one person. Which is why the combined form of more than one person itself is nothing but family. It is only with perfect human conduct & behavior along with the availability of intellectual resolution and material prosperity in such a family that village self-rule or organization itself becomes easily possible which becomes the basis for an undivided society.
       </p>
-      <ul className="list-disc pl-6 page-content">
-        <li>We produce as much as is needed to fulfill and exceed the material requirements of the Family. Since the need of the Body is limited, production is also definable and becomes limited.</li>
-        <li>The method of production follows the inherent laws of cyclicity in Nature – human production thus not only sustains Nature, but can also enrich it.</li>
-      </ul>
+        <div className='flex justify-center'>
+      <img src='/images/ho.jpg' style={{height:"500px",width:"600px"}}/>
+</div>
       <p className="page-content">
-        This in contrast to our current approach where production is unlimited, even behaving with people is considered work, and most of our reliance on energy and production techniques, not to mention consumption patterns are steadily eroding Nature.
+        Availability of justice-security in the family and in humanity means the recognition of human and ecological relationships and the fulfillment of values intrinsic in them. The form of self-sufficiency in human tradition is freedom (self-organization) in state and self-rule or organization in expression.
       </p>
 
-      <h4 className="page-small-heading">4. Exchange & Storage Committee</h4>
       <p className="page-content">
-        Not everyone produces everything. We don’t produce all year round. We thus store the excess production for future use and Exchange the excess with others for goods that we may need in return. We are able to do this with the right understanding. This means we have understood Justice, Religion & Truth. The perspectives of Liking, Health & Profit become restrained under the influence of such understanding. We are thus able to partake in profit-less Exchange and do not engage in hoarding out of fear, greed, etc.
-      </p>
-      <p className="page-content">
-        Our exchange mechanisms today are profit-centric. They assume that profit will lead to goods, which shall lead to happiness. They also assume that a few people profiting will benefit the larger society. The problem with this is there is no end-point of satisfaction when it comes to profit, since there will always be a mathematical number in profit that will be greater than what we have. This leads to hoarding of wealth. This whole notion needs to be re-looked at, since it is not serving human purpose.
+        Ease of access to means of production-work means making every member of the family independent in occupation by the time they become an adult, so that every adult in the family can get together and produce more than the material needs of the family. Production within the means of humanness means the production of ordinary expectations (food, clothing, shelter) and extraordinary expectations (radio, transport & television) by putting in physical efforts on the natural grandeur without causing it any harm – in a complementary manner. Material prosperity in the family does need more than this, nor is material prosperity possible in less than this.
       </p>
 
-      <h4 className="page-small-heading">5. Justice & Security Committee</h4>
       <p className="page-content">
-        Justice means the code of conduct to ensure the protection of humanness. Justice can only be understood on understanding human relationship, which itself can only be understood on understanding the human being and the nature of reality that connects two humans. The satisfaction point of human relationship itself is Justice. This is achieved by recognizing relationships as they are a part of Human Order, fulfillment of the values and mutual fulfillment of both humans involved.
-      </p>
-      <p className="page-content">
-        When we rightly-utilize a thing, it automatically becomes secured. In this way, we are able to ensure the security of mind, body and wealth by right-utilization.
-      </p>
-      <p className="page-content">
-        Today, we pass judgements in the name of justice. We talk of justice only in response to a wrong that has been done. We don’t understand what Justice is, in itself. Retribution and punishment depends on fear as a deterrent. It doesn’t teach right understanding. As a result, our crimes never seem to stop. Such use of force and power itself gives rise to struggles and uprising, which causes a Security problem.
-      </p>
-      <p className="page-content">
-        Individuals, societies and Nations, in their endless quest for power, influence and wealth routinely transgress onto others’ boundaries, further exacerbating the problem. The basic reason for this is that the continuous needs of the conscious jeevan cannot be fulfilled by the finite material world. The faculties in the jeevan are inexhaustible. They can only be fulfilled by knowledge. If we understand this, our problems in Justice and Security sort themselves out.
+        Ease of access to cooperative exchange-storage systems means the exchange of goods produced by the family with other families, on the basis of effort-value in a manner free of profit & loss (profit is defined as taking more and giving less in return), so every family can experience material prosperity. Profit centric business setups do not have any room in this system. Complete exchange systems means the exchange of investments of efforts of one family with other families on the basis of the effort-values (of the goods). The village shall have a storage facility, by means of which the excess production in every family shall be exchanged in external markets and the required goods from such external markets or villages shall be made available to the village inhabitants. This system shall be connected to the county, block, district, state and entire nation in a staged manner.
       </p>
 
-      <h3 className="page-small-heading">10-staged Family based World Organization</h3>
       <p className="page-content">
-        These 5 dimensions of the Human Program can be carried out in 10 stages: starting from a single family at the first stage, to the entire world at the 10th stage. Each family elects a representative for coordinating with at the societal level, and 10 such members then go onto form a committee connecting to the next village or town.
+        It is only after village self-rule or organization is established and easily available, that it becomes possible for every human to participate in the entire existential organization and himself be occupied with humane organization. This itself is the witness of jeevans awakening for which human tradition has been desiring & waiting since time immemorial. Jeevans awakening itself propounds the meaning and usefulness of universal order in humans because evidence and resolution itself are expressions of universality in human tradition.
       </p>
+
       <p className="page-content">
-        Thus, at the first (1st) level, around 10 people in a family (called “Family Organisation”) are engaged in activities related to resolution and prosperity meeting their partial needs through own production.
+        Becoming proficient in universal sociability is wisdom, its conduct is authority and its protection and enrichment in continuity is sovereignty.
       </p>
+
+      <p className="page-content italic">
+        This itself is the aphorism or sutra for humane constitution. The final aim of village organization is the establishment of undivided sociability by which every human in society shall have access to intellectual resolution, material prosperity and ‘coexistence’ in a universal manner.
+      </p>
+
       <p className="page-content">
-        At the second (2nd) level, 10 such families (called “Neighbour Family Organisation”) organised together and participating in 5 dimensional program are able to meet all basic requirement and some additional requirements of all 10 families. Each family with consent of all 10 members (called “Family Assembly”) spares a member for coordinating the activities of these 10 families in addition to carrying activities in family as agreed by all members of the family. These 10 members spared from 10 families make a “Neighbour Family Assembly”.
+        Thus, the primary aim of this program is to realize and make others realize, the family centric village organization. Every member of every family in the village shall live with perfect humane conduct. Every human shall recognize and fulfill human & ecological relationships and their intrinsic values. They will obtain material prosperity – in others words, greater production than that is required. They shall express, convey & propagate intellectual resolution. To enable such capabilities itself is Village Organization.
       </p>
-      <p className="page-content">
-        The same sequence of each level electing 1 member, and 10 such members forming a committee of governance or order is then continued at the level of the Village, County, Block, District, Group of Districts, State, Nation and Inter-Nation, thus connecting all the way to the entire World in 10 stages.
+
+      <p className="page-content ">
+        The basis of the ‘Village Organization Plan’ is the development of a production based utility-based perspective in the place of a job & business oriented mentality. This is our conception and commitment.
       </p>
-      <p className="page-content">
-        Thus based on this understanding, we have the relationship from Family to World Family and systems for human functioning from Family Order to World Family Order.
-      </p>
-       
+           <h1 className="page-heading pt-10 mb-6 text-center">
+        10-Staged Family-Based World Organization
+      </h1>
+      <h2 className="page-small-hading mb-4 text-center">
+        Plan for Organization Councils
+      </h2>
+
+      <div className="space-y-6">
+        <div>
+          <h3 className="page-common-hading">1st Level: The Family Council</h3>
+          <p className='page-content'>
+            Every family in the village shall be in the form of ten (10) members. Should there be less than 10 members in a family, they shall join together with neighbouring families to form a family council. Every member — be it children or old people — shall be members in the council. The members shall elect one head to represent them in the neighbourhood council, someone well-versed with self-understanding (jeevan vidya) and material understanding.
+          </p>
+        </div>
+
+        <div>
+          <h3 className="page-common-hading">2nd Level: Neighbourhood Council</h3>
+          <p className='page-content'>
+            Heads of 10 families form a neighbourhood or family-group council. One member from 10 such councils shall be elected to the village council.
+          </p>
+        </div>
+
+        <div>
+          <h3 className="page-common-hading">3rd Level: Village Council</h3>
+          <p className='page-content'>
+            10 elected members from 10 neighbourhood councils (100 families) form the village council. One member becomes the chief. The ratios may be adjusted based on actual numbers.
+          </p>
+        </div>
+
+        <div>
+          <h3 className="page-common-hading">4th–10th Levels: Block → Region → Taluka → District → State → Nation → Inter-Nation</h3>
+          <p className='page-content'>
+            Each council at one level nominates a representative to the next level:
+            block (1000 families), region, county/taluka, district, state, nation, and inter-nation. At every level, one person is nominated from among 10.
+            <br />
+            <em>(This model supports a population of up to 10 billion)</em>
+          </p>
+        </div>
+
+        <div>
+          <h3 className="page-small-heading mt-16">Qualifications of Council Members:</h3>
+          <ul className="list-disc list-outside ml-5 page-content">
+            <li>Minimum 21 years old</li>
+            <li>Knowledge of self (jeevan vidya) and material reality (vastu vidya)</li>
+            <li>Self-sufficient in work, humane conduct, sociable behavior</li>
+          </ul>
+        </div>
+
+        <div>
+          <h3 className="page-small-heading ">Span of Work and Term:</h3>
+          <p className='page-content'>
+            One village council represents 100 families. Term is 4 years across all levels.
+          </p>
+        </div>
+
+        <div>
+          <h3 className="page-small-heading ">Committees in 5 Dimensions:</h3>
+          <p className='page-content mb-5'>Each village council forms the following five committees:</p>
+          <ul className="list-decimal list-outside ml-5 page-content">
+            <li>Humane Education and Right-Values Committee</li>
+            <li>Production-Work Advisory Committee</li>
+            <li>Cooperative Exchange & Storage Committee</li>
+            <li>Health & Discipline Committee</li>
+            <li>Humane Justice & Security Committee</li>
+          </ul>
+          <p className='page-content mt-5'>These committees work under the village council's guidance.</p>
+        </div>
+
+        <div className='mb-16 pb-10'>
+          <h3 className="page-small-heading ">Membership:</h3>
+          <p className='page-content'>
+            Committee members are nominated, work part-time, and fulfill duties alongside their regular occupations.
+          </p>
+        </div>
+
+        <div>
+          <h3 className="page-small-heading ">Roles and Responsibilities (summary):</h3>
+
+          <h4 className="page-common-hading  mt-4">Humane Education & Right-Values Committee</h4>
+          <ul className="list-disc list-outside ml-5 page-content">
+            <li>Promote confidence, sociability, and self-sufficiency</li>
+            <li>Respect excellence, balance knowledge and personality</li>
+            <li>Teach coexistence, self-organization, humane behavior</li>
+          </ul>
+
+          <h4 className="page-common-hading  mt-4">Production-Work Advisory Committee</h4>
+          <ul className="list-disc list-outside ml-5 page-content">
+            <li>Train villagers in sustainable occupations</li>
+            <li>Promote eco-friendly production methods</li>
+            <li>Encourage agriculture, animal husbandry, handicrafts</li>
+          </ul>
+
+          <h4 className="page-common-hading  mt-4">Cooperative Exchange & Storage Committee</h4>
+          <ul className="list-disc list-outside ml-5 page-content">
+            <li>Act as a local bank without profit/loss motive</li>
+            <li>Facilitate goods exchange based on effort-value</li>
+            <li>Discourage hoarding and business-centric thinking</li>
+          </ul>
+
+          <h4 className="page-common-hading  mt-4">Health & Discipline Committee</h4>
+          <ul className="list-disc list-outside ml-5 page-content">
+            <li>Promote physical & mental health via education, yoga, remedies</li>
+            <li>Support addiction removal and healthy lifestyle</li>
+            <li>Establish village-level health systems</li>
+          </ul>
+
+          <h4 className="page-common-hading mt-4">Humane Justice & Security Committee</h4>
+          <ul className="list-disc list-outside ml-5 page-content">
+            <li>Resolve disputes through reform, not punishment</li>
+            <li>Ensure fair conduct, production, and exchange</li>
+            <li>Secure boundaries, education, health, and environment</li>
+          </ul>
+        </div>
+
+        <div>
+          <h3 className="page-small-heading ">Evaluation:</h3>
+          <p className='page-content'>
+            Village councils periodically evaluate committees. Evaluation is based on goals in the 5 human organization dimensions: education, health, production, exchange, and justice.
+          </p>
+        </div>
+      </div>
     </div>
   );
 };

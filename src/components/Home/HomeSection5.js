@@ -37,7 +37,7 @@ const CollapsibleRow = ({ title, children }) => {
           isOpen ? "h-full opacity-100" : "max-h-0 opacity-0"
         }`}
       >
-        <div className="bg-white h-full p-8 page-accordion-pera rounded-b-2xl">
+        <div className="bg-white h-full p-8 page-accordion-pera rounded-b-2xl" >
           {children}
         </div>
       </div>
@@ -89,8 +89,9 @@ const HomeSection5 = () => {
               <p className="">{text.home.section5.ColRow2.ans2[4]}</p>
               <p className="">{text.home.section5.ColRow2.ans2[5]}</p>
               <p className="">{text.home.section5.ColRow2.ans2[6]}</p>
-              <p>
+              <p >
                 {text.home.section5.ColRow2.ans2[7].replace(/<[^>]+>/g, "")}
+                 
               </p>
 
               

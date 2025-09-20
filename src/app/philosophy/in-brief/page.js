@@ -106,7 +106,7 @@ const page = () => {
 
       {/* It does not */}
       <div className="mb-6">
-        <h2 className="page-heading text-black mb-3 italic">{text.philosophyPage1.lists.li1.title}</h2>
+        <h2 className="page-common-hading text-black mb-3 italic">{text.philosophyPage1.lists.li1.title}</h2>
         <ul className=" space-y-2 page-content">
           <li className="flex items-start gap-4">
             <span className="text-2xl leading-5">•</span>
@@ -131,7 +131,7 @@ const page = () => {
 
       {/* It enables freedom */}
       <div className="mb-6">
-        <h2 className="page-heading   mb-3 italic">
+        <h2 className="page-common-hading  mb-3 italic">
           {text.philosophyPage1.lists.li2.title}
         </h2>
         <ul className="space-y-2 page-content">
@@ -156,7 +156,7 @@ const page = () => {
 
       {/* It is practiceable */}
       <div className="mb-6">
-        <h2 className="page-heading   mb-3 italic">
+        <h2 className="page-common-hading  mb-3 italic">
           {text.philosophyPage1.lists.li3.title}
         </h2>
         <ul className=" space-y-2 page-content">
@@ -183,7 +183,7 @@ const page = () => {
 
       {/* It covers in living */}
       <div className="mb-8">
-        <h2 className="page-heading   mb-3 italic">
+        <h2 className="page-common-hading   mb-3 italic">
           {text.philosophyPage1.lists.li4.title}
         </h2>
         <ul className=" space-y-2 page-content">
@@ -361,7 +361,7 @@ const page = () => {
                   subtitle2: text.philosophyPage1.TheLiterature['Alternative Dialectics'].buttons.b2.content
                 },
                 {
-                  title: text.philosophyPage1.TheLiterature['Alternative Dialectics'].buttons.b2.title,
+                  title: text.philosophyPage1.TheLiterature['Alternative Dialectics'].buttons.b3.title,
                   subtitle1: text.philosophyPage1.TheLiterature['Alternative Dialectics'].buttons.b3.subTitle,
                   subtitle2: text.philosophyPage1.TheLiterature['Alternative Dialectics'].buttons.b3.content,
                 },
@@ -370,7 +370,7 @@ const page = () => {
                   key={i}
                   className="bg-white p-4 min-h-[120px] flex flex-col justify-center text-xs font-semibold text-center rounded-2xl shadow-sm"
                 >
-                  <div className="text-sm mb-2 page-common-md-pera">{item.title}</div>
+                  <div className="text-sm mb-2 page-common-md-pera"  dangerouslySetInnerHTML={{ __html: item.title }}/>
                   <div
                     className="font-normal italic   page-common-pera"
                     dangerouslySetInnerHTML={{ __html: item.subtitle1 }}

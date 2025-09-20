@@ -136,6 +136,24 @@ function NavigationBar() {
     };
   }, []);
 
+  // Find the best match
+  const activeIndex = (() => {
+    let bestMatch = -1;
+    let bestLength = -1;
+
+    navItems.forEach((item, index) => {
+      if (pathname === item.link || pathname.startsWith(item.link)) {
+        if (item.link.length > bestLength) {
+          bestMatch = index;
+          bestLength = item.link.length;
+        }
+      }
+    });
+
+    // If no match, fallback to first tab
+    return bestMatch === -1 ? 0 : bestMatch;
+  })();
+
   return (
     <div className="w-full relative border-gray-200 py-3">
       {canScrollLeft && (
@@ -155,36 +173,25 @@ function NavigationBar() {
         className="scrollbar-visible px-5 sm:px-5 md:px-0 py-2 overflow-x-auto scroll-smooth"
       >
         <nav className="flex space-x-3 min-w-max">
-          {navItems.map((item, index) => {
-            const matchesCurrentTab =
-              pathname === item.link || pathname.startsWith(item.link + "/");
+          {
+            navItems.map((item, index) => {
+              const isActive = index === activeIndex;
 
-            // Active tab logic
-            const isActive =
-              matchesCurrentTab ||
-              // Fallback: if we're in /philosophy but none of the defined tabs matched,
-              // then highlight the first tab as default
-              (index === 0 &&
-                pathname.startsWith("/philosophy") &&
-                !navItems.some(
-                  (nav) =>
-                    pathname === nav.link || pathname.startsWith(nav.link + "/")
-                ));
-
-            return (
-              <button
-                key={index}
-                ref={(el) => (tabRefs.current[index] = el)}
-                className={`w-48 px-4 h-20 text-sm md:text-md text-wrap max-w-40 md:max-w-48 font-bold rounded-lg transition-colors duration-200 whitespace-nowrap flex-shrink-0 ${isActive
+              return (
+                <button
+                  key={index}
+                  ref={(el) => (tabRefs.current[index] = el)}
+                  className={`w-48 px-4 h-20 text-sm md:text-md text-wrap max-w-40 md:max-w-48 font-bold rounded-lg transition-colors duration-200 whitespace-nowrap flex-shrink-0 ${isActive
                     ? "bg-[#B2917A] text-white"
                     : "bg-white hover:bg-[#EDE2D1]"
-                  }`}
-                onClick={() => router.push(item.link)}
-              >
-                {item.label}
-              </button>
-            );
-          })}
+                    }`}
+                  onClick={() => router.push(item.link)}
+                >
+                  {item.label}
+                </button>
+              );
+            })
+          }
         </nav>
       </div>
 

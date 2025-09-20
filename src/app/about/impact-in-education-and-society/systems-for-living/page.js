@@ -38,16 +38,26 @@ export default function SystemsForLivingPage() {
                 {text.studentForLiving.section1.content[5]}
             </p>
             <ul className="list-disc list-outside pl-5 mb-6 space-y-2 page-content">
-                <li>{text.studentForLiving.section1.content[6]}</li>
-                <li>{text.studentForLiving.section1.content[7]}</li>
-                <li>{text.studentForLiving.section1.content[8]}</li>
-                <li>{text.studentForLiving.section1.content[9]}</li>
-                <li>{text.studentForLiving.section1.content[10]}</li>
-                <li>{text.studentForLiving.section1.content[11]}</li>
-                <li>{text.studentForLiving.section1.content[12]}</li>
-                <li>{text.studentForLiving.section1.content[13]}</li>
-                <li>{text.studentForLiving.section1.content[14]}</li>
-                <li>{text.studentForLiving.section1.content[15]}</li>
+                <li className="font-bold">{text.studentForLiving.section1.content[6]}</li>
+                 <ul className="list-none list-outside pl-5 mb-6 space-y-2 page-content">
+                <li><span className="font-bold">-</span>  {text.studentForLiving.section1.content[7]}</li>
+                </ul>
+                <li className="font-bold">{text.studentForLiving.section1.content[8]}</li>
+                 <ul className="list-none list-outside pl-5 mb-6 space-y-2 page-content">
+                <li><span className="font-bold">-</span>  {text.studentForLiving.section1.content[9]}</li>
+                </ul>
+                <li className="font-bold">{text.studentForLiving.section1.content[10]}</li>
+                 <ul className="list-none list-outside pl-5 mb-6 space-y-2 page-content">
+                <li><span className="font-bold">-</span>  {text.studentForLiving.section1.content[11]}</li>
+                </ul>
+                <li className="font-bold">{text.studentForLiving.section1.content[12]}</li>
+                 <ul className="list-none list-outside pl-5 mb-6 space-y-2 page-content">
+                <li><span className="font-bold">-</span>  {text.studentForLiving.section1.content[13]}</li>
+                </ul>
+                <li className="font-bold">{text.studentForLiving.section1.content[14]}</li>
+                 <ul className="list-none list-outside pl-5 mb-6 space-y-2 page-content">
+                <li><span className="font-bold">-</span>  {text.studentForLiving.section1.content[15]}</li>
+                </ul>
             </ul>
 
             <p className="mb-6 page-content">
@@ -56,7 +66,7 @@ export default function SystemsForLivingPage() {
 
             {/* Implementation */}
             <h2 className="text-[24px] font-bold mb-4 mt-12">{text.studentForLiving.section2.title} </h2>
-            <p className="mb-4 text-[18px] leading-[32px] font-medium">
+            <p className="mb-4 text-[20px] leading-[32px] font-medium">
                 {text.studentForLiving.section2.content[0]}</p>
 
             <ul className="list-disc list-outside mb-6 pl-5 space-y-5 page-content">

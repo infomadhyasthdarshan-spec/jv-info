@@ -434,13 +434,13 @@ const ParibhashaPage = () => {
         <br />
         <a
           href="https://app.madhyasth.org/paribhasha"
-          className="pb-3 page-small-heading"
+          className="pb-3 page-small-heading text-[#b2917a]"
           target="_blank"
         >
           <>Browse the definitions in the app”</>
         </a>
 
-        <h3 className="mt-1">Partial List of Definitions[परिभाषा]</h3>
+        <h3 className="mt-1 font-bold mb-10">Partial List of Definitions[परिभाषा]</h3>
         <p>
           * Only a small & important selection given. The book of Definitions is
           250 pages.
@@ -455,7 +455,7 @@ const ParibhashaPage = () => {
           by humans.
         </p>
 
-        <p>
+        <p className="mt-6">
           The words used are from human tradition, while the definitions have
           been given totally afresh, tying them to reality. I.e. the entire work
           has been built “ground-up”
@@ -475,7 +475,7 @@ const ParibhashaPage = () => {
           Hindi, ed-2008, by A Nagraj.
         </p>
 
-        <p>
+        <p className="mt-6">
           <em>
             All text in italics in the English definition are additions by the
             translator.

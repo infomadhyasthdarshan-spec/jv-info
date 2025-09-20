@@ -1,9 +1,26 @@
 "use client";
 import React from "react";
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
 import { wrapHindiWords } from '@/utils/fontInjector';
 
 export default function LifeTopics() {
+    const [showButton, setShowButton] = useState(false);
+
+    useEffect(() => {
+        const handleScroll = () => {
+            if (window.scrollY > 100) {
+                setShowButton(true);
+            } else {
+                setShowButton(false);
+            }
+        };
+
+        window.addEventListener("scroll", handleScroll);
+        // Cleanup on unmount
+        return () => {
+            window.removeEventListener("scroll", handleScroll);
+        };
+    }, []);
 
     useEffect(() => {
         wrapHindiWords();
@@ -52,6 +69,14 @@ export default function LifeTopics() {
             {/* Life Topics Section */}
             <h2 className="page-heading mb-4">Life Topics</h2>
 
+            {showButton && (
+                <button
+                    className="fixed bottom-24 right-6 bg-[#4f4742] text-white px-4 py-2 rounded-full shadow-lg hover:bg-gray-800 transition-all duration-300"
+                    onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+                >
+                    ↑
+                </button>
+            )}
             <div className="bg-white rounded-[16px] p-4 sm:p-6 shadow-sm">
                 <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-y-5 gap-x-4">
                     {topics.flat().map((topic, i) => (
@@ -108,7 +133,7 @@ export default function LifeTopics() {
                 </div>
             </div>
 
-            <hr className="border-1 border-[#666666]"/>
+            <hr className="border-1 border-[#666666]" />
 
             {/* happiness Section */}
             <div className="mt-10 scroll-mt-40" id="happiness">
@@ -116,12 +141,12 @@ export default function LifeTopics() {
                 <p className="mb-4 page-common-hading">You've been chasing happiness your whole life; what if it was already inside you, waiting to be understood?</p>
                 <p className="mb-4 page-content">Our entire life is a series of pursuits for happiness, believing it lies in the next achievement, the next purchase, or another person's approval. We experience temporary pleasure through our senses (इन्द्रिय सुख), but it never lasts, leaving us chasing the next thing. This is the cycle of a deluded (भ्रमित) human being.</p>
                 <p className="mb-4 page-content">What if this chase is the very thing keeping us from happiness? This workshop proposes that human beings are naturally सुखधर्मी (their innate nature is to be happy). True, continuous happiness is not an external reward; it's an internal state of being. It is the result of Resolution (समाधान)—a state where all our "whys" and "hows" about life are answered, and our inner contradictions cease.</p>
-                <p className="mb-4 page-content">This workshop presents four states of being: Happiness (सुख), Peace (शांति), Contentment (संतोष), and Bliss (आनंद). These are not random feelings but the precise, experiential outcomes of harmony within our own consciousness (जीवन)—between our Mind (मन), Intellect (वृत्ति), Deeper Conscience (चित्त), and Self (आत्मा).</p>
+                <p className="mb-4 page-content">This workshop presents four states of being: Happiness (सुख), Peace (शांति), Contentment (संतोष), and Bliss (आनंद). These are not random feelings but the precise, experiential outcomes of harmony within our own consciousness (जीवन)—between our Perception (मन), Intellect (वृत्ति), Psyche (चित्त) & Intuition (बुद्धि)</p>
                 <p className="mb-4 page-content">The question then isn't "how to get happiness," but "what is the lack of understanding within me that is blocking my natural state of being happy?"</p>
 
 
             </div>
-            <hr className="border-1 border-[#666666]"/>
+            <hr className="border-1 border-[#666666]" />
             {/* happiness Section */}
             {/* On Marriage (विवाह) */}
             <div className="mt-10 scroll-mt-40" id="money">
@@ -132,7 +157,7 @@ export default function LifeTopics() {
                 <p className="mb-4 page-content">This is not achieved through compromise, but through mutual fulfillment based on clearly defined values like Trust (विश्वास), Respect (सम्मान), and Affection (स्नेह). It's a relationship where you help each other resolve your inner confusions and contradictions, creating an environment of harmony that becomes the foundation for a resolved family and society.</p>
                 <p className="mb-4 page-content">Have we seen our marriage as a journey of mutual self-discovery, or as a set of lifelong adjustments where both individuals slowly lose their sense of self?</p>
             </div>
-            <hr className="border-1 border-[#666666]"/>
+            <hr className="border-1 border-[#666666]" />
             {/* On Marriage (विवाह) */}
             {/* On Relationship (संबंध)*/}
             <div className="mt-10 scroll-mt-40" id="marriage">
@@ -140,10 +165,10 @@ export default function LifeTopics() {
                 <p className="mb-4 page-common-hading">Tired of managing expectations? Have you ever thought about what are the universally right expectations of humans that needs no management?</p>
                 <p className="mb-4 page-content">Most of our exhaustion in relationships comes from managing a web of undefined and often conflicting expectations. We expect others to behave as we want, and they expect the same from us, leading to constant friction and disappointment.</p>
                 <p className="mb-4 page-content">This workshop proposes that relationships are not meant to be "managed." They are meant to be recognized (पहचानना) and fulfilled (निर्वाह करना). It identifies definite relationships (like parent-child, friends, partners) and the inherent, universal values (मूल्य) within them, such as Trust (विश्वास), Respect (सम्मान), Gratitude (कृतज्ञता), and Affection (स्नेह).</p>
-                <p className="mb-4 page-content">These values are not arbitrary; they are the natural expectation of every human Jeevan (consciousness). When we understand and live with these values, the need for "management" dissolves. Fulfillment becomes effortless. For example, trust is the assurance that the other person wants my happiness. Once I can see this and ensure this for the other, trust becomes the stable foundation.</p>
+                <p className="mb-4 page-content">These values are not arbitrary; they are the natural expectation of every human Jeevan (consciousness). When we understand and live with these values, the need for "management" dissolves. Fulfillment becomes effortless. For example, trust is the assurance about the other human beings fundamental-intention. Once I can see this and ensure this for the other, trust becomes the stable foundation.</p>
                 <p className="mb-4 page-content">So, the question shifts from "How do I manage this person?" to "Do I understand the inherent values in this relationship and am I able to fulfill them?"</p>
             </div>
-            <hr className="border-1 border-[#666666]"/>
+            <hr className="border-1 border-[#666666]" />
             {/* On Relationship (संबंध) */}
 
             {/* On Good Parenting (सही परवरिश)*/}
@@ -156,7 +181,7 @@ export default function LifeTopics() {
                 <p className="mb-4 page-content">Are we preparing our children just for a livelihood, or for life itself?</p>
 
             </div>
-            <hr className="border-1 border-[#666666]"/>
+            <hr className="border-1 border-[#666666]" />
             {/* On Good Parenting (सही परवरिश) */}
 
 
@@ -170,30 +195,30 @@ export default function LifeTopics() {
                 <p className="mb-4 page-content">True spirituality isn't about looking up at the heavens, but about looking at existence—inwards and outwards —with total clarity.</p>
 
             </div>
-            <hr className="border-1 border-[#666666]"/>
+            <hr className="border-1 border-[#666666]" />
             {/* On Spirituality (अध्यात्म) */}
             {/*On God (ईश्वर)*/}
             <div className="mt-10 scroll-mt-40" id="god">
                 <h3 className="page-small-heading mb-4">On God (ईश्वर)</h3>
                 <p className="mb-4 page-common-hading">Instead of just praying to a higher power, what if you could understand the perfect order of existence itself?</p>
                 <p className="mb-4 page-content">Humanity has long prayed to, feared, and sought favors from a personal God. This belief has often been rooted in mystery and the unexplainable.</p>
-                <p className="mb-4 page-content">This workshop offers a perspective that demystifies this concept. It proposes that what we call God (ईश्वर) or the Supreme Being is not a person, but the all-pervading, omnipresent reality (व्यापक वस्तु or सत्ता) in which all of nature—all matter and all conscious units—is submerged, energized, and controlled. Vyapak is a non-active, transparent, energy-filled "emptiness" or "space" that inspires all activity to happen in a perfectly regulated, orderly way.</p>
+                <p className="mb-4 page-content">This workshop offers a perspective that demystifies this concept. It proposes that what we call God (ईश्वर) or the Supreme Being is not a person, but the all-pervading, omnipresent reality (व्यापक वस्तु or सत्ता) in which all of nature—all matter and all conscious units—is submerged, energized, and regulated. Vyapak is a non-active, transparent, energy-filled "emptiness" or "space" that inspires all activity to happen in a perfectly regulated, orderly way.</p>
                 <p className="mb-4 page-content">Instead of a “supreme creator” entire existence is seen as a co-existence with inherent, unchangeable laws of nature (नियम)—the perfect order that governs everything from atoms to galaxies. Instead of praying to an entity for intervention, the proposal is to understand this universal order (व्यवस्था) and align our own lives with it. This alignment, born of knowledge, is what leads to harmony and fulfillment.</p>
                 <p className="mb-4 page-content">Could it be that the security we seek from God is actually found in understanding the infallible system of co-existence in which we are already participating?</p>
 
             </div>
-            <hr className="border-1 border-[#666666]"/>
+            <hr className="border-1 border-[#666666]" />
             {/* On God (ईश्वर) */}
             {/* On Money (पैसा) */}
             <div className="mt-10 scroll-mt-40" id="money">
                 <h3 className="page-small-heading mb-4">On Money (पैसा)</h3>
                 <p className="mb-4 page-common-hading">You know how to earn money, but do you know the simple secret to feeling prosperous regardless of your bank balance?</p>
                 <p className="mb-4 page-content">Our society equates money with security and happiness. This leads to a life of endless accumulation, because the feeling of "enough" is never reached. This is a core sign of a deluded (भ्रमित) life.</p>
-                <p className="mb-4 page-content">This workshop makes a critical distinction between Wealth (धन) and Prosperity (समृद्धि). Wealth is the accumulation of physical facilities. Prosperity, however, is a feeling of resolution that comes from having more than is required for your physical needs.</p>
+                <p className="mb-4 page-content">This workshop makes a critical distinction between Wealth (धन) and Prosperity (समृद्धि). Wealth is the accumulation of material things. Prosperity, however, is a feeling of resolution that comes from having more than is required for your physical needs.</p>
                 <p className="mb-4 page-content">The key insight is this: our physical needs are limited and can be identified. When we identify our needs and produce or acquire more than that, we have the feeling of prosperity. A person with ten crores can feel deprived, while a person with one lakh can feel prosperous, if they have the right understanding of their needs. Prosperity is a state of mind, not a number in an account. Money (अर्थ) is merely a tool for facilitating the exchange of physical goods; it is not the source of happiness.</p>
                 <p className="mb-4 page-content">The real question is not "how much money is enough?" but "have I correctly identified my needs?" Once needs are identified, the path to feeling prosperous becomes clear and achievable.</p>
             </div>
-            <hr className="border-1 border-[#666666]"/>
+            <hr className="border-1 border-[#666666]" />
             {/* On Money (पैसा) */}
 
 
@@ -202,11 +227,11 @@ export default function LifeTopics() {
                 <h3 className="page-small-heading mb-4">On Motivation (प्रेरणा)</h3>
                 <p className="mb-4 page-common-hading">Why rely on temporary motivation from outside when a permanent inspiration can be awakened within?</p>
                 <p className="mb-4 page-content">We constantly seek external motivation—from speeches, books, or the approval of others. This motivation is like a spark that quickly dies out, leaving us needing another fix. It's an unstable foundation for life.</p>
-                <p className="mb-4 page-content">This workshop points to a source of permanent inspiration (प्रेरणा) that comes from within. This inspiration is not a fleeting emotion but is born from clarity of purpose. When we understand our true goal as a human being—which is to achieve a state of continuous happiness through awakening (जागृति) and co-existence (सह-अस्तित्व)—all our actions become aligned with that purpose.</p>
+                <p className="mb-4 page-content">This workshop points to a source of permanent inspiration (प्रेरणा) that comes from within. This inspiration is not a fleeting emotion but is born from clarity of purpose. When we understand our true goal as a human being—which is to achieve a state of sustained, comprehensive well-being (happiness) through awakening (जागृति) and co-existence (सह-अस्तित्व)—all our actions become aligned with that purpose.</p>
                 <p className="mb-4 page-content">The source of inspiration (प्रेरणा स्रोत) for all positive actions in an awakened human is the experience of knowledge itself (ज्ञान). When you have Resolution (समाधान), you are no longer pushed and pulled by external circumstances. Your actions flow effortlessly from your understanding. This inner alignment provides a steady, unwavering drive that external motivation can never match.</p>
                 <p className="mb-4 page-content">Are we living our lives based on temporary boosts from the outside, or from a deep, unshakable clarity on the inside?</p>
             </div>
-            <hr className="border-1 border-[#666666]"/>
+            <hr className="border-1 border-[#666666]" />
             {/* On Motivation (प्रेरणा) */}
 
 
@@ -216,10 +241,10 @@ export default function LifeTopics() {
                 <p className="mb-4 page-common-hading">Are you driven by your emotions, or have you learned to be the master of your inner world?</p>
                 <p className="mb-4 page-content">For most of us, our days are a rollercoaster of emotions. We feel happy when things go our way, angry or sad when they don't. We are often slaves to these reactions, which are tied to our sensory experiences and deluded beliefs (प्रियाप्रिय, हिताहित, लाभालाभ). This is the state of being driven by the body and the external world.</p>
                 <p className="mb-4 page-content">This workshop explains that our inner world—our consciousness (जीवन)—has a definite structure. In a state of delusion (भ्रम), our mind (which interfaces with the body's senses) is driven by sensory gratification and the need for external validation, leading to chaotic emotions and reactions.</p>
-                <p className="mb-4 page-content">Mastery comes when a harmony is achieved within our consciousness. The Self (आत्मा), through the faculty of the True Intellect (बुद्धि), guides our deeper thoughts (चित्त) and intellect (वृत्ति), which in turn guide the mind (मन). When our feelings and actions originate from a place of clear understanding (ज्ञान) rather than sensory reactions, we become the master of our inner world. Our feelings become stable values like trust, respect, and affection, rather than reactive emotions.</p>
+                <p className="mb-4 page-content">Mastery comes when a harmony is achieved within our consciousness. The Self , through the faculty of the True Intellect (बुद्धि), guides our deeper understanding (चित्त) and intellect (वृत्ति), which in turn guide the mind (मन). When our feelings and actions originate from a place of clear understanding (ज्ञान) rather than external material & behavioural circumstances, we become the master of our inner world. Our feelings become stable values like trust, respect, and affection, rather than reactive emotions.</p>
                 <p className="mb-4 page-content">Are our feelings the result of what happens to us, or the result of the understanding that exists in us?</p>
             </div>
-            <hr className="border-1 border-[#666666]"/>
+            <hr className="border-1 border-[#666666]" />
             {/* On Emotions (भावनाएं) */}
             {/* On Desire (इच्छा) */}
             <div className="mt-10 scroll-mt-40" id="desire">
@@ -230,7 +255,7 @@ export default function LifeTopics() {
                 <p className="mb-4 page-content">However, in an awakened state (जागृति), our इच्छा becomes aligned with our true, natural goal: the desire for continuous happiness through resolution (समाधान) and co-existence (सह-अस्तित्व). The randomness of desire is replaced by a clear, singular, and fulfilling purpose.</p>
                 <p className="mb-4 page-content">Are our desires truly our own, or are they just random, unexamined imaginations controlling our lives?</p>
             </div>
-            <hr className="border-1 border-[#666666]"/>
+            <hr className="border-1 border-[#666666]" />
             {/* On Desire (इच्छा) */}
 
 
@@ -243,7 +268,7 @@ export default function LifeTopics() {
                 <p className="mb-4 page-content">Liberation, therefore, is an internal shift. It is the attainment of Right Understanding (ज्ञान) of what reality is, who "I" (the जीवन) am, and my purpose in the grand scheme of co-existence. A liberated person (जागृत मानव) does not run away from the world. They live fully within family and society, but their actions are rooted in resolution (समाधान) and harmony, not confusion and reaction. They are free from the internal suffering caused by anger, fear, and ego, and their presence helps others on the path to their own liberation.</p>
                 <p className="mb-4 page-content">Moksha is not an after-death destination; it is the state of being fully awakened, resolved, and harmonious while living this very life.</p>
             </div>
-            <hr className="border-1 border-[#666666]"/>
+            <hr className="border-1 border-[#666666]" />
             {/* On Liberation (मुक्ति/मोक्ष) */}
 
 
@@ -256,7 +281,7 @@ export default function LifeTopics() {
                 <p className="mb-4 page-content">The state of the जीवन—its accumulated understandings and unresolved illusions (संस्कार)—is what carries forward. The journey of the जीवन through different bodies is a journey towards Awakening (जागृति). Therefore, the most critical task is not to worry about what body we will get next, but to work on resolving our illusions and developing right understanding in this life. By achieving liberation from illusion (भ्रम मुक्ति) now, we break the cycle of confusion that perpetuates suffering across lifetimes.</p>
                 <p className="mb-4 page-content">The key to a better future life is to make this present life a fully understood and resolved one. Have we invested our energy in understanding the eternal Jeevan, or only in maintaining the temporary Sharir?</p>
             </div>
-            <hr className="border-1 border-[#666666]"/>
+            <hr className="border-1 border-[#666666]" />
             {/* On Rebirth (पुनर्जन्म) */}
 
 
@@ -268,19 +293,19 @@ export default function LifeTopics() {
                 <p className="mb-4 page-content">This workshop presents Truth (सत्य) not as a belief system, but as reality as it is. The ultimate truth is Co-existence (सह-अस्तित्व)—the reality of all of nature (जड़-चैतन्य प्रकृति) being eternally submerged and energized within an all-pervading reality (व्यापक सत्ता). This is not something to be believed, but something to be known, understood, and experienced.</p>
                 <p className="mb-4 page-content">Truth is not a statement; it is the very fabric of existence. The goal is to develop the capacity to see this reality directly, moving beyond belief (मान्यता) to knowledge (ज्ञान) and finally to experience (अनुभव).</p>
             </div>
-            <hr className="border-1 border-[#666666]"/>
+            <hr className="border-1 border-[#666666]" />
             {/* On Truth (सत्य) */}
 
             {/* On Consciousness (चेतना) */}
             <div className="mt-10 scroll-mt-40" id="consciousness">
                 <h3 className="page-small-heading mb-4">On Consciousness (चेतना)</h3>
-                <p className="mb-4 page-common-hading">Have you ever wondered what is consciousness? I am only this physical body or is there something beyond?</p>
+                <p className="mb-4 page-common-hading">Have you ever wondered what is consciousness? Am I only this physical body or is there something more to ‘Me’?</p>
                 <p className="mb-4 page-content">This is one of the most fundamental questions of human existence. Modern science often tries to explain consciousness as a product of the brain, while traditional views can be mystical.</p>
                 <p className="mb-4 page-content">This workshop provides a clear, logical and verifiable answer. It states that you are not just the body (शरीर). You are a conscious unit, the जीवन, which is an eternal, self-organized atomic entity (चैतन्य परमाणु). The body is your instrument, a complex biochemical machine, but the जीवन is the one that experiences, thinks, desires, and understands. It is the seer (दृष्टा), the doer (कर्ता), and the experiencer (भोक्ता).</p>
                 <p className="mb-4 page-content">Consciousness (चेतना) itself is identified with the all-pervading reality (व्यापक वस्तु) in which the जीवन is submerged. The जीवन has the potential to realize its oneness with this all-pervading consciousness, which is the ultimate goal of awakening (जागृति). The journey of a human is a journey of consciousness development, moving from जीव चेतना (animal consciousness, focused on survival) to मानव चेतना (human consciousness, living with resolution and values) and ultimately to दिव्य चेतना (divine consciousness, experiencing co-existence).</p>
                 <p className="mb-4 page-content">The understanding that "I am a conscious Jeevan, and the body is my instrument" is the first and most crucial step towards self-realization and freedom from confusion (भ्रम).</p>
             </div>
-            <hr className="border-1 border-[#666666]"/>
+            <hr className="border-1 border-[#666666]" />
             {/* On Consciousness (चेतना) */}
 
 
@@ -290,14 +315,14 @@ export default function LifeTopics() {
                 <p className="mb-4 page-common-hading">Where does mind exist? Is it a part of my brain? Is it a separate entity? how does it function?</p>
                 <p className="mb-4 page-content">The mind is often a mystery, thought to be somewhere in the brain, yet intangible. This workshop offers a clear model, placing the mind (मन) as a specific faculty of the conscious Self (जीवन), not the physical brain (मेधस).</p>
                 <p className="mb-4 page-content">The जीवन (consciousness) is described as having a structure of five interconnected faculties:</p>
-                <p className="mb-2 page-content"><strong>मन (Mind):</strong> The faculty of tasting (आस्वादन) and selecting (चयन). It interfaces with the body's senses and seeks pleasurable sensations.</p>
-                <p className="mb-2 page-content"><strong>वृत्ति (Intellect):</strong> The faculty of analyzing (विश्लेषण) and comparing (तुलन).</p>
-                <p className="mb-2 page-content"><strong>चित्त (Deeper Conscience):</strong> The faculty of imagination/visualization (चित्रण) and contemplation (चिंतन). This is where desires take shape.</p>
-                <p className="mb-2 page-content"><strong>बुद्धि (True Intellect):</strong> The faculty of determination and knowing (बोध) the truth.</p>
-                <p className="mb-4 page-content"><strong>आत्मा (Self/Soul):</strong> The faculty of experiencing (अनुभव) reality as it is.</p>
-                <p className="mb-4 page-content">The brain (मेधस) is the physical hardware that the मन uses to receive signals from the senses and send commands to the body, but the मन itself is a non-physical activity of the जीवन. In a state of confusion, our मन acts as the master, chasing sensory pleasures. In an awakened state, the मन acts as a disciplined servant, guided by the higher faculties of वृत्ति, चित्त, and बुद्धि, leading to stable happiness instead of fleeting pleasure.</p>
+                <p className="mb-2 page-content"><strong>मन (Perception or Interactive Mind):</strong> The faculty of tasting (आस्वादन) and selecting (चयन). It interfaces with the body's senses and seeks pleasurable sensations.</p>
+                <p className="mb-2 page-content"><strong>वृत्ति (Intellect or Discerning Mind):</strong> The faculty of analyzing (विश्लेषण) and comparing (तुलन).</p>
+                <p className="mb-2 page-content"><strong>चित्त (Psyche or Visualising Mind):</strong> The faculty of imagination/visualization (चित्रण) and contemplation (चिंतन). This is where desires take shape.</p>
+                <p className="mb-2 page-content"><strong>बुद्धि (Intuition or Cognitive Mind):</strong> The faculty of determination and knowing (बोध) the truth.</p>
+                <p className="mb-4 page-content"><strong>आत्मा (Soul):</strong> The faculty of experiencing (अनुभव) reality as it is.</p>
+                <p className="mb-4 page-content">The brain (मेधस) is the physical hardware that the मन uses to receive signals from the senses and send commands to the body, but the मन itself is a non-physical activity of the जीवन. In a state of confusion, our मन acts as the master, dependent on external stimuli. In an awakened state, the मन acts as a regulated faculty, guided by the higher faculties of वृत्ति, चित्त, and बुद्धि, leading to stable happiness instead of fleeting pleasure.</p>
             </div>
-            <hr className="border-1 border-[#666666]"/>
+            <hr className="border-1 border-[#666666]" />
             {/* On Mind (मन) */}
 
 
@@ -310,7 +335,7 @@ export default function LifeTopics() {
                 <p className="mb-4 page-content">What, then, is the Dharma of a human being? The text states that the Dharma of a human is to live in a state of continuous happiness (सुख). Just as a material object's nature is to exist, a human's nature is to be happy. All our struggles, desires, and actions are fundamentally driven by this singular, universal pursuit.</p>
                 <p className="mb-4 page-content">Living according to this Dharma means aligning our thoughts, behavior, and work to achieve this state of resolution-based happiness. This universal Dharma of seeking happiness through right understanding and harmonious living is common to all humans, irrespective of the organized religion they follow. This is the मानव धर्म (Human Religion).</p>
             </div>
-            <hr className="border-1 border-[#666666]"/>
+            <hr className="border-1 border-[#666666]" />
             {/* On Religion (धर्म) */}
 
 
@@ -323,7 +348,7 @@ export default function LifeTopics() {
                 <p className="mb-4 page-content">If our work is not aligned with our natural desire for happiness through resolution, if it feels meaningless or is born out of fear and compulsion, our consciousness essentially rebels. The feeling we call "laziness" could be a powerful signal that our actions are disconnected from our core purpose. When a human being has a clear, inspiring goal—like achieving समाधान (resolution) and contributing to a harmonious व्यवस्था (order)—the energy to act flows naturally.</p>
                 <p className="mb-4 page-content">Is the problem a lack of energy, or a lack of a purpose that is compelling enough to energize you?</p>
             </div>
-            <hr className="border-1 border-[#666666]"/>
+            <hr className="border-1 border-[#666666]" />
             {/* On Laziness (आलस) */}
 
 
@@ -332,11 +357,11 @@ export default function LifeTopics() {
                 <h3 className="page-small-heading mb-4">On Ego (अहंकार)</h3>
                 <p className="mb-4 page-common-hading">Is your 'I' your true self, or just a collection of assumptions you've never questioned?</p>
                 <p className="mb-4 page-content">The word "ego" (अहंकार) is often used to mean pride or arrogance. This workshop gives it a much more precise and fundamental meaning.</p>
-                <p className="mb-4 page-content">अहंकार is the state of the Intellect (बुद्धि) when it is disconnected from the Self (आत्मा) and its ability to experience reality directly. In this state of delusion (भ्रम), the बुद्धि operates based on unexamined beliefs and assumptions (मान्यताएं) taken from society or based on sensory experiences. It is this collection of borrowed beliefs that creates the false sense of "I" or the ego.</p>
-                <p className="mb-4 page-content">This ego is the root of our problems. It's the "I" that believes "I am this body," "I am my possessions," "I am superior/inferior," or "My belief is the only truth." Because these assumptions are not aligned with reality, they inevitably lead to internal contradictions, conflict with others, and suffering. The true "I" is the जीवन—the eternal, conscious Self. The ego is the mask of false identities it wears.</p>
+                <p className="mb-4 page-content">अहंकार is the state of the Intellect (बुद्धि) when it is disconnected from the Self (आत्मा) and its ability to experience reality directly. In this state of delusion (भ्रम), the psyche or citta operates based on unexamined beliefs and assumptions (मान्यताएं) taken from society or based on sensory experiences. It is this collection of borrowed beliefs that creates the false sense of "I" or the ego. This leads to pride. </p>
+                <p className="mb-4 page-content">This ego is the root of our problems. It's the "I" that believes "I am this body," "I am my possessions," "I am superior/inferior," or "My belief is the only truth." Because these assumptions are not aligned with reality, they inevitably lead to internal contradictions, conflict with others, and suffering. The true "I" is the जीवन—the eternal, conscious Self. The ego is the mask of deluded identities it wears.</p>
                 <p className="mb-4 page-content">The journey of awakening (जागृति) is the journey of dissolving this अहंकार by replacing borrowed beliefs with true understanding (ज्ञान) gained through self-exploration, until the बुद्धि is guided by the direct experience of the आत्मा.</p>
             </div>
-            <hr className="border-1 border-[#666666]"/>
+            <hr className="border-1 border-[#666666]" />
             {/* On Ego (अहंकार) */}
             {/* On Inferiority (हीन भावना) */}
             <div className="mt-10 scroll-mt-40" id="inferiority">
@@ -347,7 +372,7 @@ export default function LifeTopics() {
                 <p className="mb-4 page-content">The way out is to shift our identity. What if you identified yourself not with these temporary attributes, but with your true self—the जीवन (consciousness)? The जीवन in every human being is fundamentally the same in its potential for understanding and happiness. When you see that every human has the same purpose and the same potential, the very basis for comparison dissolves.</p>
                 <p className="mb-4 page-content">You are no longer "better than" or "worse than." You are simply a human being on a journey of awakening, and so is everyone else. In this understanding lies true self-acceptance and peace.</p>
             </div>
-            <hr className="border-1 border-[#666666]"/>
+            <hr className="border-1 border-[#666666]" />
 
             {/* On Suffering (दुःख) */}
             <div className="mt-10 scroll-mt-40" id="suffering">
@@ -358,7 +383,7 @@ export default function LifeTopics() {
                 <p className="mb-4 page-content">An awakened person (जागृत मानव), whose inner faculties are in harmony and aligned with reality, does not experience suffering even in the face of challenging situations. They experience resolution (समाधान). The pain might be there for the body, but the जीवन remains stable and peaceful.</p>
                 <p className="mb-4 page-content">Therefore, the path to ending suffering is not to change the world outside, but to resolve the contradictions and ignorance within.</p>
             </div>
-            <hr className="border-1 border-[#666666]"/>
+            <hr className="border-1 border-[#666666]" />
 
             {/* On Depression & Anxiety (अवसाद और चिंता) */}
             <div className="mt-10 scroll-mt-40" id="depression-anxiety">
@@ -368,7 +393,7 @@ export default function LifeTopics() {
                 <p className="mb-4 page-content">When we live with unresolved contradictions (असंतोष, अशांति), a lack of clarity about our purpose, and a constant internal conflict between what we desire and what is real, our Jeevan is in a state of continuous turmoil. This inner chaos, this deep-seated dissatisfaction and lack of harmony, manifests as what we call depression and anxiety. These states are powerful signals that our way of living, thinking, and believing is out of sync with reality. They are the screams of a Jeevan that is tired of being fragmented and confused.</p>
                 <p className="mb-4 page-content">The solution, therefore, is not just to manage the symptoms, but to address the root cause: the lack of Resolution (समाधान). By pursuing right understanding and aligning our lives with the inherent order of existence, we can achieve an inner harmony that is the natural antidote to these states of suffering.</p>
             </div>
-            <hr className="border-1 border-[#666666]"/>
+            <hr className="border-1 border-[#666666]" />
 
             {/* On War & Peace (युद्ध और शांति) */}
             <div className="mt-10 scroll-mt-40" id="war-peace">
@@ -379,7 +404,7 @@ export default function LifeTopics() {
                 <p className="mb-4 page-content">A world without war is only possible when a critical mass of individuals achieves inner peace. This inner peace is Resolution (समाधान)—a state of being free from internal contradictions. A resolved human being lives in Co-existence (सह-अस्तित्व). They see the fundamental oneness of the entire human race (मानव जाति एक) and the world as a single, undivided family (अखण्ड समाज). For such a person, war is an absurdity.</p>
                 <p className="mb-4 page-content">Therefore, the work for world peace is not on the battlefield, but within our own consciousness. The path to a war-free world is through mass human awakening (जागृति).</p>
             </div>
-            <hr className="border-1 border-[#666666]"/>
+            <hr className="border-1 border-[#666666]" />
 
             {/* On Social Conflict (सामाजिक संघर्ष) */}
             <div className="mt-10 scroll-mt-40" id="social-conflict">
@@ -390,7 +415,7 @@ export default function LifeTopics() {
                 <p className="mb-4 page-content">When we lack this understanding, we operate from समुदाय चेतना (community consciousness), where our identity is tied to our group, leading to "us vs. them" conflicts. The solution is to elevate ourselves to मानव चेतना (human consciousness), where we see the universal human characteristics first and foremost.</p>
                 <p className="mb-4 page-content">The path to resolving social conflict is not about ignoring our differences, but about realizing that our shared, fundamental oneness is far more profound and real.</p>
             </div>
-            <hr className="border-1 border-[#666666]"/>
+            <hr className="border-1 border-[#666666]" />
 
             {/* On Climate Change (जलवायु परिवर्तन) */}
             <div className="mt-10 scroll-mt-40" id="climate-change">

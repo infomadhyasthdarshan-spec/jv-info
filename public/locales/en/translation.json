@@ -98,9 +98,9 @@
     "sub": [
       "Original in Hindi ",
       "By A.Nagraj",
-      "Jeevan Vidya does not engage in the sale of Knowledge, Dharma, nor in Religion or Politics.",
+      "Jeevan Vidya does not engage in the sale of Knowledge & Dharma. Or in Religion & Politics.",
       "Site Terms & Responsibilities",
-      "Existence is Stable. Progress and Awakening are Definite"
+      "'Existence is Stable. Progress and Awakening are Definite'"
     ]
   },
   "home": {
@@ -274,7 +274,7 @@
         },
         "card5": {
           "title": "An Immersive Experience",
-          "content": "Paradigm changing concepts,<br />'meditate'with your eyes open."
+          "content": "Paradigm changing concepts,<br />'meditate' with your eyes open."
         },
         "card6": {
           "title": "This 'teaching' is *never* charged",
@@ -397,35 +397,35 @@
           "name": "Ananya Roy",
           "city": "Kolkata",
           "pro": "Former UX Specialist, Permaculture farmer",
-          "content": "My first Parichay Shivir, in Sep 2025, laid out A. Nagraj ji’s Co-Existentialism philosophy for me in an easy and accessible way. It enabled me to start examining my life, relationships, goals and purpose in a holistic and grounded way. It inspired me to attend other advanced shivirs, and eventually enroll for the 6 month study program at the Achoti sansthan, for deeper understanding and application.",
+          "content": "<div>My first Parichay Shivir, in Sep 2025, laid out A. Nagraj ji’s Co-Existentialism philosophy for me in an easy and accessible way. It enabled me to start examining my life, relationships, goals and purpose in a holistic and grounded way. It inspired me to attend other advanced shivirs, and eventually enroll for the 6 month study program at the Achoti sansthan, for deeper understanding and application.</div>",
           "avtar": "/images/testimonials/Ananya.jpeg"
         },
         "test2": {
           "name": "Praful Patil",
           "city": "Nagpur",
           "pro": "IITB Graduate, UX Designer",
-          "content": "The workshop has completely changed how I see the world. Each day in this 7 day workshop reveals fundamental truths that you get to analyse and debate over. By the end of the workshop, you will have a different prespective about who you are, what is your purpose etc. I would highly recommed this workshop for anyone who are in the journey to disover truth and meaning in their life.",
+          "content": "<div>The workshop has completely changed how I see the world. Each day in this 7 day workshop reveals fundamental truths that you get to analyse and debate over. By the end of the workshop, you will have a different prespective about who you are, what is your purpose etc. I would highly recommed this workshop for anyone who are in the journey to disover truth and meaning in their life.</div>",
           "avtar": "/images/testimonials/Praful.jpeg"
         },
         "test3": {
           "name": "Shriram Narasimhan",
           "city": "Pune",
           "pro": "Ex MNC Manager",
-          "content": "I was look for a Mother of all Theories (MOAT) to explain Human Existence and do something comprehensive & lastingly useful for Society. The Jeevan Vidya shivir was just that. A real, honest suitcase of knowledge & living I can unpack the rest of my Life that results in meaningful Social Action too. ",
+          "content": "<div>I was look for a Mother of all Theories (MOAT) to explain Human Existence and do something comprehensive & lastingly useful for Society. The Jeevan Vidya shivir was just that. A real, honest suitcase of knowledge & living I can unpack the rest of my Life that results in meaningful Social Action too.</div>",
           "avtar": null
         },
         "test4": {
           "name": "Boni Patel",
           "city": "Visnagar, Gujarat",
           "pro": "Manager at Samarth Diamond, Visnagar",
-          "content": "जीवन विद्या से हर मानव का लक्ष्य एक ही है उसको पहचान पाया। और उसको ज्ञान (अस्तित्व दर्शन, जीवन और मानवीयता पूर्ण आचरण ज्ञान), विवेक और विज्ञान (समझ) पूर्वक पाने की विधि और क्रम को भी पहचान पाया। इसी क्रम में मेरी योग्यता पर काम करकर, संबंधों को पहचान कर, मानवीयता  पूर्वक  मानव सुखी होता है और समझ पूर्वक ही सार्वभौम व्यवस्था में भागीदारी कर पाता है, यह मै पहचान पाया। इससे मुझमे और परिवार में तृप्ति का स्तर बढ़ता देख पाया। अब निरंतर तृप्ति की ओर और सार्वभौम व्यवस्था में भागीदारी की ओर मेरी गति है, और मुझे विश्वास है कि इसे हर मानव प्राप्त कर सकता है।",
+          "content": "<p className='hi-font'>जीवन विद्या से हर मानव का लक्ष्य एक ही है उसको पहचान पाया। और उसको ज्ञान (अस्तित्व दर्शन, जीवन और मानवीयता पूर्ण आचरण ज्ञान), विवेक और विज्ञान (समझ) पूर्वक पाने की विधि और क्रम को भी पहचान पाया। इसी क्रम में मेरी योग्यता पर काम करकर, संबंधों को पहचान कर, मानवीयता  पूर्वक  मानव सुखी होता है और समझ पूर्वक ही सार्वभौम व्यवस्था में भागीदारी कर पाता है, यह मै पहचान पाया। इससे मुझमे और परिवार में तृप्ति का स्तर बढ़ता देख पाया। अब निरंतर तृप्ति की ओर और सार्वभौम व्यवस्था में भागीदारी की ओर मेरी गति है, और मुझे विश्वास है कि इसे हर मानव प्राप्त कर सकता है।</p>",
           "avtar": "/images/testimonials/BoniPatel.jpeg"
         },
         "test5": {
           "name": "Vinod Sharma",
           "city": "Achhoti, CG",
           "pro": "Software Developer",
-          "content": "Fourteen years ago, I came across Madhyasth Darshan through a Jeevan Vidya workshop, every day.and it has been a truly enriching journey since then. Over the years, I have felt myself becoming more stable and confident. Most importantly, I’ve been able to give my children a nurturing environment with good values and “Sanskar.” Living in harmony with my family and society has brought me immense satisfaction and joy, making life feel more meaningful and fulfilling ",
+          "content": "<div>Fourteen years ago, I came across Madhyasth Darshan through a Jeevan Vidya workshop and it has been a truly enriching journey since then. Over the years, I have felt myself becoming more stable and confident. Most importantly, I’ve been able to give my children a nurturing environment with good values and “Sanskar.” Living in harmony with my family and society has brought me immense satisfaction and joy, making life feel more meaningful and fulfilling</div> ",
           "avtar": "/images/testimonials/VinodSharma.jpeg"
         }
       }
@@ -657,7 +657,7 @@
       },
       "section4": {
         "h1": "Difference from Materialism and Spiritualism",
-        "p": "Unlike conventional paradigms like materialism and spiritualism, Madhyasth Darshan offers a distinct and superior approach to understanding reality. While materialism focuses solely on the material aspects of life, and spiritualism often relies on mysticism or religious dogma, Madhyasth Darshan transcends these limitations."
+        "p": "Unlike conventional paradigms like materialism and spiritualism, Madhyasth Darshan offers a distinct  approach to understanding reality. While materialism focuses solely on the material aspects of life, and spiritualism often relies on mysticism or religious dogma, Madhyasth Darshan transcends these limitations."
       },
       "section5": {
         "h1": "Unique Approach and Benefits",
@@ -680,7 +680,7 @@
       },
       "section9": {
         "h1": "Practical Living and Solutions",
-        "p": "Going beyond just theoretical concepts, Madhyasth Darshan enables qualitative selftransformation, empowering individuals to live meaningful and fulfilling lives, It promotes simplicity, generosity, and harmony in personal, familial, and social relationships. By fostering ecological awareness and social responsibility, Madhyasth Darshan paves the way for happiness, peace, and contentment in today's turbulent world."
+        "p": "Going beyond just theoretical concepts, Madhyasth Darshan enables qualitative self transformation, empowering individuals to live meaningful and fulfilling lives, It promotes simplicity, generosity, and harmony in personal, familial, and social relationships. By fostering ecological awareness and social responsibility, Madhyasth Darshan paves the way for happiness, peace, and contentment in today's turbulent world."
       },
       "section10": {
         "h1": "Interested? Explore more",
@@ -822,7 +822,7 @@
         "title": "Interventions in the current Education System:",
         "content": [
           "Included as supplementary course in Govt schools in Chattisgarh state in 2010",
-          "Basis for  'Happiness Curriculum' in Delhi Govt schools. Text Books on  Govt Site here.",
+          "Basis for  'Happiness Curriculum' in Delhi Govt schools.",
           "Content based on this inculcated in the CTTL - DIET program by SCERT, Govt of Delhi",
           "Assessment done in Govt Schools in Maharashtra - 2009"
         ]
@@ -941,7 +941,7 @@
     "section11": {
       "h1": "Read More",
       "p1": "Read the official Biography here (Hindi)",
-      "p2": "To get a glimpse into his persona, read recollections - साक्ष्य - संस्मरण - by students (hindi)",
+      "p2": "To get a glimpse into his persona, read recollections  - संस्मरण - by students (hindi)",
       "p3": "See A.Nagraj-ji's photos (pics)",
       "p4": "Explore his entire body of works",
       "p5": "Note by Shri Nagraj on how this darshan came about & its salient points"
@@ -1180,7 +1180,7 @@
         "title": "Alternative Dialectics <span class=\"italic\">(vaadas)</span>",
         "buttons": {
           "b1": {
-            "title": "'Resolution-centric Materialism'",
+            "title": "<div>'Resolution-centric <br/> Materialism'</div>",
             "subTitle": "(samadhanatmak <br />bhoutikvad)",
             "content": "Instead of Conflict-centric Materialism: dvandvatmak bhoutikvad"
           },
@@ -1190,7 +1190,7 @@
             "content": "instead of Mysticism-centric Spiritualism: rahasyatmak adhyatmvad"
           },
           "b3": {
-            "title": "''Behaviour-centric Humanism''",
+            "title": "'Behaviour-centric <br /> Humanism'",
             "subTitle": "(vyavharatmak <br/> janvad)",
             "content": "instead of Struggle-centric Humanism: sangharshatmak janvad"
           }
@@ -1845,8 +1845,8 @@
       }
     },
     "description": [
-      "The books were published between 1977 and 2008. The entire work has been written in Hindi, and the <br /> core books published in about <span className='font-bold'> 13 volumes, </span> in the classical Indian style in three sets:<span className='font-bold'> Darshan, Vaada and  <br />  Shastra.</span> (Direct Insight Dialectics Code of Conduct)",
-      "What follows is how the 13 volumes are distributed across each of these 3 sets, what each set means and a <br /> brief description of the volumes under that set. ",
+      "The books were published between 1977 and 2008. The entire work has been written in Hindi, and the <br /> core books published in about <span className='font-bold'> 12 volumes, </span> in the classical Indian style in three sets:<span className='font-bold'> Darshan, Vaada and  <br />  Shastra.</span> (Direct Insight Dialectics Code of Conduct)",
+      "What follows is how the 12 volumes are distributed across each of these 3 sets, what each set means and a <br /> brief description of the volumes under that set. ",
       "Darshan",
       "The meaning of the word ‘Darshan’ means direct ’seeing reality as-it-is’ or ‘sight’ or ‘realistic-view’. This set <br /> of books focus on the realization and insights achieved of reality. "
     ],
@@ -1886,7 +1886,7 @@
     "content": {
       "title": "Vaada or ‘Ism’",
       "sub": "Dialectic, expansion in logic, discussion, supporting arguments. ",
-      "description": "– Dialectic, expansion in logic, discussion, supporting arguments. The vaada’s or ‘isms are for mutual- <br /> discussion; or the expansion of knowledge gained via ‘darsana’ at the level of thought. They contain logic <br /> and reasons in support of the postulation of realities expounded in the darsana’s. "
+      "description": "The vaada’s or ‘isms are for mutual- discussion; or the expansion of knowledge gained via ‘darsana’ at the level of thought. They contain logic and reasons in support of the postulation of realities expounded in the darsana’s. "
     },
     "3 Volumes": {
       "title": "3 volumes fall under this set:",
@@ -1917,7 +1917,7 @@
     "content2": {
       "title": "Shaastra: or Codes",
       "sub": "-Humane code of conduct",
-      "description": "‘shaastra’ denotes code-of-conduct or ‘discipline’. i.e. the darsana’s cover the <br /> understanding of reality, the vaad or ‘isms cover the expansion & explanation of what was understood at the level of thought – i.e. such ‘knowledge’ coming in thought, and this thought then comes in living, in the form of a self-determined <br /> code-of-conduct, based on what was understood/known."
+      "description": "‘shaastra’ denotes code-of-conduct or ‘discipline’. i.e. the darsana’s cover the understanding of reality, the vaad or ‘isms cover the expansion & explanation of what was understood at the level of thought – i.e. such ‘knowledge’ coming in thought, and this thought then comes in living, in the form of a self-determined  code-of-conduct, based on what was understood/known."
     },
     "4 Volume": {
       "title": "4 volumes fall under this set:",
@@ -1944,9 +1944,9 @@
           "button": "Preview Book"
         },
         "b4": {
-          "title": "मानव आचार संहिता रूपी मानवीय संविधान",
-          "subtitle": "Humane Constitution – from essence to detail:in the form of human code of ethics",
-          "description": "'Constitution' covers Aphorisms and explanation of legal frameworks for the purpose of evidence of perfection in tradition. Law frameworks, Norms, Justice, Conduct; Awakened Human, Fundamental Rights, Orderliness (Human Systems). It provides the overall basis & lawframeworks for Human Society and its existential basis on Actuality, Reality & Truth. This is a ‘Universal Human Constitution’ ",
+          "title": "परिभाषा संहिता",
+          "subtitle": "Paribhasha Samhita ",
+          "description": "The book of definitions or paribhasha gives specific definitions for all the Summary important terms used in the Literature. Shri A Nagraj has taken words from Summary existing indian traditions but has given them new meanings based on his Summary Realisations. The books need to be read with these (new) meanings, rooted in Summary reality.",
           "button": "Preview Book"
         }
       }
@@ -1966,7 +1966,7 @@
         },
         {
           "name": "Vikalp, the Alternative - The origins of this Darshan",
-          "link": "/philosophy/explore-concepts/originators-note-the-alternate"
+          "link": "/philosophy/origins?id=vikalp"
         },
         {
           "name": "Basic Elements of Madhyasth Darshan",
@@ -1978,7 +1978,7 @@
         },
         {
           "name": "Concept of the World Organization",
-          "link": "/philosophy/explore-concepts/nagraj-human-organization"
+          "link": "/philosophy/explore-concepts/students-human-organisation/"
         },
         {
           "name": "Topics of Study (adhyayan bindu)",
@@ -2030,15 +2030,15 @@
         "rows": [
           {
             "name": "Existence as Coexistence",
-            "link": "/philosophy/explore-concepts/knowledge/knowledge-wisdom-science-human-order"
+            "link": "/philosophy/explore-concepts/knowledge-wisdom-science-human-order"
           },
           {
             "name": "The Atom and its Evolution",
-            "link": "/philosophy/explore-concepts/existence-reality-truth/sequential-progression"
+            "link": "/philosophy/explore-concepts/sequential-progression"
           },
           {
             "name": "Actuality, Reality & Truth",
-            "link": "/philosophy/explore-concepts/existence-reality-truth/actuality-reality-truth"
+            "link": "/philosophy/explore-concepts/actuality-reality-truth"
           }
         ]
       },
@@ -2047,7 +2047,7 @@
         "rows": [
           {
             "name": "The conscious atom & consciousness",
-            "link": "/philosophy/explore-concepts/knowledge/knowledge-of-conscious-self"
+            "link": "/philosophy/explore-concepts/knowledge-of-conscious-self"
           }
         ]
       },
@@ -2056,7 +2056,7 @@
         "rows": [
           {
             "name": "Human Knowledge Wisdom & Science",
-            "link": "/philosophy/explore-concepts/knowledge/wisdom-science-undivided-society"
+            "link": "/philosophy/explore-concepts/knowledge-wisdom-science"
           }
         ]
       },
@@ -2082,7 +2082,7 @@
           },
           {
             "name": "World Organisation",
-            "link": "/philosophy/explore-concepts/students-human-organisation"
+            "link": "/philosophy/explore-concepts/nagraj-human-organization/"
           }
         ]
       },
@@ -2100,7 +2100,7 @@
         ]
       },
       "row8": {
-        "subtitle": "On Systems",
+        "subtitle": "Changing the 'System'",
         "rows": [
           {
             "name": "Our Plan for Social Change",
@@ -2117,15 +2117,18 @@
         "rows": [
           {
             "name": "Introduction to Study (adhyayan)",
-            "link": "/resource-center/Start-Adhyayan/method-of-study/aboutstudy"
+            "link": "/resource-center/Start-Adhyayan/method-of-study/aboutstudy",
+            "iconDownlaod": false
           },
           {
             "name": "Method of Study - Explained.",
-            "link": "/resource-center/Start-Adhyayan/method-of-study/explained"
+            "link": "https://megascale.cloud/JV/pdf/D. Study Method in Madhyasth Darshan - small intro-By Student.pdf",
+            "iconDownlaod": true
           },
           {
             "name": "Useful Pointers for the journey",
-            "link": "/resource-center/Start-Adhyayan/method-of-study/useful-pointer"
+            "link": "/resource-center/Start-Adhyayan/method-of-study/useful-pointer",
+            "iconDownlaod": false
           }
         ]
       }
@@ -2157,7 +2160,7 @@
         "c1": {
           "title": "#1: Parichay Shivir",
           "content": [
-            "<a href=\"https://www.youtube.com/watch?v=rSTmr8SVZeA&list=PL5Uk5du85sZUX68p38lahU1uKHEcJwjcl\" target=\"_blank\">Video: प्रारंभिक परिचय विवेचन सेमिनार (60 hrs)</a>",
+            "<a href=\"https://www.youtube.com/watch?v=rSTmr8SVZeA&list=PL5Uk5du85sZUX68p38lahU1uKHEcJwjcl\" target=\"_blank\">Video: परिचय शिविर लेक्चर मोड (60 hrs)</a>",
             "<a href=\"https://www.youtube.com/watch?v=KOmfgoL5Phc&list=PLnQVMclfMfodFcFRq-qTyzJgRWA66Ehkj\" target=\"_blank\">Video: Intro Workshop (Eng) - 10 days</a>",
             "<a href=\"https://www.youtube.com/watch?v=0VsqDv05hec&list=PLnQVMclfMfodeNEES7LhQaabxfpU6fGMu\" target=\"_blank\">Video: Intro Workshop (Eng) - 7 days</a>",
             "<a href=\"https://u.pcloud.link/publink/show?code=kZzWXckZkDCvrnL3KuuCOyRzUPU0eRT4NDQk#/filemanager?folder=18156684482\" target=\"_blank\">परिचय कडी का मार्गदर्शिका डाउनलोड कर अध्ययन करें</a>"
@@ -2181,7 +2184,7 @@
         "c4": {
           "title": "#4: Adhyayan Shivir (with original books)",
           "content": [
-            "<a href=\"https://www.youtube.com/playlist?list=PLnQVMclfMfocbwKBl85w5QqZ0rPTBuz_J\" target=\"_blank\">All books reading + explanation: मधस्थ दर्शन के 50 से अधिक अध्येताओं द्वारा पुस्तकों का पढ़ना सहित व्याख्या – 400 hrs</a>"
+            "<a href=\"https://www.youtube.com/playlist?list=PLnQVMclfMfocbwKBl85w5QqZ0rPTBuz_J\" target=\"_blank\">All books reading + explanation: मध्यस्थ दर्शन के 50 से अधिक अध्येताओं द्वारा पुस्तकों का पढ़ना सहित व्याख्या – 400 hrs</a>"
           ]
         },
         "c5": {
@@ -2213,7 +2216,7 @@
   },
   "Resourcepage": {
     "title": "*Recommended that you attend atleast two to three 'Introductory Workshops' by <a href='/schedule/' className='text-[#b3927b] target='_blank'> different facilitators </a>",
-    "title1": "Also recommended that you gradually approach/transition to the Hindi Resources” <a href='/schedule/' className='text-[#b3927b] target='_blank'>/reading here.</a>",
+    "title1": "Also recommended that you gradually approach/transition to the <a href='/resource-center/Start-Adhyayan/after-parichay-hin/'  target='_blank' style=\"color:#b2917a\"> Hindi Resources” /reading here.</a>",
     "row1": {
       "title": "Intro Reading in English",
       "content": [
@@ -2228,10 +2231,6 @@
         {
           "text": "<a href='https://megascale.cloud/JV/pdf/res-center/5. Book_Jeevan Vidya an Introduction- A.Nagraj.pdf' download>03. Jeevan Vidya an Introduction (by A. Nagraj)</a>",
           "icon": true
-        },
-        {
-          "text": "<a href='https://u.pcloud.link/publink/show?code=kZg9rF5ZxRfCeB3BToJA7vcit2cEnXVN85r7' target='_blank'>*See Advanced Reading (recommended after the next 'adhyayan-bindu shivir'</a>",
-          "icon": false
         }
       ]
     },
@@ -2262,10 +2261,6 @@
         {
           "text": "<a href='https://www.youtube.com/watch?v=0VsqDv05hec&list=PLnQVMclfMfodeNEES7LhQaabxfpU6fGMu' target='_blank'>7 Day Dialogic Introduction - Ashok Gopala</a>",
           "icon": true
-        },
-        {
-          "text": "<a href='https://www.youtube.com/watch?v=0VsqDv05hec&list=PLnQVMclfMfodeNEES7LhQaabxfpU6fGMu' target='_blank'>Snippets - Sanjeev Chopra</a>",
-          "icon": true
         }
       ]
     },
@@ -2275,6 +2270,10 @@
         {
           "text": "<a href='/resource-center/Start-Adhyayan/systematic-study-roadmap-(eng)' target='_blank'>After this, attend the Study Concepts workshop (adhyayan bindu shivir) (see 'Stage#2' in the study roadmap) -  This is where the 'fundamental concepts' are properly introduced.</a>",
           "icon": true
+        },
+        {
+          "text": "<a href='https://u.pcloud.link/publink/show?code=kZg9rF5ZxRfCeB3BToJA7vcit2cEnXVN85r7' target='_blank'>*See Advanced Reading (recommended after the next 'adhyayan-bindu shivir'</a>",
+          "icon": false
         }
       ]
     },
@@ -2282,7 +2281,7 @@
       "title": "जुड़ें /Stay Connected",
       "content": [
         {
-          "text": "<a href='https://app.madhyasth.org/schedule' target='_blank'>Get upcoming workshop alerts.</a>",
+          "text": "<a href='https://www.whatsapp.com/channel/0029VaAZJ4iGehEIwisnME14' target='_blank'>Get upcoming workshop alerts on Whatsapp Community</a>",
           "icon": true
         },
         {
@@ -2346,13 +2345,13 @@
       }
     },
     "ParichaySamagri": {
-      "title": "What to do after the Parichay Shivir? परिचय शिविर के बाद क्या करें?",
+      "title": "What to do after the Parichay Shivir?",
       "subtitle": "* विभिन्न प्रबोधाकों का कम से कम दो से तीन जीवन परिचय शिविर करना सुझावित है"
     },
     "rows1": {
       "title": "परिचयात्मक पठन",
       "content": [
-        "<a href='https://megascale.cloud:3011/pdf/01.-प्रथम-परिचय-लेख-संकलन-विद्यार्थी-द्वारा.pdf' download>01. प्रथम परिचय लेख संकलन - विद्यार्थी द्वारा</a>",
+        "<a href='https://megascale.cloud/JV/pdf/01.-प्रथम-परिचय-लेख-संकलन-विद्यार्थी-द्वारा.pdf' download>01. प्रथम परिचय लेख संकलन - विद्यार्थी द्वारा</a>",
         "<a href='https://megascale.cloud/JV/pdf/02.-प्राथमिक-परिचय-शिविर-नोट्स_विद्यार्थी_Aug-2012.pdf' download>02. प्राथमिक परिचय शिविर नोट्स_विद्यार्थी</a>",
         "<a href='https://megascale.cloud/JV/pdf/03.-पुस्तक-सह-अस्तित्ववाद-एक-परिचय-संकलन-ए-नागराज.pdf' download>03. पुस्तक - सह-अस्तित्ववाद एक परिचय (संकलन) -ए नागराज</a>",
         "<a href='https://megascale.cloud/JV/pdf/04.-प्रारंभिक-पाठमाला-लेख-संकलन-ए.नागराज.pdf' download>04. प्रारंभिक पाठमाला (लेख संकलन) - ए.नागराज</a>"
@@ -2446,18 +2445,18 @@
         ]
       },
       "row7": {
-        "title": "विद्यार्थी लिखित (Students Writings)",
+        "title": "विद्यार्थी लिखित सामग्री (Students Writing Related)",
         "content": [
-          "<a href=\"https://u.pcloud.link/publink/show?code=XZs5XJ5ZCs8fKCmu56HVGDvBmEjmkhwogPzk\"target=\"_blank\">Book: Jeevan Vidya Shivir – A Companion Reader (Eng) -to be read before/after the parichay shivir.</a> ",
-          "<a href=\"https://u.pcloud.link/publink/show?code=kZzWXckZkDCvrnL3KuuCOyRzUPU0eRT4NDQk#folder=18156648999&tpl=publicfoldergrid\"target=\"_blank\">Book: नागराजजी के साथ के विद्यार्थी संस्मरण</a>",
-          "<a href=\"https://u.pcloud.link/publink/show?code=kZzWXckZkDCvrnL3KuuCOyRzUPU0eRT4NDQk#/filemanager?folder=27630850457\"target=\"_blank\">Articles: Basic Concepts Collection (Eng)</a>",
-          "<a href=\"https://u.pcloud.link/publink/show?code=kZzWXckZkDCvrnL3KuuCOyRzUPU0eRT4NDQk#folder=18156649490&tpl=publicfoldergrid\"target=\"_blank\">गीत संग्रह</a>",
+          "<a href=\"https://u.pcloud.link/publink/show?code=XZs5XJ5ZCs8fKCmu56HVGDvBmEjmkhwogPzk\"target=\"_blank\">Book: Jeevan Vidya Shivir – A Companion Reader (Eng).</a> ",
+          "<a href=\"https://megascale.cloud/JV/folder/About%20A.Nagraj.zip\"target=\"_blank\">Book: नागराजजी के साथ के विद्यार्थी संस्मरण</a>",
+          "<a href=\"https://u.pcloud.link/publink/show?code=kZzWXckZkDCvrnL3KuuCOyRzUPU0eRT4NDQk#/filemanager?folder=27630850457\"target=\"_blank\">Madhyasth Darshan – Basic Concepts Introduced (Eng)</a>",
+          "<a href=\"https://u.pcloud.link/publink/show?code=kZzWXckZkDCvrnL3KuuCOyRzUPU0eRT4NDQk#/filemanager?folder=18156649407\"target=\"_blank\">गीत संग्रह एवं संस्कार पत्र (जन्म, विवाह, मृत्यु)</a>",
           "<a href=\"https://u.pcloud.link/publink/show?code=kZzWXckZkDCvrnL3KuuCOyRzUPU0eRT4NDQk#folder=18156649407&tpl=publicfoldergrid\"target=\"_blank\">संस्कार पत्र- जन्म, विवाह, मृत्यु</a>",
-          "<a href=\"https://u.pcloud.link/publink/show?code=kZzWXckZkDCvrnL3KuuCOyRzUPU0eRT4NDQk#folder=18156649144&tpl=publicfoldergrid\"target=\"_blank\">विद्यार्थी लेख - सम्पूर्ण(all students articles)</a> "
+          "<a href=\"https://u.pcloud.link/publink/show?code=kZzWXckZkDCvrnL3KuuCOyRzUPU0eRT4NDQk#/filemanager?folder=25493869952\"target=\"_blank\">विद्यार्थी लेख - सम्पूर्ण(all students articles)</a> "
         ]
       },
       "row8": {
-        "title": "सम्पूर्ण ग्रंथालय (Full e-library)",
+        "title": "(सम्पूर्ण ग्रंथालय) (Full Cloud Library)",
         "content": [
           "<a href=\"https://u.pcloud.link/publink/show?code=kZ6Gm05ZfUbbDBW8fKmKB9ejvrO6cSRnRRH7#folder=24106408193&tpl=publicfolderlist\"target=\"_blank\">dub.sh/mdlibrary  (pCloud) नागराजजी के सम्पूर्ण अप्रकाशित लेख, डायरी, चार्ट्स एवं पुराने संस्करण</a>"
         ]
@@ -2469,23 +2468,23 @@
         "title": "WhatsApp / Telegram Groups",
         "content": [
           {
-            "text": "1. <a href=\"https://www.whatsapp.com/channel/0029VaAZJ4iGehEIwisnME14\" target=\"_blank\">Shivir Announcements ONLY Community (WhatsApp)</a>",
+            "text": "<a href=\"https://www.whatsapp.com/channel/0029VaAZJ4iGehEIwisnME14\" target=\"_blank\">1. Shivir Announcements ONLY Community (WhatsApp)</a>",
             "status": true
           },
           {
-            "text": "2. <a href=\"https://chat.whatsapp.com/JSkSxYNAPSb7jDKBVIsqKP\" target=\"_blank\">Parivar Sabha - general WhatsApp forum</a>",
+            "text": "<a href=\"https://chat.whatsapp.com/JSkSxYNAPSb7jDKBVIsqKP\" target=\"_blank\">2. Parivar Sabha - general WhatsApp forum</a>",
             "status": true
           },
           {
-            "text": "3. <a href=\"https://chat.whatsapp.com/Is01xci3erdDY20Z2mKlq9\" target=\"_blank\">Production & Exchange WhatsApp</a>",
+            "text": "<a href=\"https://chat.whatsapp.com/IYD6YJsfeDwHoe7JNxDY8d?mode=ac_t\" target=\"_blank\">3. Production & Exchange WhatsApp</a>",
             "status": true
           },
           {
-            "text": "4. <a href=\"https://chat.whatsapp.com/IYD6YJsfeDwHoe7JNxDY8d?mode=ac_t\" target=\"_blank\">अध्ययन Q&A discussions - Telegram</a>",
+            "text": "<a href=\"https://t.me/joinchat/C2lNSRK22dgq1MQnKvZc_A\" target=\"_blank\">4. अध्ययन Q&A discussions - Telegram</a>",
             "status": true
           },
           {
-            "text": "5. <a href=\"https://chat.whatsapp.com/LlFYexdveGP86z7hjSuq1a\" target=\"_blank\">English Translations - Telegram</a>",
+            "text": "<a href=\"https://t.me/joinchat/C2lNSRjYSFESxeHe7MryRQ\" target=\"_blank\">5. English Translations - Telegram</a>",
             "status": true
           },
           {
@@ -2493,12 +2492,12 @@
             "status": null
           },
           {
-            "text": "a. <a href=\"https://chat.whatsapp.com/GrUvd2SjsoDGwDXHiYojHV\" target=\"_blank\">Deogarh - Jharkhand Study Circle</a>",
+            "text": "<a href=\"https://chat.whatsapp.com/GrUvd2SjsoDGwDXHiYojHV\" target=\"_blank\">a. Deogarh - Jharkhand Study Circle</a>",
             "status": true
           },
           {
-            "text": "7. School Curriculum & textbooks development group - contact Chani: 96913.52929, chani.chawda@gmail.com",
-            "status": null
+            "text": "<a href=\"https://chat.whatsapp.com/LlFYexdveGP86z7hjSuq1a\" target=\"_blank\">b. Abhyuday Sansthan, Raipur (CG) Updates</a>",
+            "status": true
           }
         ]
       },
@@ -2585,15 +2584,15 @@
         "title": "Products / Volunteer / Contacts",
         "content": [
           {
-            "text": "<a href=\"https://utsav.earth/\" target=\"_blank\">Products fair exchange platform. Utsav.earth -",
+            "text": "<a href=\"https://utsav.earth/\" target=\"_blank\">Products fair exchange platform. Utsav.earth</a>",
             "status": true
           },
           {
-            "text": "<a href=\"https://docs.google.com/forms/d/e/1FAIpQLSeC17vxy_bBRYgpb8c-6T7-Ix7EgpYuIX0MNGfJI35quHDvgA/viewform\" target=\"_blank\">Volunteer! - Contribute your time & Efforts!",
+            "text": "<a href=\"https://docs.google.com/forms/d/e/1FAIpQLSeC17vxy_bBRYgpb8c-6T7-Ix7EgpYuIX0MNGfJI35quHDvgA/viewform\" target=\"_blank\">Volunteer! - Contribute your time & Efforts!</a>",
             "status": true
           },
           {
-            "text": "<a href=\"/about/contact-us\" >Meet someone!: City wise Contacts",
+            "text": "<a href=\"/about/contact-us?location=1\" >Meet someone!: City wise Contacts</a>",
             "status": true
           }
         ]
@@ -2601,9 +2600,9 @@
     }
   },
   "darshan": {
-    "title": "दार्शनिक स्थानांकन",
-    "description": "स्कीमैटिक चित्रण करता है कि 'मध्यस्थ दर्शन' अन्य भारतीय दर्शनों के साथ किस स्थान पर स्थित है।",
-    "downloadText": "छवि फ़ाइल डाउनलोड करें"
+    "title": "Philosophical position",
+    "description": "The schematic depicts where the 'mediator philosophy' stands in relation to other Indian philosophies.",
+    "downloadText": "Download Schematic"
   },
   "principle": {
     "title": "Principle postulations in Madhyasth Darshan",
@@ -2702,8 +2701,8 @@
     ]
   },
   "postulations": {
-    "h1": "Summary",
-    "h11": "Explanation",
+    "h1": "Discoveries - Summary",
+    "h11": "Discoveries - Explained",
     "title": "Nature of Reality / Metaphysics/Ontology",
     "h2": "Nature of Reality / Metaphysics/Ontology",
     "title2": "Principle distinctions with other Indian Systems",
@@ -3005,7 +3004,7 @@
       "stage2": {
         "st": "Stage#2",
         "title": "Course/Stage #2: Adhyayan Bindu",
-        "content": "The 'Adhyayan Bindu' Shivir is an explanation of the 'Jeevan Vidya 44 Points Booklet' by that name written by Shri A. Nagraj. In this, one becomes aware of the basic elements of Madhyastha philosophy - such as knowledge of coexistence, knowledge of consciousness, knowledge of humane conduct, discretion, science, unified society and universal system. This workshop also helps clarify that Madhyastha philosophy is an 'alternative' to materialism and idealism. It is suggested you attendone or two Adhyayan bindu camps at an interval of 3-6 months."
+        "content": "The 'Adhyayan Bindu' Shivir is an explanation of the 'Jeevan Vidya 44 Points Booklet' by that name written by Shri A. Nagraj. In this, one becomes aware of the basic elements of Madhyastha philosophy - such as knowledge of coexistence, knowledge of consciousness, knowledge of humane conduct, wisdom, science, unified human society and universal global system. This workshop also helps clarify that Madhyastha philosophy is an 'alternative' to materialism and idealism. It is suggested you atten done or two Adhyayan bindu camps at an interval of 3-6 months."
       },
       "stage3": {
         "st": "Stage#3",
@@ -3035,10 +3034,10 @@
         "title": "Sakshatkara, Bodh, Anubhava",
         "content": [
           "In sakshatkara, we have direct perception of the realities that we have previously understood & contemplated on. We get knowledge of the unchanging realities that exist in existence. There is no language and logic, due to realization, there is faith in the entity understood and commitment to live accordingly. Once we have sakshatkara, the books/words start getting left behind. The stability of avdharna takes time in the process of sakshatkara & bodh. It depends on our previous sanskaar and our intense desire.",
-          "As we have avdharna, all inhumane and prohibited behaviour is left behind. It gives rise to the knowledge of developed consciousness.",
-          "In bodh, there is firmness on the things that have been realized. The book gets left behind.",
-          "In the sakshatkara-bodh process, one starts achieving rest, happiness & peace, contentment in the self. There is continuity of joy based after anubhava.",
-          "Knowledge and conduct get complete in anubhava."
+          " As we have avdharna, all inhumane and prohibited behaviour is left behind. It gives rise to the knowledge of developed consciousness.",
+          " In bodh, there is firmness on the things that have been realized. The book gets left behind.",
+          " In the sakshatkara-bodh process, one starts achieving rest, happiness & peace, contentment in the self. There is continuity of bliss after anubhava.",
+          "Knowledge and perfection in conduct get complete in anubhava."
         ]
       }
     }

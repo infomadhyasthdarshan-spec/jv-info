@@ -261,10 +261,10 @@ const Page = () => {
                         <div className="prose prose-lg max-w-none space-y-4 h-full ">
                             <p>Participants can continue their journey through:</p>
                             <ul className="page-content list-disc list-outside py-1 pl-5 ">
-                                <a href="/resource-center/Start-Adhyayan" className="text-[#b2917a]"><li>See Recommended Next Steps - Beginners material.</li></a>
-                                <li>Advanced workshops. <a href="/resource-center" className="text-[#b2917a]" >See the Study Guide here.</a> </li>
-                                <li>Reading Madhyasth Darshan literature.</li>
-                                <li>Staying connected with facilitators and local groups for deeper study.</li>
+                                <a href="/resource-center/Start-Adhyayan/after-parichay-en/" className="text-[#b2917a]"><li>See Recommended Next Steps - Beginners material.</li></a>
+                                <li>Advanced workshops. <a href="/resource-center/Start-Adhyayan/systematic-study-roadmap-(eng)/" className="text-[#b2917a]" >See the Study Guide here.</a> </li>
+                                <li>Reading <a  href="/books/"  className="text-[#b2917a]">Madhyasth Darshan literature.</a></li>
+                                <li><a href="/resource-center/connect-to-community/"  className="text-[#b2917a]" >Staying connected</a> with facilitators and local groups for deeper study.</li>
 
                             </ul>
 

@@ -36,7 +36,7 @@ const page = () => {
       {
         title: text.aboutPage5.section11.p2,
         description: text.links.des.d2,
-        link: "https://megascale.cloud/JV/public/folder/About A.Nagraj.zip",
+        link: "https://megascale.cloud/JV/folder/About A.Nagraj.zip",
         status: true
 
       },
@@ -58,7 +58,7 @@ const page = () => {
             <div
               key={index}
               className="flex justify-between items-start p-5 bg-white rounded-[16px] transition-all duration-300 border border-[#DDE1E6] cursor-pointer"
-              onClick={() => router.push(item.link)}
+              onClick={() => window.open(item.link, "_blank")}
             >
               <div>
                 <h3 className="page-nav-card-heading">{item.title}</h3>
@@ -280,7 +280,7 @@ const page = () => {
         <p className="mb-8 page-content">{text.aboutPage5.section10.p1}</p>
 
         <ul className="space-y-3 list-disc list-outside pl-5 page-content font-th">
-          <li className="italic">   {text.aboutPage5.section10.h2}</li>
+          {/* <li className="italic">   {text.aboutPage5.section10.h2}</li> */}
           <li>{text.aboutPage5.section10.l1}</li>
           <li>{text.aboutPage5.section10.l2}</li>
           <li>{text.aboutPage5.section10.l3}</li>

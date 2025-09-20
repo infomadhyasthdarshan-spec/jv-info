@@ -82,7 +82,7 @@ const AboutStudy = () => {
       <h2 className="study-heading  page-small-heading  mb-4">
         Phase#2: Study & Practice (अध्ययन और अभ्यास)
       </h2>
-      <p className="text-base md:text-lg mb-6 page-content">
+      <p className="  mb-6 page-content">
         Once doubts have been cleared in the ‘preliminary evaluation’, and <i>we don’t have any other alternatives for knowing and living</i>, we <strong>commit ourselves</strong> to serious Study & Practice of the proposal.
         <br />
         This broadly consists of:
@@ -109,33 +109,13 @@ const AboutStudy = () => {
         <li>This is a process of distillation where we derive inferences from our Study & Practice in Living</li>
         <li>We strive to continually focus on the realities we seek to have knowledge of our conscious-self and its many faculties or activities, of the various dimensions of reality/existence, and of humane conduct or living.</li>
         <li>This process leads to gradual clarity as glimpse (<i>bhaas</i>) and semblance (<i>abhaas</i>) in understanding and living.</li>
-        <li>Our success is in being able to have direct-perception (<i>sakshatkar</i>) of such realities</li>
+        <li>Stability in understanding comes from being able to have direct-perception (sakshatkar) of realities.</li>
         <li>Such clarity or insight enables an evolving transformation in our level of consciousness.</li>
       </ul>
 
       {/* <p className="text-base md:text-lg mb-10 page-content">
         See a more technical description in <span className="text-[#94562B] underline cursor-pointer">Method of Study</span>
       </p> */}
-
-      {/* What Study is Not */}
-      <h3 className=" page-small-heading text-red-600 mt-10 mb-4">What Study is not</h3>
-      <ul className="list-disc pl-6 space-y-2 mb-10 page-content">
-        <li>
-          Study (<i>adhyayan</i>) is not merely a <i>‘bookish’</i> exercise to be done on a desk. Study takes place with a competent person, a teacher – in whom the meanings of words reside as ‘knowledge of reality’.
-        </li>
-        <li>
-          This is not merely an <i>‘intellectual exercise’</i>, but one that manifests in living and necessitates investigation of & living in human-relationships and relationship with the rest of nature.
-        </li>
-        <li>
-          This is not a <i>‘part-time’</i> pursuit. Serious study – (in order to become awakened, complete with knowledge) requires full time commitment to Study and Practice and needs changes in lifestyle and our perspectives (<i>drishti</i>).
-        </li>
-        <li>
-          The study of reality according to Madhyasth Darshan <strong>does not</strong> include any ‘prevalent meditative-practices’; ‘need to close ones eyes’, ‘chanting’ or ‘mystical-experiences’.
-        </li>
-        <li>
-          Madhyasth Darshan does not derive from other darshans or philosophies. This is being mentioned here in order to avoid confusing this with existing theories, where the words used are similar, but with a <strong>totally different intended meaning</strong>.
-        </li>
-      </ul>
 
       <p className="text-sm italic text-left page-content">shriram n | student | jan 2016</p>
     </section>

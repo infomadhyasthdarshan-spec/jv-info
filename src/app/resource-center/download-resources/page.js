@@ -1,7 +1,7 @@
-"use client";
+ "use client";
 import { useLanguage } from "@/context/LanguageContext";
 import { useEffect } from 'react';
-import { wrapHindiWords  } from '@/utils/fontInjector';
+import { wrapHindiWords } from '@/utils/fontInjector';
 import React, { useState } from "react";
 import { FaArrowRight, FaPlus, FaMinus } from "react-icons/fa6";
 const DownloadResources = () => {
@@ -18,7 +18,7 @@ const DownloadResources = () => {
     },
     {
       title: text.Resourcepage.downloadResources.row3.title,
-      items: text.Resourcepage.downloadResources.row3.content,
+      items: text.Resourcepage.downloadResources.row3.content, 
     },
     {
       title: text.Resourcepage.downloadResources.row4.title,
@@ -35,6 +35,10 @@ const DownloadResources = () => {
     {
       title: text.Resourcepage.downloadResources.row7.title,
       items: text.Resourcepage.downloadResources.row7.content,
+    },
+    {
+      title: text.Resourcepage.downloadResources.row8.title,
+      items: text.Resourcepage.downloadResources.row8.content,
     }
   ];
 
@@ -43,8 +47,8 @@ const DownloadResources = () => {
   const toggleSection = (index) => {
     setOpenIndex((prev) => (prev === index ? null : index));
   };
-     useEffect(() => {
-    wrapHindiWords ();
+  useEffect(() => {
+    wrapHindiWords();
   }, []);
 
   return (
@@ -66,33 +70,33 @@ const DownloadResources = () => {
               <span className="text-start">{section.title}</span>
               <span className="text-lg">{openIndex === index ? "−" : "+"}</span>
             </button>
-        {openIndex === index && (
-          <ul className="divide-y divide-gray-300 bg-white">
-    {console.log(sections)}
-    {section.items.map((item, idx) => {
-      // Extract href + text
-      const tempDiv = document.createElement("div");
-      tempDiv.innerHTML = item;
-      const anchor = tempDiv.querySelector("a");
-      const href = anchor?.getAttribute("href");
-      const text = anchor?.innerHTML;
+            {openIndex === index && (
+              <ul className="divide-y divide-gray-300 bg-white">
+                {console.log(sections)}
+                {section.items.map((item, idx) => {
+                  // Extract href + text
+                  const tempDiv = document.createElement("div");
+                  tempDiv.innerHTML = item;
+                  const anchor = tempDiv.querySelector("a");
+                  const href = anchor?.getAttribute("href");
+                  const text = anchor?.innerHTML;
 
-      return (
-        <li key={idx} className="divide-y divide-gray-300">
-          <a
-            href={href}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="flex items-center justify-between px-5 py-4 gap-4 cursor-pointer hover:bg-gray-50"
-          >
-            <span className="page-collapse-link flex-1">{text}</span>
-            <img src="/icon/link.svg" alt="link" />
-          </a>
-        </li>
-      );
-    })}
-  </ul>
-)}
+                  return (
+                    <li key={idx} className="divide-y divide-gray-300">
+                      <a
+                        href={href}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="flex items-center justify-between px-5 py-4 gap-4 cursor-pointer hover:bg-gray-50"
+                      >
+                        <span className="page-collapse-link flex-1" dangerouslySetInnerHTML={{ __html: text }}></span>
+                        <img src="/icon/link.svg" alt="link" />
+                      </a>
+                    </li>
+                  );
+                })}
+              </ul>
+            )}
 
           </div>
         ))}

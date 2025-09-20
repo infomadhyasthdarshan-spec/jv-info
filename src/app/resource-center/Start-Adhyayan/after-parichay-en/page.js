@@ -22,7 +22,7 @@ const Tabs = () => {
   return (
     <div className='lg:max-w-5xl 2xl:max-w-5xl px-3 md:px-0 py-8 mx-auto'>
       <h2 className="text-xl sm:text-2xl font-bold text-black mb-6 text-start">
-        What to do after the Parichay Shivir? परिचय शिविर के बाद क्या करें?
+        What to do after the Parichay Shivir?
       </h2>
       <div className="flex flex-col items-center">
         {/* Tab Buttons */}

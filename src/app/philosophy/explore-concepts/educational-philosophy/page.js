@@ -13,7 +13,7 @@ const page = () => {
         <Backjs />
         <h2 className="page-heading pb-2">Educational Philosophy</h2>
         <div>
-          <p className="page-content pb-2">Click section to read</p>
+          <p className="page-content pb-2">Click to read section</p>
 
           <ul className="list-disc pl-5 space-y-2 page-content">
             <li
@@ -69,7 +69,7 @@ const page = () => {
               Content of Education - Knowledge, Wisdom & Science
             </li>
 
-            <li>Multidisciplinary & Holistic Education</li>
+            <li className="font-bold">Multidisciplinary & Holistic Education</li>
 
             <ul className="list-decimal pl-5 space-y-2 page-content">
               <li
@@ -1041,12 +1041,7 @@ const page = () => {
             </li>
           </ul>
         </div>
-        <h2
-          className="page-heading pb-8 scroll-mt-40"
-          id="outcomes-of-humane-education"
-        >
-          Outcomes of Education
-        </h2>
+        <h2 className="page-heading pt-10 pb-3 scroll-mt-30" id="outcomes-of-humane-education">Outcomes of Education</h2>
         <p className="mb-4 page-content ">
           The person that successfully completes such education is endowed with
           the following 5 qualities:
@@ -1085,7 +1080,7 @@ const page = () => {
         </ul>
 
         <h2
-          className="page-heading pb-8 scroll-mt-40"
+          className="page-heading pt-10 scroll-mt-40"
           id="how-to-supplement-the-prevalent-educational-content"
         >
           Supplementing the current educational content
@@ -1139,12 +1134,12 @@ const page = () => {
         {/* Criterion for Evaluation */}
         <section>
           <h2
-            className="page-heading pb-8 scroll-mt-40"
+            className="page-heading pt-10 pb-2 scroll-mt-40"
             id="criterion-for-acceptance-of-this-course"
           >
             Criterion for evaluation & acceptance
           </h2>
-          <p className="mb-4">
+          <p className="mb-4 page-content">
             The human values via consciousness development or Chetna Vikas Mulya
             Shiksha (CVMS) fulfills the following criterion:
           </p>

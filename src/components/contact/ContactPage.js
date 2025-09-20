@@ -139,13 +139,8 @@ const allStates = [
         city: "New Delhi",
         name: "Sanjeev Chopra",
         phone: "9811141311",
-      },
-      {
-        city: "Gurugram",
-        name: "Kumar Sambhav",
-        phone: "9455680200",
-        email: "kumarms3@gmail.com",
-      },
+      }
+
     ],
   },
   {
@@ -179,10 +174,10 @@ const allStates = [
     state: "Tamil Nadu",
     contacts: [
       {
-        city: "Chennai",
-        name: "Thirumalai",
-        phone: "9884962533",
-        email: "thirumalairaja@gmail.com",
+        city: "Salem",
+        name: "Senthil",
+        phone: "9566876633",
+
       },
     ],
   },
@@ -251,9 +246,9 @@ function ContactLocation() {
   const [showDropdown, setShowDropdown] = useState(false);
   const [selectedState, setSelectedState] = useState(null);
   const handleStateSelect = (state) => {
-  setSelectedState(state);
-  setShowDropdown(false); // ✅ Hide dropdown after selecting
-};
+    setSelectedState(state);
+    setShowDropdown(false); // ✅ Hide dropdown after selecting
+  };
 
 
   // const handleStateSelect = (state) => {
@@ -471,18 +466,18 @@ function ContactLocation() {
                   <div className="hidden md:flex md:flex-col md:w-full">
                     <div className="font-semibold mb-1 text-[15px]">{c.city}</div>
                     <div className="flex gap-10 text-sm mt-1 mb-2">
-                      <div className="flex items-center gap-2">
-                        <User className="  w-6 h-6 mt-2" />
+                      <div className="flex items-center gap-2 text-[16px]">
+                        <User className="w-6 h-6 mt-2" />
                         <span className="mt-2">{c.name}</span>
                       </div>
                       <div className="flex items-center gap-2">
-                        <Phone className="  w-6 h-6 mt-2" />
-                        <span className="mt-2">{c.phone}</span>
+                        <Phone className="w-6 h-6 mt-2" />
+                        <span className="mt-2 text-[16px]">{c.phone}</span>
                       </div>
                       {c.email && (
                         <div className="flex items-center gap-2">
-                          <Mail className="  w-6 h-6 mt-2" />
-                          <span className="mt-2">{c.email}</span>
+                          <Mail className="w-6 h-6 mt-2" />
+                          <span className="mt-2 text-[16px]">{c.email}</span>
                         </div>
                       )}
                     </div>

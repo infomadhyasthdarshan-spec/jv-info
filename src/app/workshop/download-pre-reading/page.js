@@ -1,8 +1,8 @@
 "use client";
 
 import { useLanguage } from "@/context/LanguageContext";
-import { useEffect } from 'react';
-import { wrapHindiWords  } from '@/utils/fontInjector';
+import { useEffect, useState } from 'react';
+import { wrapHindiWords } from '@/utils/fontInjector';
 export default function page() {
     const { text } = useLanguage()
     const downloadIcon = "/icon/download.svg"; // Update with your icon path
@@ -57,9 +57,9 @@ export default function page() {
         ],
     };
 
-       useEffect(() => {
-    wrapHindiWords ();
-  }, []);
+    useEffect(() => {
+        wrapHindiWords();
+    }, []);
 
     return (
         <div className="mx-2 md:mx-auto lg:max-w-5xl 2xl:max-w-5xl space-y-10 mb-8 py-8">
@@ -83,7 +83,7 @@ export default function page() {
 
             {/* To Circulate Section */}
             <section className="space-y-4">
-                <h2 className="page-heading  pl-2 lg:pl-0 md:pl-0 ssr-hading">{text.workshopPage4['To circulate (invite others)'].title}</h2>
+                {/* <h2 className="page-heading  pl-2 lg:pl-0 md:pl-0 ssr-hading">{text.workshopPage4['To circulate (invite others)'].title}</h2>sdcsc */}
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                     {resources.toCirculate.map((item, idx) => (
                         <Card key={idx} title={item.title} details={item.details} link={item.link} />
@@ -92,16 +92,14 @@ export default function page() {
             </section>
 
             {/* Invitation Posters Section */}
-            <section className="space-y-4">
+            {/* <section className="space-y-4">
                 <h2 className="page-heading  pl-2 lg:pl-0 md:pl-0 ssr-hading">{text.workshopPage4['Invitation Posters'].title}</h2>
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                     {resources.posters.map((item, idx) => (
                         <Card key={idx} title={item.title} details={item.details} link={item.link} />
                     ))}
                 </div>
-            </section>
-
-
+            </section> */}
         </div>
     );
 }

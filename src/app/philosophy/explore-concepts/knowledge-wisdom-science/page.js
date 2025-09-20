@@ -17,17 +17,17 @@ const page = () => {
     
             <p className="mb-10 page-content">Knowledge is the anchor for the human being, his innate, inalienable need. This knowledge is:</p>
             <ul className="list-disc list-outside text-left ml-3 mx-auto">
-              <li className="mb-1 page-content"><a className='text-[#9c5027]'>Knowledge of realistic-view of Existence:</a> [अस्तित्व दर्शन ज्ञान]</li>
+              <li className="mb-1 page-content"><a className='font-bold'>Knowledge of realistic-view of Existence:</a> [अस्तित्व दर्शन ज्ञान]</li>
               <ul className="list-disc list-outside ml-12 mb-10 page-content">
                 <li>Existence is Coexistence, as nature saturated in all-pervasive 'space/energy'. Nature = collection of active units = physicochemical and conscious units.</li>
                 <li>Knowledge of all four dimensions of nature (matter): form, properties, innate-nature & religion (rup, gun, swabhāv & dharm) consisting of formful and formless dimensions.</li>
               </ul>
-              <li className="mb-1 page-content"><a className='text-[#9c5027]'>Knowledge of Conscious Self</a> (Jeevan): [जीवन् ज्ञान]</li>
+              <li className="mb-1 page-content"><a className='font-bold'>Knowledge of Conscious Self</a> (Jeevan): [जीवन् ज्ञान]</li>
               <ul className="list-disc list-outside ml-12 mb-10 page-content">
                 <li>Knowledge of the 10 activities in the Self (Conscious) and the 5 Potentials and 5 Forces.</li>
                 <li>Viz: Tasting & Choosing; Evaluating & Analysing; Contemplating & Visualising; Comprehension & Determination; Realization & Evidencing corresponding respectively to the 5 factors: disposition, mind, intellect & soul (mun, vritti, citta, buddhi & ātmā).</li>
               </ul>
-              <li className="mb-1 page-content"><a className='text-[#9c5027]'>Knowledge of perfect-Humane Conduct:</a> (मानवीय आचरण ज्ञान)</li>
+              <li className="mb-1 page-content"><a className='font-bold'>Knowledge of perfect-Humane Conduct:</a> (मानवीय आचरण ज्ञान)</li>
               <ul className="list-disc list-outside ml-12 page-content" >
                 <li>Living in human-human relationships and human-nature relationships - as humane values, character & ethics.</li>
               </ul>
@@ -145,7 +145,7 @@ const page = () => {
       </p>
 
       {/* Subheading */}
-      <h4 className="page-common-hading mt-10 mb-3 italic">
+      <h4 className="page-xsmall-hading mt-10 mb-3 italic">
         The book or the human?
       </h4>
 

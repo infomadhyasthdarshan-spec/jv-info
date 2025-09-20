@@ -6,15 +6,15 @@ import { useRouter } from "next/navigation";
 import ContactLocation from "@/components/contact/ContactPage";
 import EmailFomer from "@/components/contact/EmailForm";
 import { useSearchParams } from "next/navigation";
-import { wrapHindiWords  } from '@/utils/fontInjector';
+import { wrapHindiWords } from '@/utils/fontInjector';
 const Contactus = () => {
   const { text } = useLanguage();
   const router = useRouter();
   const searchParams = useSearchParams();
   const search = searchParams.get("location");
   // console.log(search);
-    useEffect(() => {
-    wrapHindiWords ();
+  useEffect(() => {
+    wrapHindiWords();
   }, []);
   const [showLocationComponent, setShowLocationComponent] = useState(false);
   const [showEmailForm, setShowEmailForm] = useState(false);
@@ -23,13 +23,13 @@ const Contactus = () => {
 
   useEffect(() => {
     console.log(typeof search)
-    if(search === '1'){
-      if(!showEmailForm){
+    if (search === '1') {
+      if (!showEmailForm) {
         setShowLocationComponent(true)
         console.log("open")
       }
     }
-  },[])
+  }, [])
 
   const handleCallUsClick = () => {
     setShowLocationComponent(true);
@@ -67,7 +67,7 @@ const Contactus = () => {
       title: text.aboutPage8.section1.card3.h1,
       description: text.aboutPage8.section1.card3.p,
       icon: <ArrowRight className="h-6 w-6" />,
-      action: () => window.open("/about/our-centers", "_blank"),
+      action: () => window.open("/about/our-centers", "_self"),
     },
   ];
 

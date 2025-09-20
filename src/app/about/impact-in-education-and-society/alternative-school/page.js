@@ -44,7 +44,7 @@ export default function AlternativeSchool() {
           <img
             src="https://madhyasth-darshan.info/wp-content/uploads/2015/02/abhibhavak-vidyalaya-CVMS-schools-img1-768x513.jpg"
             alt="School"
-            className="w-72 rounded shadow"
+            className="w-72 h-80 rounded shadow"
           />
         </div>
       </section>
@@ -53,7 +53,7 @@ export default function AlternativeSchool() {
       <section className="mb-12">
         <p className="mb-4 page-content">
           <span className="font-bold">Contact:</span> Chani Chawda:{" "}
-          <a href="mailto:chani.chawda@gmail.com" className="text-red-500">
+          <a href="mailto:chani.chawda@gmail.com" className="text-[#b2917a]">
             chani.chawda@gmail.com
           </a>
           , 96913-52929 | Anita Shah at 90097-78000 for details.
@@ -115,7 +115,7 @@ export default function AlternativeSchool() {
         </div>
 
         <p className="mt-6 page-content">
-          Education related <span className="text-red-600 font-semibold">resources</span> (textbooks, guidelines, etc)
+          Education related <span className="text-red-600  font-semibold">resources</span> (textbooks, guidelines, etc)
         </p>
       </section>
     </div>

@@ -96,34 +96,48 @@ function NavigationBar() {
     }
   }, [pathname]);
 
+  // Find the best match
+  const activeIndex = (() => {
+    let bestMatch = -1;
+    let bestLength = -1;
+
+    navItems.forEach((item, index) => {
+      if (pathname === item.link || pathname.startsWith(item.link)) {
+        if (item.link.length > bestLength) {
+          bestMatch = index;
+          bestLength = item.link.length;
+        }
+      }
+    });
+
+    // If no match, fallback to first tab
+    return bestMatch === -1 ? 0 : bestMatch;
+  })();
+
   return (
     <div className="w-full flex flex-col md:flex-row md:items-center justify-between border-gray-200 px-5 sm:px-5 md:px-0 py-5 space-y-2 md:space-y-0">
       {/* Row 1: Tabs */}
       <div className="overflow-x-auto scrollbar-visible">
         <nav className="flex space-x-3 min-w-max">
-          {navItems.map((item, index) => {
-            let isActive = false;
+          {
+            navItems.map((item, index) => {
+              const isActive = index === activeIndex;
 
-            if (index === 0) {
-              // First tab: only exact match
-              isActive = pathname === item.link;
-            } else {
-              // Other tabs: match if path starts with link
-              isActive = pathname === item.link || pathname.startsWith(item.link + "/");
-            }
-
-            return (
-              <button
-                key={index}
-                ref={(el) => (tabRefs.current[index] = el)}
-                className={`w-48 px-4 h-20 text-sm md:text-md text-wrap max-w-40 md:max-w-48 font-bold rounded-lg transition-colors duration-200 whitespace-nowrap flex-shrink-0 ${isActive ? "bg-[#B2917A] text-white" : "bg-white hover:bg-[#EDE2D1]"
-                  }`}
-                onClick={() => router.push(item.link)}
-              >
-                {item.label}
-              </button>
-            );
-          })}
+              return (
+                <button
+                  key={index}
+                  ref={(el) => (tabRefs.current[index] = el)}
+                  className={`w-48 px-4 h-20 text-sm md:text-md text-wrap max-w-40 md:max-w-48 font-bold rounded-lg transition-colors duration-200 whitespace-nowrap flex-shrink-0 ${isActive
+                    ? "bg-[#B2917A] text-white"
+                    : "bg-white hover:bg-[#EDE2D1]"
+                    }`}
+                  onClick={() => router.push(item.link)}
+                >
+                  {item.label}
+                </button>
+              );
+            })
+          }
         </nav>
       </div>
 

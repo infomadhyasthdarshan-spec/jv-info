@@ -58,14 +58,13 @@ export default function Login() {
                         done'.
                     </p>
                 </div>
-
                 {/* Family based Village Organisation - Highlighted Section */}
                 <div className="bg-[#ede2d1] p-6 rounded-xl page-quotes">
                     <p className="page-heading text-center">~</p>
                     <p className="text-[#32373b] leading-relaxed mb-4">
                         The final proposed method of working is{" "}
                         <span className="font-semibold italic">Family based Village Organisation</span>
-                        (पारिवार आधारित ग्राम व्यवस्था संस्थान) in which assembly-committees or 'sabhas' consist of awakened individuals
+                        (परिवार मूलक ग्राम स्वराज्य व्यवस्था) in which assembly-committees or 'sabhas' consist of awakened individuals
                         (जागृत व्यक्ति). Till such time, each location/center functions based on its understanding & practice which are
                         a reflection of its inhabitants, which are constantly evolving.
                     </p>
@@ -91,12 +90,11 @@ export default function Login() {
                     </p>
                     <p className="page-content mb-4">
                         An in-person survey of the locations below is highly recommended before one finalizes a place to pursue ones
-                        study or stay. It is important to keep in mind the Method of Study (अध्ययन विधि).
+                        study or stay. It is important to keep in mind the <a href="/resource-center/Start-Adhyayan/method-of-study/" className="text-[#b2917a]"> Method of Study (अध्ययन विधि)</a>.
                     </p>
                     <p className="page-content">
                         This is so until such time that a few of us do not become full realized (in developed consciousness)
-                        ourselves. ऐसे में अधिकांश लोग निश्चित मध्यस्थ दर्शन के इस पूरे की व्यापकताओं को निश्चित मध्यस्थ दर्शन के आधार रहेंगे। जागृति की
-                        पहचान मध्यस्थ दर्शन आधार, प्रमाण मानकर रहेंगे। इससे ही निश्चित दर्शन रहने वाले हैं।
+                        ourselves. 
                     </p>
                 </div>
 

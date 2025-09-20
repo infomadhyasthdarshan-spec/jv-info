@@ -73,9 +73,7 @@ export default function TheAlternativePage() {
       <div className="mb-6">
         <div className="flex justify-between items-center mb-4">
           <h2 className="page-small-heading mb-4">Preface</h2>
-          <div className="text-right mb-4">
-            <span className="text-xl cursor-pointer">* PDF download <span className="text-red-500">here</span></span>
-          </div>
+         
         </div>
         <p className="mb-4 text-lg leading-relaxed">My fellow human brothers and sisters,</p>
         <p className="mb-4 text-lg leading-relaxed">
@@ -87,15 +85,15 @@ export default function TheAlternativePage() {
         <p className="mb-4 text-lg leading-relaxed">
           This presentation also elucidates how all resolved-humans can live with justice; how every resolved-family can live with resolution and prosperity; and how justice, resolution, and prosperity can be universalized in humankind through the method of education. I trust you will internalize the presented information – using your own good rationale.
         </p>
-        <div className="text-right mt-6 text-xl mb-2">
-          <p>Yours,</p>
+        <div className="w-full mt-6 text-xl mb-2">
+          <p className="text-right">Yours,</p>
           <p className="font-semibold mt-2 mb-2">A. Nagraj</p>
-          <div className="mt-2 page-common-pera leading-tight mb-2">
-            <p className="mb-2">Originator – Madhyasth Darshan Saha-Astitva-Vad,</p>
-            <p className="mb-2">Divya Path Sansthan,</p>
-            <p className="mb-2">Bhajanashram, Amarkantak,</p>
-            <p className="mb-2">Distt Anuppur, M.P.</p>
-            <p className="mb-2">INDIA</p>
+          <div className="mt-2 text-right page-common-pera leading-tight mb-2">
+            <p className="mb-2 text-right">Originator – Madhyasth Darshan Saha-Astitva-Vad,</p>
+            <p className="mb-2 text-right">Divya Path Sansthan,</p>
+            <p className="mb-2 text-right">Bhajanashram, Amarkantak,</p>
+            <p className="mb-2 text-right">Distt Anuppur, M.P.</p>
+            <p className="mb-2 text-right">INDIA</p>
           </div>
         </div>
       </div>
@@ -607,14 +605,14 @@ export default function TheAlternativePage() {
             <p className="mb-4 page-content leading-relaxed">
               The 27 topics which have been presented under the title “The Alternative”, at its root is the vision of humankind living as undivided society and universal orderliness, with human consciousness, liberated from mindset of crimes, hatred and walls of mine versus others. Such living has now become a need for human tradition if human race is to continue on this Earth. Therefore, for taking decisions on righteousness, whatever questions could arise in you for the objective of righteousness based on the information provided here, the answers to all those questions is there with me, those who want can get from me.
             </p>
-            <div className="text-right mt-6 page-content leading-relaxed">
+            <div className="w-full text-right mt-6 page-content leading-relaxed">
               <p>A. Nagraj,</p>
               <p className="font-semibold">Propounder,</p>
               <p>Madhyasth Darshan Sah-astitva-vad,</p>
               <p>Divya Path Sansthan</p>
               <p>Bhajanashram, Amarkantak</p>
               <p>Distt Anuppur, MP, India</p>
-            </div>
+            </div>  
           </div>
         </AccordionItemSimple>
       </div>

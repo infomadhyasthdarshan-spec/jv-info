@@ -126,7 +126,7 @@ const page = () => {
                 </div>
                 {/* Second Row: Description (Visible only in Mobile) */}
                 <div className="w-[313px] h-[140px] md:hidden">
-                  <p className="text-black text-sm">
+                  <p className="text-black page-common-md-pera">
                     {text.philosophyPage5["4 Volumes"].books.b1.description}
                   </p>
                 </div>
@@ -146,7 +146,7 @@ const page = () => {
                     </span>
                   </p>
                 </div>
-                <p className="text-black mt-2 w-[625px] h-[120px]">
+                <p className="text-black page-common-md-pera mt-2 w-[625px] h-[120px]">
                   {text.philosophyPage5["4 Volumes"].books.b1.description}
                 </p>
                 <div className="flex justify-end mt-6">
@@ -155,7 +155,7 @@ const page = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                   > */}
-                    <button className="bg-[#59524E] hover:bg-[#7E746F] text-white px-4 py-2 rounded-lg h-[40px] w-[186px]" onClick={() => handleOpenPDF("https://megascale.cloud/JV/pdf/literature/04_manav_vyavhar_darshan_2015_ocr.pdf#toolbar=0")}>
+                    <button className="bg-[#59524E] hover:bg-[#7E746F] text-white px-4 py-2 rounded-lg h-[40px] w-[186px]" onClick={() => handleOpenPDF("/pdf/literature/04_manav_vyavhar_darshan_2015_ocr.pdf")}>
                       {text.philosophyPage5["4 Volumes"].books.b1.button}
                     </button>
                   {/* </a> */}
@@ -168,7 +168,7 @@ const page = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                 > */}
-                  <button className="bg-[#59524E] hover:bg-[#7E746F] text-white px-4 py-2 rounded-lg h-[40px] w-[200px]" onClick={() => handleOpenPDF("https://megascale.cloud/JV/pdf/literature/04_manav_vyavhar_darshan_2015_ocr.pdf#toolbar=0")}>
+                  <button className="bg-[#59524E] hover:bg-[#7E746F] text-white px-4 py-2 rounded-lg h-[40px] w-[200px]" onClick={() => handleOpenPDF("/pdf/literature/04_manav_vyavhar_darshan_2015_ocr.pdf")}>
                     {text.philosophyPage5["4 Volumes"].books.b1.button}
                   </button>
                 {/* </a> */}
@@ -210,7 +210,7 @@ const page = () => {
                 </div>
                 {/* Second Row: Description (Visible only in Mobile) */}
                 <div className="w-[313px] h-[140px] md:hidden">
-                  <p className="text-black text-sm">
+                  <p className="text-black  page-common-md-pera ">
                     {text.philosophyPage5["4 Volumes"].books.b2.description}
                   </p>
                 </div>
@@ -230,7 +230,7 @@ const page = () => {
                     </span>
                   </p>
                 </div>
-                <p className="text-black mt-2 w-[625px] h-[120px]">
+                <p className="text-black page-common-md-pera  mt-2 w-[625px] h-[120px]">
                   {text.philosophyPage5["4 Volumes"].books.b2.description}
                 </p>
                 <div className="flex justify-end mt-6">
@@ -239,7 +239,7 @@ const page = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                   > */}
-                    <button className="bg-[#59524E] hover:bg-[#7E746F] text-white px-4 py-2 rounded-lg h-[40px] w-[186px]" onClick={() => handleOpenPDF("https://megascale.cloud/JV/pdf/literature/05_manav_karm_darshan_2017_ocr.pdf#toolbar=0")}>
+                    <button className="bg-[#59524E] hover:bg-[#7E746F] text-white px-4 py-2 rounded-lg h-[40px] w-[186px]" onClick={() => handleOpenPDF("/pdf/literature/05_manav_karm_darshan_2017_ocr.pdf#toolbar=0")}>
                       {text.philosophyPage5["4 Volumes"].books.b2.button}
                     </button>
                   {/* </a> */}
@@ -252,7 +252,7 @@ const page = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                 > */}
-                  <button className="bg-[#59524E] hover:bg-[#7E746F] text-white px-4 py-2 rounded-lg h-[40px] w-[200px]" onClick={() => handleOpenPDF("https://megascale.cloud/JV/pdf/literature/05_manav_karm_darshan_2017_ocr.pdf#toolbar=0")}>
+                  <button className="bg-[#59524E] hover:bg-[#7E746F] text-white px-4 py-2 rounded-lg h-[40px] w-[200px]" onClick={() => handleOpenPDF("/pdf/literature/05_manav_karm_darshan_2017_ocr.pdf#toolbar=0")}>
                     {text.philosophyPage5["4 Volumes"].books.b2.button}
                   </button>
                 {/* </a> */}
@@ -294,7 +294,7 @@ const page = () => {
                 </div>
                 {/* Second Row: Description (Visible only in Mobile) */}
                 <div className="w-[313px] h-[140px] md:hidden">
-                  <p className="text-black text-sm">
+                  <p className="text-black page-common-md-pera ">
                     {text.philosophyPage5["4 Volumes"].books.b2.description}
                   </p>
                 </div>
@@ -314,7 +314,7 @@ const page = () => {
                     </span>
                   </p>
                 </div>
-                <p className="text-black mt-2 w-[625px] h-[120px]">
+                <p className="text-black page-common-md-pera  mt-2 w-[625px] h-[120px]">
                   {text.philosophyPage5["4 Volumes"].books.b2.description}
                 </p>
                 <div className="flex justify-end mt-6">
@@ -323,7 +323,7 @@ const page = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                   > */}
-                    <button className="bg-[#59524E] hover:bg-[#7E746F] text-white px-4 py-2 rounded-lg h-[40px] w-[186px]" onClick={() => handleOpenPDF("https://megascale.cloud/JV/pdf/literature/06_manav_abhyas_darshan_2018_ocr.pdf#toolbar=0")}>
+                    <button className="bg-[#59524E] hover:bg-[#7E746F] text-white px-4 py-2 rounded-lg h-[40px] w-[186px]" onClick={() => handleOpenPDF("/pdf/literature/06_manav_abhyas_darshan_2018_ocr.pdf#toolbar=0")}>
                       {text.philosophyPage5["4 Volumes"].books.b3.button}
                     </button>
                   {/* </a> */}
@@ -336,7 +336,7 @@ const page = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                 > */}
-                  <button className="bg-[#59524E] hover:bg-[#7E746F] text-white px-4 py-2 rounded-lg h-[40px] w-[200px]" onClick={() => handleOpenPDF("https://megascale.cloud/JV/pdf/literature/06_manav_abhyas_darshan_2018_ocr.pdf#toolbar=0")}>
+                  <button className="bg-[#59524E] hover:bg-[#7E746F] text-white px-4 py-2 rounded-lg h-[40px] w-[200px]" onClick={() => handleOpenPDF("/pdf/literature/06_manav_abhyas_darshan_2018_ocr.pdf#toolbar=0")}>
                     {text.philosophyPage5["4 Volumes"].books.b3.button}
                   </button>
                 {/* </a> */}
@@ -378,7 +378,7 @@ const page = () => {
                 </div>
                 {/* Second Row: Description (Visible only in Mobile) */}
                 <div className="w-[313px] h-[140px] md:hidden">
-                  <p className="text-black text-sm">
+                  <p className="text-black page-common-md-pera ">
                     {text.philosophyPage5["4 Volumes"].books.b4.description}
                   </p>
                 </div>
@@ -398,7 +398,7 @@ const page = () => {
                     </span>
                   </p>
                 </div>
-                <p className="text-black mt-2 w-[625px] h-[120px]">
+                <p className="text-black page-common-md-pera  mt-2 w-[625px] h-[120px]">
                   {text.philosophyPage5["4 Volumes"].books.b4.description}
                 </p>
                 <div className="flex justify-end mt-6">
@@ -407,7 +407,7 @@ const page = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                   > */}
-                    <button className="bg-[#59524E] hover:bg-[#7E746F] text-white px-4 py-2 rounded-lg h-[40px] w-[186px]" onClick={() => handleOpenPDF("https://megascale.cloud/JV/pdf/literature/07_manav_anubhav_darshan_2015_ocr.pdf#toolbar=0")}>
+                    <button className="bg-[#59524E] hover:bg-[#7E746F] text-white px-4 py-2 rounded-lg h-[40px] w-[186px]" onClick={() => handleOpenPDF("/pdf/literature/07_manav_anubhav_darshan_2015_ocr.pdf#toolbar=0")}>
                       {text.philosophyPage5["4 Volumes"].books.b4.button}
                     </button>
                   {/* </a> */}
@@ -420,7 +420,7 @@ const page = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                 > */}
-                  <button className="bg-[#59524E] hover:bg-[#7E746F] text-white px-4 py-2 rounded-lg h-[40px] w-[200px]" onClick={() => handleOpenPDF("https://megascale.cloud/JV/pdf/literature/07_manav_anubhav_darshan_2015_ocr.pdf#toolbar=0")}>
+                  <button className="bg-[#59524E] hover:bg-[#7E746F] text-white px-4 py-2 rounded-lg h-[40px] w-[200px]" onClick={() => handleOpenPDF("/pdf/literature/07_manav_anubhav_darshan_2015_ocr.pdf#toolbar=0")}>
                     {text.philosophyPage5["4 Volumes"].books.b4.button}
                   </button>
                 {/* </a> */}
@@ -484,7 +484,7 @@ const page = () => {
                 </div>
                 {/* Second Row: Description (Visible only in Mobile) */}
                 <div className="w-[313px] h-[140px] md:hidden">
-                  <p className="text-black text-sm">
+                  <p className="text-black page-common-md-pera ">
                     {text.philosophyPage5["3 Volumes"].books.b1.description}
                   </p>
                 </div>
@@ -504,7 +504,7 @@ const page = () => {
                     </span>
                   </p>
                 </div>
-                <p className="text-black mt-2 w-[621px] h-[196px]">
+                <p className="text-black page-common-md-pera  mt-2 w-[621px] h-[196px]">
                   {text.philosophyPage5["3 Volumes"].books.b1.description}
                 </p>
                 <div className="flex justify-end mt-6">
@@ -513,7 +513,7 @@ const page = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                   > */}
-                    <button className="bg-[#59524E] hover:bg-[#7E746F] text-white px-4 py-2 rounded-lg h-[40px] w-[186px]" onClick={() => handleOpenPDF("https://megascale.cloud/JV/pdf/literature/09_samadhanatmak bhoutikvad _unicode_2023.pdf#toolbar=0")}>
+                    <button className="bg-[#59524E] hover:bg-[#7E746F] text-white px-4 py-2 rounded-lg h-[40px] w-[186px]" onClick={() => handleOpenPDF("/pdf/literature/09_samadhanatmak bhoutikvad _unicode_2023.pdf#toolbar=0")}>
                       {text.philosophyPage5["3 Volumes"].books.b1.button}
                     </button>
                   {/* </a> */}
@@ -526,7 +526,7 @@ const page = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                 > */}
-                  <button className="bg-[#59524E] hover:bg-[#7E746F] text-white px-4 py-2 rounded-lg h-[40px] w-[200px]" onClick={() => handleOpenPDF("https://megascale.cloud/JV/pdf/literature/09_samadhanatmak bhoutikvad _unicode_2023.pdf#toolbar=0")}>
+                  <button className="bg-[#59524E] hover:bg-[#7E746F] text-white px-4 py-2 rounded-lg h-[40px] w-[200px]" onClick={() => handleOpenPDF("/pdf/literature/09_samadhanatmak bhoutikvad _unicode_2023.pdf#toolbar=0")}>
                     {text.philosophyPage5["3 Volumes"].books.b1.button}
                   </button>
                 {/* </a> */}
@@ -568,7 +568,7 @@ const page = () => {
                 </div>
                 {/* Second Row: Description (Visible only in Mobile) */}
                 <div className="w-[313px] h-[140px] md:hidden">
-                  <p className="text-black text-sm">
+                  <p className="text-black page-common-md-pera ">
                     {text.philosophyPage5["3 Volumes"].books.b2.description}
                   </p>
                 </div>
@@ -588,7 +588,7 @@ const page = () => {
                     </span>
                   </p>
                 </div>
-                <p className="text-black mt-2 w-[621px] h-[224px]">
+                <p className="text-black page-common-md-pera  mt-2 w-[621px] h-[224px]">
                   {text.philosophyPage5["3 Volumes"].books.b2.description}
                 </p>
                 <div className="flex justify-end mt-6">
@@ -597,7 +597,7 @@ const page = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                   > */}
-                    <button className="bg-[#59524E] hover:bg-[#7E746F] text-white px-4 py-2 rounded-lg h-[40px] w-[186px]" onClick={() => handleOpenPDF("https://megascale.cloud/JV/pdf/literature/10_vyavharatmak_janvaad_2017_ocr.pdf#toolbar=0")}>
+                    <button className="bg-[#59524E] hover:bg-[#7E746F] text-white px-4 py-2 rounded-lg h-[40px] w-[186px]" onClick={() => handleOpenPDF("/pdf/literature/10_vyavharatmak_janvaad_2017_ocr.pdf#toolbar=0")}>
                       {text.philosophyPage5["3 Volumes"].books.b2.button}
                     </button>
                   {/* </a> */}
@@ -610,7 +610,7 @@ const page = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                 > */}
-                  <button className="bg-[#59524E] hover:bg-[#7E746F] text-white px-4 py-2 rounded-lg h-[40px] w-[200px]" onClick={() => handleOpenPDF("https://megascale.cloud/JV/pdf/literature/10_vyavharatmak_janvaad_2017_ocr.pdf#toolbar=0")}>
+                  <button className="bg-[#59524E] hover:bg-[#7E746F] text-white px-4 py-2 rounded-lg h-[40px] w-[200px]" onClick={() => handleOpenPDF("/pdf/literature/10_vyavharatmak_janvaad_2017_ocr.pdf#toolbar=0")}>
                     {text.philosophyPage5["3 Volumes"].books.b2.button}
                   </button>
                 {/* </a> */}
@@ -652,7 +652,7 @@ const page = () => {
                 </div>
                 {/* Second Row: Description (Visible only in Mobile) */}
                 <div className="w-[313px] h-[140px] md:hidden">
-                  <p className="text-black text-sm">
+                  <p className="text-black page-common-md-pera ">
                     {text.philosophyPage5["3 Volumes"].books.b3.description}
                   </p>
                 </div>
@@ -672,7 +672,7 @@ const page = () => {
                     </span>
                   </p>
                 </div>
-                <p className="text-black mt-2 w-[621px] h-[135px]">
+                <p className="text-black page-common-md-pera  mt-2 w-[621px] h-[135px]">
                   {text.philosophyPage5["3 Volumes"].books.b3.description}
                 </p>
                 <div className="flex justify-end mt-6">
@@ -681,7 +681,7 @@ const page = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                   > */}
-                    <button className="bg-[#59524E] hover:bg-[#7E746F] text-white px-4 py-2 rounded-lg h-[40px] w-[186px]" onClick={() => handleOpenPDF("https://megascale.cloud/JV/pdf/literature/08_anubhavatmak adhyatmvad_unicode_2023.pdf#toolbar=0")}>
+                    <button className="bg-[#59524E] hover:bg-[#7E746F] text-white px-4 py-2 rounded-lg h-[40px] w-[186px]" onClick={() => handleOpenPDF("/pdf/literature/08_anubhavatmak adhyatmvad_unicode_2023.pdf#toolbar=0")}>
                       {text.philosophyPage5["3 Volumes"].books.b3.button}
                     </button>
                   {/* </a> */}
@@ -694,7 +694,7 @@ const page = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                 > */}
-                  <button className="bg-[#59524E] hover:bg-[#7E746F] text-white px-4 py-2 rounded-lg h-[40px] w-[200px]" onClick={() => handleOpenPDF("https://megascale.cloud/JV/pdf/literature/08_anubhavatmak adhyatmvad_unicode_2023.pdf#toolbar=0")}>
+                  <button className="bg-[#59524E] hover:bg-[#7E746F] text-white px-4 py-2 rounded-lg h-[40px] w-[200px]" onClick={() => handleOpenPDF("/pdf/literature/08_anubhavatmak adhyatmvad_unicode_2023.pdf#toolbar=0")}>
                     {text.philosophyPage5["3 Volumes"].books.b3.button}
                   </button>
                 {/* </a> */}
@@ -709,11 +709,11 @@ const page = () => {
               {text.philosophyPage5.content2.title}
             </h3>
 
-            <p className="text-black mt-10 page-small-heading italic">
+            <p className="text-black mt-5 page-small-heading italic">
               {text.philosophyPage5.content2.sub}
             </p>
             <p
-              className="text-black mt-10 page-content"
+              className="text-black mt-5 page-content"
               dangerouslySetInnerHTML={{
                 __html: text.philosophyPage5.content2.description,
               }}
@@ -758,7 +758,7 @@ const page = () => {
                 </div>
                 {/* Second Row: Description (Visible only in Mobile) */}
                 <div className="w-[313px] h-[140px] md:hidden">
-                  <p className="text-black text-sm">
+                  <p className="text-black page-common-md-pera ">
                     {text.philosophyPage5["4 Volume"].books.b1.description}
                   </p>
                 </div>
@@ -778,7 +778,7 @@ const page = () => {
                     </span>
                   </p>
                 </div>
-                <p className="text-black mt-2 w-[621px] h-[140px]">
+                <p className="text-black page-common-md-pera  mt-2 w-[621px] h-[140px]">
                   {text.philosophyPage5["4 Volume"].books.b1.description}
                 </p>
                 <div className="flex justify-end mt-6">
@@ -787,7 +787,7 @@ const page = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                   > */}
-                    <button className="bg-[#59524E] hover:bg-[#7E746F] text-white px-4 py-2 rounded-lg h-[40px] w-[186px]" onClick={() => handleOpenPDF("https://megascale.cloud/JV/pdf/literature/12_vyavharvaadi_samajshastra_unicode_2025.pdf#toolbar=0")}>
+                    <button className="bg-[#59524E] hover:bg-[#7E746F] text-white px-4 py-2 rounded-lg h-[40px] w-[186px]" onClick={() => handleOpenPDF("/pdf/literature/12_vyavharvaadi_samajshastra_unicode_2025.pdf#toolbar=0")}>
                       {text.philosophyPage5["4 Volume"].books.b1.button}
                     </button>
                   {/* </a> */}
@@ -800,7 +800,7 @@ const page = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                 > */}
-                  <button className="bg-[#59524E] hover:bg-[#7E746F] text-white px-4 py-2 rounded-lg h-[40px] w-[200px]" onClick={() => handleOpenPDF("https://megascale.cloud/JV/pdf/literature/12_vyavharvaadi_samajshastra_unicode_2025.pdf#toolbar=0")}>
+                  <button className="bg-[#59524E] hover:bg-[#7E746F] text-white px-4 py-2 rounded-lg h-[40px] w-[200px]" onClick={() => handleOpenPDF("/pdf/literature/12_vyavharvaadi_samajshastra_unicode_2025.pdf#toolbar=0")}>
                     {text.philosophyPage5["4 Volume"].books.b1.button}
                   </button>
                 {/* </a> */}
@@ -842,7 +842,7 @@ const page = () => {
                 </div>
                 {/* Second Row: Description (Visible only in Mobile) */}
                 <div className="w-[313px] h-[140px] md:hidden">
-                  <p className="text-black text-sm">
+                  <p className="text-black page-common-md-pera ">
                     {text.philosophyPage5["4 Volume"].books.b2.description}
                   </p>
                 </div>
@@ -862,7 +862,7 @@ const page = () => {
                     </span>
                   </p>
                 </div>
-                <p className="text-black mt-2 w-[621px] h-[196px]">
+                <p className="text-black page-common-md-pera  mt-2 w-[621px] h-[196px]">
                   {text.philosophyPage5["4 Volume"].books.b2.description}
                 </p>
                 <div className="flex justify-end mt-6">
@@ -871,7 +871,7 @@ const page = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                   > */}
-                    <button className="bg-[#59524E] hover:bg-[#7E746F] text-white px-4 py-2 rounded-lg h-[40px] w-[186px]" onClick={() => handleOpenPDF("https://megascale.cloud/JV/pdf/literature/11_avartanshil_arthashastra_unicode_2024.pdf#toolbar=0")}>
+                    <button className="bg-[#59524E] hover:bg-[#7E746F] text-white px-4 py-2 rounded-lg h-[40px] w-[186px]" onClick={() => handleOpenPDF("/pdf/literature/11_avartanshil_arthashastra_unicode_2024.pdf#toolbar=0")}>
                       {text.philosophyPage5["4 Volume"].books.b2.button}
                     </button>
                   {/* </a> */}
@@ -884,7 +884,7 @@ const page = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                 > */}
-                  <button className="bg-[#59524E] hover:bg-[#7E746F] text-white px-4 py-2 rounded-lg h-[40px] w-[200px]" onClick={() => handleOpenPDF("https://megascale.cloud/JV/pdf/literature/11_avartanshil_arthashastra_unicode_2024.pdf#toolbar=0")}>
+                  <button className="bg-[#59524E] hover:bg-[#7E746F] text-white px-4 py-2 rounded-lg h-[40px] w-[200px]" onClick={() => handleOpenPDF("/pdf/literature/11_avartanshil_arthashastra_unicode_2024.pdf#toolbar=0")}>
                     {text.philosophyPage5["4 Volume"].books.b2.button}
                   </button>
                 {/* </a> */}
@@ -926,7 +926,7 @@ const page = () => {
                 </div>
                 {/* Second Row: Description (Visible only in Mobile) */}
                 <div className="w-[313px] h-[140px] md:hidden">
-                  <p className="text-black text-sm">
+                  <p className="text-black page-common-md-pera ">
                     {text.philosophyPage5["4 Volume"].books.b3.description}
                   </p>
                 </div>
@@ -946,7 +946,7 @@ const page = () => {
                     </span>
                   </p>
                 </div>
-                <p className="text-black mt-2 w-[621px] h-[112px]">
+                <p className="text-black page-common-md-pera  mt-2 w-[621px] h-[112px]">
                   {text.philosophyPage5["4 Volume"].books.b3.description}
                 </p>
                 <div className="flex justify-end mt-6">
@@ -955,7 +955,7 @@ const page = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                   > */}
-                    <button className="bg-[#59524E] hover:bg-[#7E746F] text-white px-4 py-2 rounded-lg h-[40px] w-[186px]" onClick={() => handleOpenPDF("https://megascale.cloud/JV/pdf/literature/manav_sanchetnavaadi_manovigyan_edited.pdf")}>
+                    <button className="bg-[#59524E] hover:bg-[#7E746F] text-white px-4 py-2 rounded-lg h-[40px] w-[186px]" onClick={() => handleOpenPDF("/pdf/literature/manav_sanchetnavaadi_manovigyan_edited.pdf")}>
                       {text.philosophyPage5["4 Volume"].books.b3.button}
                     </button>
                   {/* </a> */}
@@ -968,7 +968,7 @@ const page = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                 > */}
-                  <button className="bg-[#59524E] hover:bg-[#7E746F] text-white px-4 py-2 rounded-lg h-[40px] w-[200px]" onClick={() => handleOpenPDF("https://megascale.cloud/JV/pdf/literature/manav_sanchetnavaadi_manovigyan_edited.pdf")}>
+                  <button className="bg-[#59524E] hover:bg-[#7E746F] text-white px-4 py-2 rounded-lg h-[40px] w-[200px]" onClick={() => handleOpenPDF("/pdf/literature/manav_sanchetnavaadi_manovigyan_edited.pdf")}>
                     {text.philosophyPage5["4 Volume"].books.b3.button}
                   </button>
                 {/* </a> */}
@@ -995,7 +995,7 @@ const page = () => {
                   {/* Details Column (Visible only in Mobile) */}
                   <div className="flex-1 flex flex-col md:hidden">
                     <h4 className="text-lg font-bold text-black mb-2">
-                      मानव आचार संहिता रूपी मानवीय संविधान
+                         {text.philosophyPage5["4 Volume"].books.b4.title}
                     </h4>
                     <p className="text-black text-sm">
                       <span>
@@ -1010,7 +1010,7 @@ const page = () => {
                 </div>
                 {/* Second Row: Description (Visible only in Mobile) */}
                 <div className="w-[313px] h-[140px] md:hidden">
-                  <p className="text-black text-sm">
+                  <p className="text-black page-common-md-pera ">
                     {text.philosophyPage5["4 Volume"].books.b3.description}
                   </p>
                 </div>
@@ -1019,7 +1019,7 @@ const page = () => {
               <div className="hidden md:flex md:flex-1 flex-col">
                 <div className="flex flex-col">
                   <h4 className="text-lg font-bold text-black mb-4">
-                    मानव आचार संहिता रूपी मानवीय संविधान
+                      {text.philosophyPage5["4 Volume"].books.b4.title}
                   </h4>
                   <p className="text-black text-sm mb-4">
                     <span>
@@ -1031,7 +1031,7 @@ const page = () => {
                     </span>
                   </p>
                 </div>
-                <p className="text-black mt-2 w-[621px] h-[168px]">
+                <p className="text-black page-common-md-pera  mt-2 w-[621px] h-[168px]">
                   {text.philosophyPage5["4 Volume"].books.b4.description}
                 </p>
                 <div className="flex justify-end mt-6">
@@ -1040,7 +1040,7 @@ const page = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                   > */}
-                    <button className="bg-[#59524E] hover:bg-[#7E746F] text-white px-4 py-2 rounded-lg h-[40px] w-[186px]" onClick={() => handleOpenPDF("https://megascale.cloud/JV/pdf/literature/14_manviya_samvidhaan_sootravyakhya_unicode_2023.pdf#toolbar=0")}>
+                    <button className="bg-[#59524E] hover:bg-[#7E746F] text-white px-4 py-2 rounded-lg h-[40px] w-[186px]" onClick={() => handleOpenPDF("/pdf/literature/14_manviya_samvidhaan_sootravyakhya_unicode_2023.pdf#toolbar=0")}>
                       {text.philosophyPage5["4 Volume"].books.b4.button}
                     </button>
                   {/* </a> */}
@@ -1053,7 +1053,7 @@ const page = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                 > */}
-                  <button className="bg-[#59524E] hover:bg-[#7E746F] text-white px-4 py-2 rounded-lg h-[40px] w-[200px]" onClick={() => handleOpenPDF("https://megascale.cloud/JV/pdf/literature/14_manviya_samvidhaan_sootravyakhya_unicode_2023.pdf#toolbar=0")}>
+                  <button className="bg-[#59524E] hover:bg-[#7E746F] text-white px-4 py-2 rounded-lg h-[40px] w-[200px]" onClick={() => handleOpenPDF("/pdf/literature/14_manviya_samvidhaan_sootravyakhya_unicode_2023.pdf#toolbar=0")}>
                     {text.philosophyPage5["4 Volume"].books.b3.button}
                   </button>
                 {/* </a> */}

@@ -121,7 +121,7 @@ export default function KnowledgeOfExistence() {
     },
   ];
   return (
-    <div className="px-4 md:px-0 py-8 max-w-5xl mx-auto text-[#111] space-y-6">
+    <div className="px-4 md:px-0 py-8 max-w-5xl mx-auto text-[#111] ">
       <Backjs/>
       {/* Heading */}
       <h2 className="page-heading mb-4">
@@ -152,7 +152,7 @@ export default function KnowledgeOfExistence() {
       </ol>
 
       {/* Section 1 */}
-      <h4 className="page-common-hading mb-4">1. Units or matter are</h4>
+      <h4 className="page-common-hading mb-4 mt-14">1. Units or matter are</h4>
       <p className="mb-4 page-content">
         <strong>“saturated”</strong> (samprikt) in the all-pervasive-entity{" "}
         <em>(vyaapak vastu)</em>, currently called <strong>space</strong>.
@@ -174,7 +174,7 @@ export default function KnowledgeOfExistence() {
       </ul>
 
       {/* Section 2 */}
-      <h4 className="page-common-hading   mb-4">2. Void or ‘Space’ is:</h4>
+      <h4 className="page-common-hading mt-14 mb-4">2. Void or ‘Space’ is:</h4>
       <ul className="list-disc list-inside space-y-2 mb-6 page-content">
         <li>
           <strong>Pervasive – vyaapak (व्यापक):</strong> there is no ‘place’
@@ -210,7 +210,7 @@ export default function KnowledgeOfExistence() {
         <strong>‘consciousness (chetana)’</strong> in the conscious unit{" "}
         <em>(chaitanya)</em> (Self or Jeevan).
       </p>
-      <h2 className="page-common-hading mb-4">
+      <h2 className="page-common-hading mb-4 mt-10">
         ‘Units’ (Ikai) are of two kinds:
       </h2>
       <p className="mb-4 text-gray-700 page-content italic">

@@ -361,8 +361,8 @@ function ContactLocation() {
                                                 <User className="  w-6 h-6" />
                                                 <span>{c.name}</span>
                                             </div>
-                                            <div className="flex items-center gap-2 text-sm">
-                                                <Phone className="  w-6 h-6" />
+                                            <div className="flex items-center gap-2 text-lg">
+                                                <Phone className="w-6 h-6" />
                                                 <span>{c.phone}</span>
                                             </div>
                                         </div>
@@ -376,17 +376,17 @@ function ContactLocation() {
 
                                     {/* Desktop View */}
                                     <div className="hidden md:flex md:flex-col md:w-full">
-                                        <div className="font-semibold mb-1 text-[15px]">
+                                        <div className="font-semibold mb-1 ">
                                             {c.city}
                                         </div>
-                                        <div className="flex gap-10 text-sm mt-1 mb-2">
+                                        <div className="flex gap-10  mt-1 mb-2">
                                             <div className="flex items-center gap-2">
-                                                <User className="  w-6 h-6 mt-2" />
-                                                <span className="mt-2">{c.name}</span>
+                                                <User className="w-6 h-6 mt-2" />
+                                                <span className="text-[30px] mt-2">{c.name}</span>
                                             </div>
                                             <div className="flex items-center gap-2">
                                                 <Phone className="  w-6 h-6 mt-2" />
-                                                <span className="mt-2">{c.phone}</span>
+                                                <span className="mt-2 text-[30px]">{c.phone}</span>
                                             </div>
                                             {c.email && (
                                                 <div className="flex items-center gap-2">

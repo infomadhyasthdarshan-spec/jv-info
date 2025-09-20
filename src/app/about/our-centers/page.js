@@ -77,10 +77,10 @@ export default function page() {
 
 
                 {/* Individual Contacts */}
-                <div className="rounded-xl mt-12">
+                {/* <div className="rounded-xl mt-12">
                     <p className="text-[#32373b] page-content" dangerouslySetInnerHTML={{__html: text.aboutPage7.section2.p2}}>
                     </p>
-                </div>
+                </div> */}
 
                 {/* Our Centres Heading */}
                 <h2 className="page-heading   mb-12 ssr-hading">{text.aboutPage7.section3.h1}</h2>

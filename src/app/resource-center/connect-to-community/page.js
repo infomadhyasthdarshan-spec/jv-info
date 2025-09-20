@@ -2,9 +2,15 @@
 import { useLanguage } from "@/context/LanguageContext";
 import React, { useState } from "react";
 import { useEffect } from 'react';
-import { wrapHindiWords  } from '@/utils/fontInjector';
+import { wrapHindiWords } from '@/utils/fontInjector';
 const ConnectCommunity = () => {
   const { text } = useLanguage();
+
+  function extractHrefFromContent(content) {
+    const match = content.match(/href=["']([^"']+)["']/);
+    return match ? match[1] : "#";
+  }
+
 
   const sections = [
     {
@@ -34,8 +40,8 @@ const ConnectCommunity = () => {
   const toggleSection = (index) => {
     setOpenIndex((prev) => (prev === index ? null : index));
   };
-   useEffect(() => {
-    wrapHindiWords ();
+  useEffect(() => {
+    wrapHindiWords();
   }, []);
   return (
     <div className="bg-gray-100 py-8 px-4 md:px-0 max-w-5xl mx-auto">
@@ -74,14 +80,24 @@ const ConnectCommunity = () => {
                           key={idx}
                           className="flex items-center justify-between px-5 py-4"
                         >
-                          <span
-                            className="page-collapse-link"
-                            dangerouslySetInnerHTML={{ __html: content }}
-                          />
-                          {status && (
-                            <img src="/icon/link.svg" alt="link icon" />
+                          {status ? (
+                            <a
+                              href={extractHrefFromContent(content)}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              className="flex justify-between items-center w-full"
+                              dangerouslySetInnerHTML={{ __html: content }}
+                            />
+                          ) : (
+                            <span
+                              className="page-collapse-link"
+                              dangerouslySetInnerHTML={{ __html: content }}
+                            />
                           )}
+
+                          {status && <img src="/icon/link.svg" alt="link icon" />}
                         </li>
+
                       );
                     })}
                   </ul>

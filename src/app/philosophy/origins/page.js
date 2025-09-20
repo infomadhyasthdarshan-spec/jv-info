@@ -3,7 +3,8 @@ import { useState } from "react"
 import { ChevronDown, ChevronUp } from "lucide-react"
 import { useLanguage } from "@/context/LanguageContext"
 import { useEffect } from 'react';
-import { wrapHindiWords  } from '@/utils/fontInjector';
+import { wrapHindiWords } from '@/utils/fontInjector';
+import { useSearchParams } from "next/navigation";
 function ContentPage() {
     const [openSections, setOpenSections] = useState(["author-message"])
 
@@ -11,9 +12,9 @@ function ContentPage() {
         setOpenSections((prev) => (prev.includes(sectionId) ? prev.filter((id) => id !== sectionId) : [...prev, sectionId]))
     }
     const { text } = useLanguage();
-      useEffect(() => {
-    wrapHindiWords ();
-  }, []);
+    useEffect(() => {
+        wrapHindiWords();
+    }, []);
     return (
         <div className=" bg-gray-100">
             <div className=" py-8 space-y-6">
@@ -76,11 +77,12 @@ function ContentPage() {
                                 <p>{text.philosophyPage2.Vikal.content.preface.content[4]}</p>
 
                                 <p>{text.philosophyPage2.Vikal.content.preface.content[5]}</p>
-
+                                <div className="w-full text-end space-y-4">
                                 <p>{text.philosophyPage2.Vikal.content.preface.content[6]}</p>
                                 <p>{text.philosophyPage2.Vikal.content.preface.content[7]}</p>
+                                </div>
 
-                                <div className="mt-4 page-common-md-pera">
+                                <div className="mt-4 page-common-md-pera w-full text-end">
                                     <p>{text.philosophyPage2.Vikal.content.preface.content[8]}</p>
                                     <p>{text.philosophyPage2.Vikal.content.preface.content[9]}</p>
                                     <p>{text.philosophyPage2.Vikal.content.preface.content[10]}</p>
@@ -159,23 +161,23 @@ function ContentPage() {
                                 <div className="bg-[#ede2d1] p-4 rounded-xl">
                                     <h4 className="font-bold text-[#32373b] mb-2 page-xsmall-hading">{text.philosophyPage2.Continue.content.c1.title}</h4>
                                     <ul className="text-[#32373b] space-y-3 page-common-md-pera list-disc pl-5">
-                                    <li className="text-[#32373b] page-common-md-pera">{text.philosophyPage2.Continue.content.c1.subtitle}</li>
+                                        <li className="text-[#32373b] page-common-md-pera">{text.philosophyPage2.Continue.content.c1.subtitle}</li>
                                     </ul>
                                 </div>
 
                                 <div className="bg-[#ede2d1] p-4 rounded-xl">
                                     <h4 className="font-bold text-[#32373b] mb-2 page-xsmall-hading">{text.philosophyPage2.Continue.content.c2.title}</h4>
                                     <ul className="text-[#32373b] space-y-3 page-common-md-pera list-disc pl-5">
-                                    <li className="text-[#32373b] page-common-md-pera">{text.philosophyPage2.Continue.content.c2.subtitle}</li> </ul>
+                                        <li className="text-[#32373b] page-common-md-pera">{text.philosophyPage2.Continue.content.c2.subtitle}</li> </ul>
                                 </div>
 
                                 <div className="bg-[#ede2d1] p-4 rounded-xl">
                                     <h4 className="font-bold text-[#32373b] mb-2 page-xsmall-hading">{text.philosophyPage2.Continue.content.c3.title}</h4>
                                     <div className="text-[#32373b] space-y-2 page-common-md-pera">
                                         <ul className="text-[#32373b] space-y-3 page-common-md-pera list-disc pl-5">
-                                        <li>{text.philosophyPage2.Continue.content.c3.subtitle[0]}</li>
-                                        <li>{text.philosophyPage2.Continue.content.c3.subtitle[1]}</li>
-                                        <li>{text.philosophyPage2.Continue.content.c3.subtitle[2]}</li> </ul>
+                                            <li>{text.philosophyPage2.Continue.content.c3.subtitle[0]}</li>
+                                            <li>{text.philosophyPage2.Continue.content.c3.subtitle[1]}</li>
+                                            <li>{text.philosophyPage2.Continue.content.c3.subtitle[2]}</li> </ul>
                                     </div>
                                 </div>
 
@@ -462,7 +464,7 @@ function ContentPage() {
                                 <p >{text.philosophyPage2.Continue2.content.c2[6]}</p>
                                 <p >{text.philosophyPage2.Continue2.content.c2[7]}</p>
 
-                                <div className="mt-6 space-y-2" dangerouslySetInnerHTML={{ __html: text.philosophyPage2.Continue2.content.c2[8] }}></div>
+                                <div className="mt-6 space-y-2 w-full text-end" dangerouslySetInnerHTML={{ __html: text.philosophyPage2.Continue2.content.c2[8] }}></div>
 
                                 <div className="mt-6 text-center">
                                     <p className="page-common-md-pera italic text-[#32373b]">
@@ -486,11 +488,23 @@ function ContentPage() {
 
 const page = () => {
     const { text } = useLanguage();
+    const searchParams = useSearchParams();
+    const id = searchParams.get("id"); // e.g. ?id=vikalp
+
+    useEffect(() => {
+        console.log("ID from query:", id);
+        if (id) {
+            const element = document.getElementById(id);
+            if (element) {
+                element.scrollIntoView({ behavior: "smooth", block: "start" });
+            }
+        }
+    }, [id]);
     return (
         <div className="lg:max-w-5xl 2xl:max-w-5xl min-h-screen mx-auto bg-[#f2f4f8]   px-3 py-8">
-             <h2 className="page-heading text-black pt-[32px] mb-2 ">
-          Origin - Message & Story
-        </h2>
+            <h2 className="page-heading text-black pt-[32px] mb-2 ">
+                Origin - Message & Story
+            </h2>
             <div className="space-y-12 sm:space-y-16">
                 {/* 1. Background Section */}
                 <section>
@@ -637,7 +651,7 @@ const page = () => {
                 </section>
             </div>
             {/* 5. Authors Testimony */}
-            <section>
+            <section id="vikalp" className="scroll-mt-40">
                 <ContentPage />
             </section>
         </div>

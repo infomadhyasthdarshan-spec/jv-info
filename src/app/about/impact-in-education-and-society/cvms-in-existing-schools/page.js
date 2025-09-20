@@ -66,7 +66,7 @@ const EducationHumanization = () => {
           </p>
 
           <p>
-            Read our <span className="text-orange-600 underline cursor-pointer">Consciousness-based, Humanistic Approach to Education</span>
+            Read our <a href="/philosophy/explore-concepts/educational-approach/" className="text-[#b2917a] underline cursor-pointer">Consciousness-based, Humanistic Approach to Education</a>
           </p>
         </div>
       </div>

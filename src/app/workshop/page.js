@@ -74,10 +74,10 @@ const topics = [
   {
     img: "/images/workshop/card/c4.png",
     content: [
-      "Long-term solutions for Social conflict",
+      "Long-term solutions for Social conflict?",
       "Wholesome purpose/nature of Education",
       "Environmental issues",
-      "How can I contribute meaningfully",
+      "How can I contribute meaningfully?",
     ],
   },
 ];
@@ -837,8 +837,9 @@ const Page = () => {
               {/* Testimonial Content */}
               <div className="text-center max-w-3xl mx-auto">
                 {/* Testimonial Text */}
-                <blockquote className="  text-base sm:text-lg lg:text-xl leading-relaxed mb-8 sm:mb-12">
-                  "{currentTestimonial.text}"
+                <blockquote className="  text-base sm:text-lg lg:text-xl leading-relaxed mb-8 sm:mb-12" dangerouslySetInnerHTML={{
+                  __html: currentTestimonial.text,
+                }}>
                 </blockquote>
 
                 {/* User Info */}

@@ -98,7 +98,7 @@ const MadhyasthDarshanContent = () => {
     <div className="px-4 md:px-0 py-8 max-w-5xl mx-auto text-[#111] space-y-6">
       <Backjs/>
       <h1 className="page-heading mb-6 text-left">Madhyasth Darshan – A. Nagraj</h1>
-      <p className="text-left mb-6 italic   page-small-heading">
+      <p className="text-left mb-6 italic   page-common-md-pera font-[600]">
         English version of Original Hindi by Shri A. Nagraj | Translated by Shriram N | Student | Jan 2012
       </p>
       <div className="space-y-6">
@@ -107,7 +107,7 @@ const MadhyasthDarshanContent = () => {
             <h2 className="page-common-hading mb-2">
               {section.id}. {section.title}
             </h2>
-            <ul className="page-content pl-6">{section.content}</ul>
+            <ul className="page-content pl-10">{section.content}</ul>
           </div>
         ))}
       </div>

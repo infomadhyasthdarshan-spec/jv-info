@@ -64,7 +64,7 @@ const page = () => {
             <li>The child’s attention is guided in such a manner that they can address the various elements of their ‘being’ and ‘living’ appropriately.</li>
             <li>Concept-based approaches to math and sciences, where it is first instilled in imagination, the utility & observational in nature is taught, then the theory.</li>
             <li>The syllabus is also planned in such a manner that topics a child will require to understand later are introduced a few years prior.</li>
-            <li>Our Methods of Teaching</li>
+            <li className="font-bold">Our Methods of Teaching</li>
             <ul className='list-disc pl-5 space-y-2'>
               <li>Meaningful Dialogue</li>
               <li>Appreciation</li>
@@ -79,7 +79,7 @@ const page = () => {
               <li>Non-competitive games and sports – self competitive not with each other</li>
               <li>Debriefing</li>
             </ul>
-            <li>Bother teachers and parents are facilitated via Jeevan Vidya workshops and the understanding of the underlying philosophies to get this integral-view.</li>
+            <li>Both teachers and parents are facilitated via Jeevan Vidya workshops and the understanding of the underlying philosophies to get this integral-view.</li>
           </ul>
         </section>
         <h2 className="mt-4 mb-4 page-common-hading">Assessment approaches</h2>

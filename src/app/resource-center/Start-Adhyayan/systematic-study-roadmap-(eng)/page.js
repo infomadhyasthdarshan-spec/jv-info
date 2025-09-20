@@ -157,7 +157,7 @@ const SystematicRoadmap = () => {
         ].map((phase, i) => (
           <div className="mb-6" key={i}>
             <h3
-              className="page-small-hading text-[#8a4d1e]"
+              className="page-small-heading text-[#8a4d1e]"
               onClick={() => {
                 if (phase.link) {
                   // check if it's an internal anchor (#sectionId)
@@ -233,7 +233,7 @@ function PhaseBlock({ phase, text }) {
             <button
               key={idx}
               onClick={() => setActiveTab(idx)}
-              className={`px-6 py-2 whitespace-nowrap rounded-[8px] text-sm font-medium transition ${
+              className={`px-6 py-2 whitespace-nowrap rounded-[8px] page-common-md-pera font-bold transition ${
                 activeTab === idx ? "bg-[#EDE2D1]" : "hover:bg-[#f5f5f5]"
               }`}
             >

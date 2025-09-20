@@ -181,7 +181,15 @@ const ExploreConcepts = () => {
                       <span className="page-collapse-link font-[500]  ">
                         {item.name}
                       </span>
-                      <FaArrowRight size={20} />
+                      {item.iconDownlaod ? (
+                        <img
+                          src="/icon/download.svg"
+                          alt="Download Icon"
+                          className="w-7 h-7 object-contain"
+                        />
+                      ) : (
+                        <FaArrowRight size={20} />
+                      )}
                     </li>
                   ))}
                 </ul>
