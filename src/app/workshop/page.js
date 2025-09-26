@@ -11,7 +11,7 @@ import {
 import { useLanguage } from "@/context/LanguageContext";
 import { useRouter } from "next/navigation";
 import Gallery from "@/components/Gallery";
-import { wrapHindiWords  } from '@/utils/fontInjector';
+import { wrapHindiWords, wrapHindiInHtmlString } from '@/utils/fontInjector';
 const IMAGE_ICON1 = "/images/workshop/workshopMain4.svg";
 const IMAGE_ICON2 = "/images/workshop/workshopMain5.svg";
 const IMAGE_ICON3 = "/images/workshop/workshopMain6.svg";
@@ -274,7 +274,7 @@ const Page = () => {
             <div className="text-center">
               <button
                 className="bg-[#59524E] hover:bg-[#7E746F] page-big-btn text-white px-10 py-3 rounded-lg transition duration-200 w-full"
-                onClick={() => window.open("https://app.madhyasth.org/schedule", "_blank")}
+                onClick={() => window.open("/workshop/schedule/", "_blank")}
               >
                 {text.workshopPage1.section1.button}
               </button>
@@ -838,7 +838,7 @@ const Page = () => {
               <div className="text-center max-w-3xl mx-auto">
                 {/* Testimonial Text */}
                 <blockquote className="  text-base sm:text-lg lg:text-xl leading-relaxed mb-8 sm:mb-12" dangerouslySetInnerHTML={{
-                  __html: currentTestimonial.text,
+                  __html: wrapHindiInHtmlString(currentTestimonial.text),
                 }}>
                 </blockquote>
 
@@ -1005,7 +1005,7 @@ const Page = () => {
               {text.workshopPage1.section4.title}
             </span>
             <a
-              href="https://app.madhyasth.org/schedule"
+              href="/workshop/schedule/"
               className="bg-[#47423f] hover:bg-[#7E746F] text-white rounded-md h-10 px-6 flex items-center justify-center text-base font-semibold mt-3 md:mt-0 md:ml-4 transition  w-full md:w-auto"
               target="_blank"
             >

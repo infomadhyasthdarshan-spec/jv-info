@@ -122,6 +122,7 @@ function NavigationBar() {
 
   const navItems = [
     { label: text.links.tabs.workshop.sm1, link: "/workshop/" },
+    { label: text.links.tabs.workshop.sm7, link: "/workshop/schedule/" },
     { label: text.links.tabs.workshop.sm6, link: "/workshop/faqs" },
     { label: text.links.tabs.workshop.sm3, link: "/workshop/workshop-benefits", },
     { label: text.links.tabs.workshop.sm2, link: "/workshop/facilitator-profiles", },
@@ -190,6 +191,32 @@ function NavigationBar() {
     // If no match, fallback to first tab
     return bestMatch === -1 ? 0 : bestMatch;
   })();
+
+  // Auto-scroll to active tab
+  useEffect(() => {
+    const activeTab = tabRefs.current[activeIndex];
+    const container = scrollRef.current;
+
+    if (activeTab && container) {
+      const tabRect = activeTab.getBoundingClientRect();
+      const containerRect = container.getBoundingClientRect();
+
+      if (tabRect.left < containerRect.left) {
+        // Scroll left if hidden on left
+        container.scrollBy({
+          left: tabRect.left - containerRect.left - 20,
+          behavior: "smooth",
+        });
+      } else if (tabRect.right > containerRect.right) {
+        // Scroll right if hidden on right
+        container.scrollBy({
+          left: tabRect.right - containerRect.right + 20,
+          behavior: "smooth",
+        });
+      }
+    }
+  }, [pathname, activeIndex]);
+
 
   return (
     <div className="w-full relative border-gray-200 py-3">

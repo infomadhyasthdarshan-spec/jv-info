@@ -16,7 +16,7 @@ const HomeSection3 = () => {
             {/* Further your understanding via these useful starter resources. */}
             {text.home.section3.card1.p}
           </p>
-          <button className="bg-[#59524E] hover:bg-[#7E746F] page-big-btn py-2 md:py-[12px] px-2 rounded-md md:w-64" onClick={() => router.push("/resource-center/Start-Adhyayan")}>
+          <button className="bg-[#59524E] hover:bg-[#7E746F] page-big-btn py-2 md:py-[12px] px-2 rounded-md md:w-64" onClick={() => router.push("/resource-center/Start-Adhyayan/after-parichay-en/")}>
             {/* Next Steps */}
             {text.home.section3.card1.button}
           </button>

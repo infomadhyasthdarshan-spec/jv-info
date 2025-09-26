@@ -33,6 +33,7 @@
         "sm4": "Download Pre Reading",
         "sm5": "Life Topics",
         "sm6": "FAQs",
+        "sm7": "Schedule",
         "h1": "Jeevan Vidya Workshop",
         "h2": "(Parichay Shivir)"
       },
@@ -150,7 +151,7 @@
           "For humans to continue living on this planet, reconsidering our current way of life has become imperative.",
           "Humans shall have to adopt this 'existence based human centric contemplation' in order to evidence awakening in human-consciousness. Its purpose is to live in Coexistence. Coexistence is forever present and effective.",
           "The possibility for humans to be imbued with 'humanness' & wisdom , to be awakened, is expedient in the form of Madhyasth Darshan (Coexistential Philosophy). ",
-          "Human Race is One. Human Religion dharma is Universal.",
+          "Human Race is One. Human Religion <em>(dharma)</em> is Universal.",
           "A.Nagraj, 2009"
         ]
       }
@@ -2387,7 +2388,7 @@
     "rows6": {
       "title": "जुड़ें",
       "content": [
-        "<a href='https://app.madhyasth.org/schedule' target='_blank'>Get upcoming workshop alerts.</a>",
+        "<a href='/workshop/schedule/' target='_blank'>Get upcoming workshop alerts.</a>",
         "<a href='/resource-center/connect-to-community' target='_blank'>Join a Group</a>"
       ]
     },
@@ -2396,69 +2397,201 @@
       "row1": {
         "title": "(Cloud Library Resources)",
         "content": [
-          "<a href=\"https://u.pcloud.link/publink/show?code=kZ6Gm05ZfUbbDBW8fKmKB9ejvrO6cSRnRRH7#folder=24106408193&tpl=publicfolderlist\"target=\"_blank\">dub.sh/mdlibrary (pCloud) नागराजजी के सम्पूर्ण अप्रकाशित लेख, डायरी, चार्ट्स एवं पुराने संस्करण</a>"
-        ]
-      },
-      "row2": {
-        "title": "ऑडियो बुक्स, एप्प (Audio Books & App)",
-        "content": [
-          "<a href=\"https://u.pcloud.link/publink/show?code=kZ6Gm05ZfUbbDBW8fKmKB9ejvrO6cSRnRRH7#/filemanager?folder=18156690030\"target=\"_blank\">Audio Books Download (Manual Recording) </a>",
-          "<a href=\"https://app.madhyasth.org/read\"target=\"_blank\">Install MD App on phone for Automated Audio reading </a>"
-        ]
-      },
-      "row3": {
-        "title": "नागराजजी अप्रकाशित चयनित सामग्री",
-        "content": [
-          "<a href=\"https://u.pcloud.link/publink/show?code=kZ6Gm05ZfUbbDBW8fKmKB9ejvrO6cSRnRRH7#/filemanager?folder=24298539659\" target=\"_blank\">पुस्तकों के पूर्व संस्करण</a>",
-          "<a href=\"https://u.pcloud.link/publink/show?code=kZ6Gm05ZfUbbDBW8fKmKB9ejvrO6cSRnRRH7#/filemanager?folder=24298540141\" target=\"_blank\">अप्रकाशित संस्करण</a>",
-          "<a href=\"https://u.pcloud.link/publink/show?code=kZ6Gm05ZfUbbDBW8fKmKB9ejvrO6cSRnRRH7#/filemanager?folder=24298539663\" target=\"_blank\">प्रश्न-उत्तरी (शिष्यों के साथ)</a>",
-          "<a href=\"https://u.pcloud.link/publink/show?code=kZ6Gm05ZfUbbDBW8fKmKB9ejvrO6cSRnRRH7#/filemanager?folder=27408210886\" target=\"_blank\">अप्रकाशित संवाद</a>",
-          "<a href=\"https://u.pcloud.link/publink/show?code=kZ6Gm05ZfUbbDBW8fKmKB9ejvrO6cSRnRRH7#/filemanager?folder=24298539667\" target=\"_blank\">चार्ट </a>",
-          "<a href=\"https://u.pcloud.link/publink/show?code=kZ6Gm05ZfUbbDBW8fKmKB9ejvrO6cSRnRRH7#/filemanager?folder=24106408193\" target=\"_blank\">(सम्पूर्ण के लिए dub.sh/mdlibrary देखें) </a>"
+          {
+            "text": "<a href=\"https://u.pcloud.link/publink/show?code=kZ6Gm05ZfUbbDBW8fKmKB9ejvrO6cSRnRRH7#folder=24106408193&tpl=publicfolderlist\"target=\"_blank\">dub.sh/mdlibrary (pCloud) नागराजजी के सम्पूर्ण अप्रकाशित लेख, डायरी, चार्ट्स एवं पुराने संस्करण</a>",
+            "isTitle": false,
+            "isIcon": true
+          }
         ]
       },
       "row4": {
-        "title": "विद्यार्थी संकलित/लिखित",
+        "title": "अध्ययन सामग्री (Adhyayan related)",
         "content": [
-          "<a href=\"https://u.pcloud.link/publink/show?code=kZzWXckZkDCvrnL3KuuCOyRzUPU0eRT4NDQk#/filemanager?folder=17653077441\"target=\"_blank\">आधिकारिक लेखनों से उपयोगी संकलन (निस्सारण)</a>",
-          "<a href=\"https://u.pcloud.link/publink/show?code=kZzWXckZkDCvrnL3KuuCOyRzUPU0eRT4NDQk#/filemanager?folder=20404203605\"target=\"_blank\">शोध पत्र (विद्यार्थी विवेचन)</a>",
-          "<a href=\"https://u.pcloud.link/publink/show?code=kZzWXckZkDCvrnL3KuuCOyRzUPU0eRT4NDQk#/filemanager?folder=21560812706\"target=\"_blank\">अध्ययन यात्रा - क्रमबद्ध मार्गदर्शिका, सामग्री लिंक सहित (Stagewise Systematic Study Guide)</a>"
+          {
+            "text": "ऑडियो बुक्स (Audio Books)",
+            "isTitle": true,
+            "isIcon": false
+          },
+          {
+            "text": "<a href=\"https://u.pcloud.link/publink/show?code=kZ6Gm05ZfUbbDBW8fKmKB9ejvrO6cSRnRRH7#/filemanager?folder=18156690030\"target=\"_blank\">Audio Books Download (Manual Recording) </a>",
+            "isTitle": false,
+            "isIcon": true
+          },
+          {
+            "text": "<a href=\"https://app.madhyasth.org/read\"target=\"_blank\">Install MD App on phone for Automated Audio reading </a>",
+            "isTitle": false,
+            "isIcon": true
+          },
+          {
+            "text": "नागराजजी - अप्रकाशित चयनित सामग्री (Selected Unpublished Works)",
+            "isTitle": true,
+            "isIcon": false
+          },
+          {
+            "text": "<a href=\"https://u.pcloud.link/publink/show?code=kZ6Gm05ZfUbbDBW8fKmKB9ejvrO6cSRnRRH7#/filemanager?folder=24298539659\" target=\"_blank\">पुस्तकों के पूर्व संस्करण</a>",
+            "isTitle": false,
+            "isIcon": true
+          },
+          {
+            "text": "<a href=\"https://u.pcloud.link/publink/show?code=kZ6Gm05ZfUbbDBW8fKmKB9ejvrO6cSRnRRH7#/filemanager?folder=24298540141\" target=\"_blank\">पुस्तक - अप्रकाशित संस्करण</a>",
+            "isTitle": false,
+            "isIcon": true
+          },
+          {
+            "text": "<a href=\"https://u.pcloud.link/publink/show?code=kZ6Gm05ZfUbbDBW8fKmKB9ejvrO6cSRnRRH7#/filemanager?folder=24298539663\" target=\"_blank\">प्रश्न-उत्तरी (शिष्यों के साथ)</a>",
+            "isTitle": false,
+            "isIcon": true
+          },
+          {
+            "text": "<a href=\"https://u.pcloud.link/publink/show?code=kZ6Gm05ZfUbbDBW8fKmKB9ejvrO6cSRnRRH7#/filemanager?folder=27408210886\" target=\"_blank\">अप्रकाशित संवाद</a>",
+            "isTitle": false,
+            "isIcon": true
+          },
+          {
+            "text": "<a href=\"https://u.pcloud.link/publink/show?code=kZ6Gm05ZfUbbDBW8fKmKB9ejvrO6cSRnRRH7#/filemanager?folder=24298539667\" target=\"_blank\">चार्ट </a>",
+            "isTitle": false,
+            "isIcon": true
+          },
+          {
+            "text": "<a href=\"https://u.pcloud.link/publink/show?code=kZ6Gm05ZfUbbDBW8fKmKB9ejvrO6cSRnRRH7#/filemanager?folder=25466749914\" target=\"_blank\">लेख (विभिन्न विषय वस्तु)</a>",
+            "isTitle": false,
+            "isIcon": true
+          },
+          {
+            "text": "अध्ययन मार्गदर्शिका (Study Guide)",
+            "isTitle": true,
+            "isIcon": false
+          },
+          {
+            "text": "<a href=\"https://u.pcloud.link/publink/show?code=kZzWXckZkDCvrnL3KuuCOyRzUPU0eRT4NDQk#/filemanager?folder=21560812706\"target=\"_blank\">अध्ययन यात्रा - क्रमबद्ध मार्गदर्शिका, सामग्री लिंक सहित (Stagewise Systematic Study Guide)</a>",
+            "isTitle": false,
+            "isIcon": true
+          },
+          {
+            "text": "सृंकत्तलत पुस्तक (दर्शन सेसीधेननस्सारण) (Useful Compilations)",
+            "isTitle": true,
+            "isIcon": false
+          },
+          {
+            "text": "<a href=\"https://u.pcloud.link/publink/show?code=kZzWXckZkDCvrnL3KuuCOyRzUPU0eRT4NDQk#/filemanager?folder=21989875522\"target=\"_blank\">परिचयात्मक संकलन</a>",
+            "isTitle": false,
+            "isIcon": true
+          },
+          {
+            "text": "<a href=\"https://u.pcloud.link/publink/show?code=kZzWXckZkDCvrnL3KuuCOyRzUPU0eRT4NDQk#/filemanager?folder=18156692072\"target=\"_blank\">अध्ययन वस्तु संकलन</a>",
+            "isTitle": false,
+            "isIcon": true
+          },
+          {
+            "text": "<a href=\"https://u.pcloud.link/publink/show?code=kZzWXckZkDCvrnL3KuuCOyRzUPU0eRT4NDQk#/filemanager?folder=18156692095\"target=\"_blank\">अध्ययन अभ्यास विधि संकलन</a>",
+            "isTitle": false,
+            "isIcon": true
+          },
+          {
+            "text": "<a href=\"https://u.pcloud.link/publink/show?code=kZzWXckZkDCvrnL3KuuCOyRzUPU0eRT4NDQk#/filemanager?folder=26571404900\"target=\"_blank\">अन्य संकलन</a>",
+            "isTitle": false,
+            "isIcon": true
+          }
         ]
       },
       "row5": {
         "title": "शिक्षा सामग्री (Education Related)",
         "content": [
-          "<a href=\"https://u.pcloud.link/publink/show?code=kZzWXckZkDCvrnL3KuuCOyRzUPU0eRT4NDQk#folder=15836518557&tpl=publicfoldergrid\"target=\"_blank\">Grade कक्षा 1 से १० पाठ्यपुस्तक</a>",
-          "<a href=\"https://u.pcloud.link/publink/show?code=kZzWXckZkDCvrnL3KuuCOyRzUPU0eRT4NDQk#folder=15836518598&tpl=publicfoldergrid\"target=\"_blank\">CVMS English Textbooks</a>",
-          "<a href=\"https://u.pcloud.link/publink/show?code=kZzWXckZkDCvrnL3KuuCOyRzUPU0eRT4NDQk#folder=15836518770&tpl=publicfoldergrid\"target=\"_blank\">Happiness Curriculum (Delhi)</a>",
-          "<a href=\"https://u.pcloud.link/publink/show?code=kZzWXckZkDCvrnL3KuuCOyRzUPU0eRT4NDQk#folder=16273811992&tpl=publicfoldergrid\"target=\"_blank\">Abhibhavak Vidyalaya Achoti Drive</a>",
-          "<a href=\"https://u.pcloud.link/publink/show?code=kZzWXckZkDCvrnL3KuuCOyRzUPU0eRT4NDQk#folder=15836518508&tpl=publicfoldergrid\"target=\"_blank\">College Materials</a>",
-          "<a href=\"https://u.pcloud.link/publink/show?code=kZ6Gm05ZfUbbDBW8fKmKB9ejvrO6cSRnRRH7#/filemanager?folder=25493927462\"target=\"_blank\">नागराजजी लेख - शिक्षा पर</a>"
+          {
+            "text": "<a href=\"https://u.pcloud.link/publink/show?code=kZzWXckZkDCvrnL3KuuCOyRzUPU0eRT4NDQk#folder=15836518557&tpl=publicfoldergrid\"target=\"_blank\">Grade कक्षा 1 से १० पाठ्यपुस्तक</a>",
+            "isTitle": false,
+            "isIcon": true
+          },
+          {
+            "text": "<a href=\"https://u.pcloud.link/publink/show?code=kZzWXckZkDCvrnL3KuuCOyRzUPU0eRT4NDQk#folder=15836518598&tpl=publicfoldergrid\"target=\"_blank\">CVMS English Textbooks</a>",
+            "isTitle": false,
+            "isIcon": true
+          },
+          {
+            "text": "<a href=\"https://u.pcloud.link/publink/show?code=kZzWXckZkDCvrnL3KuuCOyRzUPU0eRT4NDQk#folder=15836518770&tpl=publicfoldergrid\"target=\"_blank\">Happiness Curriculum (Delhi)</a>",
+            "isTitle": false,
+            "isIcon": true
+          },
+          {
+            "text": "<a href=\"https://u.pcloud.link/publink/show?code=kZzWXckZkDCvrnL3KuuCOyRzUPU0eRT4NDQk#folder=16273811992&tpl=publicfoldergrid\"target=\"_blank\">Abhibhavak Vidyalaya Achoti Drive</a>",
+            "isTitle": false,
+            "isIcon": true
+          },
+          {
+            "text": "<a href=\"https://u.pcloud.link/publink/show?code=kZzWXckZkDCvrnL3KuuCOyRzUPU0eRT4NDQk#folder=15836518508&tpl=publicfoldergrid\"target=\"_blank\">College Materials</a>",
+            "isTitle": false,
+            "isIcon": true
+          },
+          {
+            "text": "<a href=\"https://u.pcloud.link/publink/show?code=kZ6Gm05ZfUbbDBW8fKmKB9ejvrO6cSRnRRH7#/filemanager?folder=25493927462\"target=\"_blank\">नागराजजी लेख - शिक्षा पर</a>",
+            "isTitle": false,
+            "isIcon": true
+          }
         ]
       },
       "row6": {
         "title": "योजना सामग्री (Program Related)",
         "content": [
-          "<a href=\"https://u.pcloud.link/publink/show?code=kZ6Gm05ZfUbbDBW8fKmKB9ejvrO6cSRnRRH7#/filemanager?folder=15836518055\"target=\"_blank\">Shivir taking Resources / notes</a>",
-          "<a href=\"https://u.pcloud.link/publink/show?code=kZzWXckZkDCvrnL3KuuCOyRzUPU0eRT4NDQk#folder=8765079411&tpl=publicfoldergrid\"target=\"_blank\">For Publicity - ppts, References & Old Project reports</a>",
-          "<a href=\"https://u.pcloud.link/publink/show?code=kZzWXckZkDCvrnL3KuuCOyRzUPU0eRT4NDQk#/filemanager?folder=18156649022\"target=\"_blank\">Published Papers / PhD's</a>"
+          {
+            "text": "<a href=\"https://u.pcloud.link/publink/show?code=kZ6Gm05ZfUbbDBW8fKmKB9ejvrO6cSRnRRH7#/filemanager?folder=15836518055\"target=\"_blank\">Shivir taking Resources / notes</a>",
+            "isTitle": false,
+            "isIcon": true
+          },
+          {
+            "text": "<a href=\"https://u.pcloud.link/publink/show?code=kZzWXckZkDCvrnL3KuuCOyRzUPU0eRT4NDQk#folder=8765079411&tpl=publicfoldergrid\"target=\"_blank\">For Publicity - ppts, References & Old Project reports</a>",
+            "isTitle": false,
+            "isIcon": true
+          },
+          {
+            "text": "<a href=\"https://u.pcloud.link/publink/show?code=kZzWXckZkDCvrnL3KuuCOyRzUPU0eRT4NDQk#/filemanager?folder=18156649022\"target=\"_blank\">Published Papers / PhD's</a>",
+            "isTitle": false,
+            "isIcon": true
+          }
         ]
       },
       "row7": {
         "title": "विद्यार्थी लिखित सामग्री (Students Writing Related)",
         "content": [
-          "<a href=\"https://u.pcloud.link/publink/show?code=XZs5XJ5ZCs8fKCmu56HVGDvBmEjmkhwogPzk\"target=\"_blank\">Book: Jeevan Vidya Shivir – A Companion Reader (Eng).</a> ",
-          "<a href=\"https://megascale.cloud/JV/folder/About%20A.Nagraj.zip\"target=\"_blank\">Book: नागराजजी के साथ के विद्यार्थी संस्मरण</a>",
-          "<a href=\"https://u.pcloud.link/publink/show?code=kZzWXckZkDCvrnL3KuuCOyRzUPU0eRT4NDQk#/filemanager?folder=27630850457\"target=\"_blank\">Madhyasth Darshan – Basic Concepts Introduced (Eng)</a>",
-          "<a href=\"https://u.pcloud.link/publink/show?code=kZzWXckZkDCvrnL3KuuCOyRzUPU0eRT4NDQk#/filemanager?folder=18156649407\"target=\"_blank\">गीत संग्रह एवं संस्कार पत्र (जन्म, विवाह, मृत्यु)</a>",
-          "<a href=\"https://u.pcloud.link/publink/show?code=kZzWXckZkDCvrnL3KuuCOyRzUPU0eRT4NDQk#folder=18156649407&tpl=publicfoldergrid\"target=\"_blank\">संस्कार पत्र- जन्म, विवाह, मृत्यु</a>",
-          "<a href=\"https://u.pcloud.link/publink/show?code=kZzWXckZkDCvrnL3KuuCOyRzUPU0eRT4NDQk#/filemanager?folder=25493869952\"target=\"_blank\">विद्यार्थी लेख - सम्पूर्ण(all students articles)</a> "
+          {
+            "text": "<a href=\"https://u.pcloud.link/publink/show?code=XZs5XJ5ZCs8fKCmu56HVGDvBmEjmkhwogPzk\"target=\"_blank\">Book: Jeevan Vidya Shivir – A Companion Reader (Eng).</a> ",
+            "isTitle": false,
+            "isIcon": true
+          },
+          {
+            "text": "<a href=\"https://megascale.cloud/JV/folder/About%20A.Nagraj.zip\"target=\"_blank\">Book: नागराजजी के साथ के विद्यार्थी संस्मरण</a>",
+            "isTitle": false,
+            "isIcon": true
+          },
+          {
+            "text": "<a href=\"https://u.pcloud.link/publink/show?code=kZzWXckZkDCvrnL3KuuCOyRzUPU0eRT4NDQk#/filemanager?folder=27630850457\"target=\"_blank\">Madhyasth Darshan – Basic Concepts Introduced (Eng)</a>",
+            "isTitle": false,
+            "isIcon": true
+          },
+          {
+            "text": "<a href=\"https://u.pcloud.link/publink/show?code=kZzWXckZkDCvrnL3KuuCOyRzUPU0eRT4NDQk#/filemanager?folder=18156649407\"target=\"_blank\">गीत संग्रह एवं संस्कार पत्र (जन्म, विवाह, मृत्यु)</a>",
+            "isTitle": false,
+            "isIcon": true
+          },
+          {
+            "text": "<a href=\"https://u.pcloud.link/publink/show?code=kZzWXckZkDCvrnL3KuuCOyRzUPU0eRT4NDQk#folder=18156649407&tpl=publicfoldergrid\"target=\"_blank\">संस्कार पत्र- जन्म, विवाह, मृत्यु</a>",
+            "isTitle": false,
+            "isIcon": true
+          },
+          {
+            "text": "<a href=\"https://u.pcloud.link/publink/show?code=kZzWXckZkDCvrnL3KuuCOyRzUPU0eRT4NDQk#/filemanager?folder=25493869952\"target=\"_blank\">विद्यार्थी लेख - सम्पूर्ण(all students articles)</a>",
+            "isTitle": false,
+            "isIcon": true
+          }
         ]
       },
       "row8": {
         "title": "(सम्पूर्ण ग्रंथालय) (Full Cloud Library)",
         "content": [
-          "<a href=\"https://u.pcloud.link/publink/show?code=kZ6Gm05ZfUbbDBW8fKmKB9ejvrO6cSRnRRH7#folder=24106408193&tpl=publicfolderlist\"target=\"_blank\">dub.sh/mdlibrary  (pCloud) नागराजजी के सम्पूर्ण अप्रकाशित लेख, डायरी, चार्ट्स एवं पुराने संस्करण</a>"
+          {
+            "text": "<a href=\"https://u.pcloud.link/publink/show?code=kZ6Gm05ZfUbbDBW8fKmKB9ejvrO6cSRnRRH7#folder=24106408193&tpl=publicfolderlist\"target=\"_blank\">dub.sh/mdlibrary  (pCloud) नागराजजी के सम्पूर्ण अप्रकाशित लेख, डायरी, चार्ट्स एवं पुराने संस्करण</a>",
+            "isTitle": false,
+            "isIcon": true
+          }
         ]
       }
     },

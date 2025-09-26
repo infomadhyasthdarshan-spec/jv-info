@@ -17,7 +17,7 @@ const VECTCourseDocument = () => {
       {/* Main Title */}
       <div className=" mb-6">
         <h2 className="page-small-heading mb-4">Value Education for Consciousness Transformation (VECT)</h2>
-        <a href="https://www.aicte.gov.in/sites/default/files/Model_Curriculum/Minor%20Degree%20in%20UHV.pdf" className=" text-[#b2917a] page-content font-semibold">* Also see Universal Human Values (UHV) courses in AICTE</a>
+        <a href="https://www.aicte.gov.in/sites/default/files/Model_Curriculum/Minor%20Degree%20in%20UHV.pdf" target='_blank' className=" text-[#b2917a] page-content font-semibold">* Also see Universal Human Values (UHV) courses in AICTE</a>
       </div>
 
       {/* Main Content */}

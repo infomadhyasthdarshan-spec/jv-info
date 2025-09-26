@@ -154,6 +154,30 @@ function NavigationBar() {
     return bestMatch === -1 ? 0 : bestMatch;
   })();
 
+  useEffect(() => {
+    const activeTab = tabRefs.current[activeIndex];
+    const container = scrollRef.current;
+
+    if (activeTab && container) {
+      const tabRect = activeTab.getBoundingClientRect();
+      const containerRect = container.getBoundingClientRect();
+
+      if (tabRect.left < containerRect.left) {
+        // Scroll left if hidden on left
+        container.scrollBy({
+          left: tabRect.left - containerRect.left - 20,
+          behavior: "smooth",
+        });
+      } else if (tabRect.right > containerRect.right) {
+        // Scroll right if hidden on right
+        container.scrollBy({
+          left: tabRect.right - containerRect.right + 20,
+          behavior: "smooth",
+        });
+      }
+    }
+  }, [pathname, activeIndex]);
+
   return (
     <div className="w-full relative border-gray-200 py-3">
       {canScrollLeft && (

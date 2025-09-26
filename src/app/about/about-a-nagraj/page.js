@@ -1,14 +1,17 @@
 "use client";
-import React from "react";
+import React, { useEffect } from "react";
 import { FaQuoteLeft, FaQuoteRight } from "react-icons/fa";
 import { Search, Menu, X, ArrowRight } from "lucide-react";
 import { useLanguage } from "@/context/LanguageContext";
 import { useRouter } from 'next/navigation';
+import { wrapHindiWords, wrapHindiInHtmlString } from "@/utils/fontInjector";
 
 const page = () => {
   const { text, language } = useLanguage();
   const router = useRouter();
-
+  useEffect(() => {
+    wrapHindiWords();
+  }, [text]);
   const Card = ({ title, link }) => (
     <div
       className="bg-white p-3 rounded-xl shadow hover:shadow-md transition flex items-center justify-between cursor-pointer"
@@ -65,7 +68,6 @@ const page = () => {
               </div>
               {/* Replace src with your icon */}
               {item.status ? <img src="/icon/install.svg" alt="link" /> : <img src="/icon/link.svg" alt="link" />}
-
             </div>
           ))}
         </div>

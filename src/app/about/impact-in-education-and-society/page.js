@@ -69,11 +69,11 @@ export default function EducationImpactPage() {
                   {text.aboutPage4.cards.card1.content}
                 </p>
               </div>
-              <div className="bg-[#B47447] p-3 rounded-lg flex-shrink-0">
+              <div className="bg-[#B47447] rounded-lg flex-shrink-0">
                 <img
                   src={"/images/about/aboutImp1.png"}
-                  width={30}
-                  height={30}
+                  width={50}
+                  height={50}
                   alt="image"
                 />
               </div>
@@ -94,11 +94,11 @@ export default function EducationImpactPage() {
                   {text.aboutPage4.cards.card2.content}
                 </p>
               </div>
-              <div className="bg-[#B47447] p-3 rounded-lg flex-shrink-0">
+              <div className="bg-[#B47447] rounded-lg flex-shrink-0">
                 <img
                   src={"/images/about/aboutImp2.svg"}
-                  width={28}
-                  height={28}
+                  width={50}
+                  height={50}
                   alt="image"
                 />
               </div>
@@ -120,11 +120,11 @@ export default function EducationImpactPage() {
                   {text.aboutPage4.cards.card3.content}
                 </p>
               </div>
-              <div className="bg-[#B47447] p-3 rounded-lg flex-shrink-0">
+              <div className="bg-[#B47447] rounded-lg flex-shrink-0">
                 <img
                   src={"/images/about/aboutImp3.svg"}
-                  width={30}
-                  height={30}
+                  width={50}
+                  height={50}
                   alt="image"
                 />
               </div>
@@ -145,11 +145,11 @@ export default function EducationImpactPage() {
                   {text.aboutPage4.cards.card4.content}
                 </p>
               </div>
-              <div className="bg-[#B47447] p-3 rounded-lg flex-shrink-0">
+              <div className="bg-[#B47447] rounded-lg flex-shrink-0">
                 <img
                   src={"/images/about/aboutImp4.svg"}
-                  width={28}
-                  height={28}
+                  width={50}
+                  height={50}
                   alt="image"
                 />
               </div>
@@ -171,11 +171,11 @@ export default function EducationImpactPage() {
                   {text.aboutPage4.cards.card5.content}
                 </p>
               </div>
-              <div className="bg-[#B47447] p-3 rounded-lg flex-shrink-0">
+              <div className="bg-[#B47447] rounded-lg flex-shrink-0">
                 <img
                   src={"/images/about/aboutImp5.svg"}
-                  width={30}
-                  height={30}
+                  width={50}
+                  height={50}
                   alt="image"
                 />
               </div>
@@ -196,11 +196,11 @@ export default function EducationImpactPage() {
                   {text.aboutPage4.cards.card6.content}
                 </p>
               </div>
-              <div className="bg-[#B47447] p-3 rounded-lg flex-shrink-0">
+              <div className="bg-[#B47447] rounded-lg flex-shrink-0">
                 <img
                   src={"/images/about/aboutImp6.svg"}
-                  width={28}
-                  height={28}
+                  width={50}
+                  height={50}
                   alt="image"
                 />
               </div>
@@ -438,10 +438,10 @@ export default function EducationImpactPage() {
         <div className="rounded-lg overflow-hidden aspect-video bg-black">
           <iframe
             className="w-full h-full"
-            src="https://www.youtube.com/embed/ZnV7ghNf2Io"
+            src="/video/President of India Dr. APJ Abdul Kalam about human values on the eve of independence day, 2006.mp4"
             title="President Kalam Independence Day Speech"
             frameBorder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            // allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowFullScreen
           ></iframe>
         </div>

@@ -152,7 +152,7 @@ const Page = () => {
                     {/* 7 */}
                     <CollapsibleRow title="7. Where is the workshop held?">
                         <div className="prose prose-lg max-w-none space-y-4 h-full ">
-                            <p>Workshops are hosted at designated locations across India. See the <a href="https://app.madhyasth.org/schedule" style={{color: "#94562B"}} className="underline italic font-bold">Schedule page</a> for the same2</p>
+                            <p>Workshops are hosted at designated locations across India. See the <a href="/workshop/schedule/" style={{color: "#94562B"}} className="underline italic font-bold">Schedule page</a> for the same2</p>
 
 
                         </div>

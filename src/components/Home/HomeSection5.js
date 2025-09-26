@@ -88,10 +88,9 @@ const HomeSection5 = () => {
               <p className="">{text.home.section5.ColRow2.ans2[3]}</p>
               <p className="">{text.home.section5.ColRow2.ans2[4]}</p>
               <p className="">{text.home.section5.ColRow2.ans2[5]}</p>
-              <p className="">{text.home.section5.ColRow2.ans2[6]}</p>
+              <p className="" dangerouslySetInnerHTML={{ __html: text.home.section5.ColRow2.ans2[6] }}></p>
               <p >
                 {text.home.section5.ColRow2.ans2[7].replace(/<[^>]+>/g, "")}
-                 
               </p>
 
               

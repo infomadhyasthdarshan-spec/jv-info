@@ -76,9 +76,9 @@ const Footer = () => {
               <ul className="space-y-1 text-[16px] leading-[22px]  ">
                 <li>
                   <a
-                    href="https://app.madhyasth.org/schedule"
+                    href="/workshop/schedule/"
                     className=" hover:underline   font-th"
-                  target="_blank" rel="noopener noreferrer">
+                  target="_self" rel="noopener noreferrer">
                     {text.Footer["Attends"]["workshop Schedule"]}
                   </a>
                 </li>

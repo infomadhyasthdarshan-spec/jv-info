@@ -35,3 +35,10 @@ export function wrapHindiWords() {
     }
   });
 }
+
+export function wrapHindiInHtmlString(htmlString) {
+  const hindiRegex = /[\u0900-\u097F]+/g;
+  return htmlString.replace(hindiRegex, (match) => {
+    return `<span class="font-hindi">${match}</span>`;
+  });
+}
