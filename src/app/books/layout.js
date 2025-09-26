@@ -194,7 +194,7 @@ export default function BooksLayout({ children }) {
   return (
     <div className="bg-[#F2F4F8]">
       {/* Sticky Breadcrumb ONLY */}
-      <div className="sticky top-[72px] md:top-[100px] z-20 bg-white">
+      <div className="sticky top-[72px] md:top-[100px] z-20 bg-white" data-noindex="true">
         <div className="py-0 md:py-3 border-b overflow-hidden">
           <div className="lg:max-w-5xl 2xl:max-w-5xl mx-auto pl-0 md:pl-0 overflow-hidden">
             <Breadcrumb />
@@ -203,7 +203,7 @@ export default function BooksLayout({ children }) {
       </div>
 
       {/* Title Section */}
-      <div className="bg-[#B2917A] py-5 px-4">
+      <div className="bg-[#B2917A] py-5 px-4" data-noindex="true">
         <div className="lg:max-w-5xl 2xl:max-w-5xl mx-auto h-20">
           <h1 className="page-big-heading text-white md:text-white tracking-wide">
             {text.links.books}
@@ -212,7 +212,7 @@ export default function BooksLayout({ children }) {
       </div>
 
       {/* Navigation */}
-      <div className="lg:max-w-5xl 2xl:max-w-5xl mx-auto">
+      <div className="lg:max-w-5xl 2xl:max-w-5xl mx-auto" data-noindex="true">
         <NavigationBar />
       </div>
 
